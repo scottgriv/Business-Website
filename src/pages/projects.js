@@ -185,7 +185,7 @@ export default function Projects() {
                   rel="noreferrer"
                 >
                   <img
-                    src="/images/projects/bee-heard-icon-rounded.png"
+                    src="/images/projects/icons/bee-heard-icon-rounded.png"
                     alt="Bee Heard"
                   />
                 </a>
