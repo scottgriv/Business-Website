@@ -157,6 +157,10 @@ a {
   color: #005e1f; /* Green color for links hover effect, change as needed */
 }
 
+.fa-code-fork {
+  font-size: 22px; /* Shrink Fork Icon size */
+}
+
 .align-left {
   text-align: left;
 }

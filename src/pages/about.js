@@ -7,10 +7,13 @@ export default function About() {
       <h1>Meet the Owls</h1>
 
       <p>
-        <b>Night Owl Labs</b> is a small team of software engineers, designers,
-        and business professionals. We have a litany of experience in a wide
-        range of technologies and industries. We are passionate about building
-        beautiful, functional, and scalable software to fit your exact needs.
+        <b>Night Owl Labs</b>, established in 2014, has been at the forefront of
+        providing exceptional IT products and services for nearly a decade.
+        Comprising a dedicated team of software engineers, designers, and
+        business professionals, <b>NOL</b> boasts a wealth of experience across various
+        technologies and industries. Our passion is evident in every project we
+        undertake building beautiful, functional, and scalable software
+        tailored to meet your precise needs.
       </p>
       <div className="about-container">
         <div className="photo-container">
@@ -70,7 +73,7 @@ export default function About() {
             target="_blank"
             rel="noreferrer"
           >
-            <img src="/images/about/night_owl_labs.jpg" alt="Anya Druzhenko" />
+            <img src="/images/about/anya_druzhenko.jpg" alt="Anya Druzhenko" />
           </a>
         </div>
 
@@ -109,7 +112,10 @@ export default function About() {
             target="_blank"
             rel="noreferrer"
           >
-            <img src="/images/about/night_owl_labs.jpg" alt="Devin Olshefski" />
+            <img
+              src="/images/about/devin_olshefski.jpg"
+              alt="Devin Olshefski"
+            />
           </a>
         </div>
 
@@ -119,7 +125,7 @@ export default function About() {
             target="_blank"
             rel="noreferrer"
           >
-            <h2>Davin Olshefski</h2>
+            <h2>Devin Olshefski</h2>
           </a>
 
           <p>

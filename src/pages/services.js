@@ -17,7 +17,7 @@ export default function Services() {
         From API integration, mobile apps, websites, custom solutions, UI/UX
         design, to business strategy, we've got you covered. Below is a list of
         our core services. If you have any questions or would like to discuss a
-        project, please don't hesitate to <a href="/contact">Contact Us</a>.
+        project, please don't hesitate to <a href="/contact">Contact</a> us.
         Also, check out our <a href="/projects">Projects</a> to see some of our
         recent work.
       </p>

@@ -68,7 +68,8 @@ export default function Home() {
         <b>Night Owl Labs</b> stands as your trusted ally.{" "}
       </p>
 
-      <p>Dive into our offerings, and let's build the future together.</p>
+      <p><b><i>Dive into our offerings, and let's build the future together.</i></b></p>
+      <p>Don't hesitate to <a href="/contact">Contact</a> us to discuss what <b>NOL</b> can do for you!</p>
     </Layout>
   )
 }
