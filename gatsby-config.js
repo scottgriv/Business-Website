@@ -31,7 +31,7 @@ module.exports = {
         name: `Night Owl Labs`,
         short_name: `Night Owl Labs`,
         start_url: `/`,
-        background_color: `#000000`,
+        background_color: `#fcdb3a`,
         // This will impact how browsers show your PWA/website
         // https://css-tricks.com/meta-theme-color-and-trickery/
         theme_color: `#000000`,
