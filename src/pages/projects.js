@@ -82,7 +82,7 @@ export default function Projects() {
                 >
                   <img
                     src="/images/projects/banners/nol-banner_large.png"
-                    className="projects-image"
+                    className="banner-image"
                     alt="Night Owl Labs"
                   />
                 </a>
@@ -95,7 +95,7 @@ export default function Projects() {
                 >
                   <img
                     src="/images/projects/banners/bee-heard-banner_large.png"
-                    className="projects-image"
+                    className="banner-image"
                     alt="Bee Heard"
                   />
                 </a>
@@ -108,7 +108,7 @@ export default function Projects() {
                 >
                   <img
                     src="/images/projects/banners/prg-banner_large.png"
-                    className="projects-image"
+                    className="banner-image"
                     alt="PRG"
                   />
                 </a>
@@ -121,7 +121,7 @@ export default function Projects() {
                 >
                   <img
                     src="/images/projects/banners/post-e-banner_large.png"
-                    className="projects-image"
+                    className="banner-image"
                     alt="Post.e"
                   />
                 </a>
@@ -134,7 +134,7 @@ export default function Projects() {
                 >
                   <img
                     src="/images/projects/banners/river-charts-banner_large.png"
-                    className="projects-image"
+                    className="banner-image"
                     alt="River Charts"
                   />
                 </a>
@@ -147,7 +147,7 @@ export default function Projects() {
                 >
                   <img
                     src="/images/projects/banners/palm-tree-banner_large.png"
-                    className="projects-image"
+                    className="banner-image"
                     alt="Palm Tree"
                   />
                 </a>

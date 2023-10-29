@@ -240,6 +240,13 @@ button:focus {
 
 }
 
+.banner-image {
+  border-radius: 15px;
+  max-width: 625px;
+  transition: transform 0.3s; /* Smooth transform transition */
+
+}
+
 .social-links-wrapper {
   display: flex;
   justify-content: center;
@@ -314,8 +321,8 @@ button:focus {
 }
 
 /* Scale effect on hover for the icons */
-.projects-image:hover {
-  transform: scale(1.02); /* Enlarge the icon on hover */
+.projects-image:hover, .banner-image:hover {
+  transform: scale(1.1); /* Enlarge the icon on hover */
 }
 
 .icon-container[href="https://github.com/scottgriv/Post.e"] img {
@@ -416,7 +423,7 @@ button:focus {
   img,
   video,
   iframe,
-  .projects-image {
+  .projects-image, .banner-image {
     max-width: 100%;
     height: auto;
   }
