@@ -1,0 +1,445 @@
+/* src/styles.css */
+
+body {
+  background-color: #140f3d;
+  color: white;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px; /* Adjust padding if necessary */
+}
+
+a {
+  color: #fcdb3a; /* PRG Purple link */
+}
+
+#pagecontent {
+  background-color: black;
+  padding: 0;
+  border-radius: 10px;
+  text-align: center;
+  margin: 0 auto;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+#menutabs ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 2px;
+  font-weight: bold; /* Makes the text non-bold */
+}
+
+#menutabs li {
+  padding: 1px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease; /* Smooth transition for color changes */
+}
+
+#menutabs a {
+  background-color: #fcdb3a;
+  color: black;
+  padding: 8px 12px; /* Adjust padding if necessary */
+  text-decoration: none;
+  border-radius: 4px; /* Rounded corners */
+  display: block; /* To allow the anchor to take full width and height of its parent li */
+}
+
+#menutabs a:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+/* This will highlight the currently active tab with white background */
+#menutabs a.active {
+  background-color: #fff;
+  color: #000;
+}
+
+/* This is to ensure that visited links retain the intended style */
+#menutabs a:visited {
+  color: #000;
+}
+
+#pagefoot {
+  font-size: 0.8em; /* Adjust the font size to make it smaller */
+  color: #555; /* Font color */
+  text-align: center; /* Center the text */
+  margin: 0 auto; /* Center the content horizontally if needed */
+  max-width: 1200px; /* Maximum width for the content */
+  padding: 15px; /* Padding on the sides for responsiveness */
+}
+
+#contentarea {
+  display: flex;
+  justify-content: center;
+  width: 100%; /* Ensures the div takes the full width */
+}
+
+#contentarea main {
+  max-width: 800px; /* Or any desired width */
+  width: 100%; /* Ensures the main content doesn't exceed the max-width */
+  text-align: left;
+}
+
+.about-container,
+.about-container-flipped {
+  display: flex;
+  flex-direction: row; /* Explicitly set this */
+  gap: 20px; /* Adjust this to your liking */
+}
+
+.photo-container img {
+  max-width: 250px; /* Adjust this to your liking */
+  border-radius: 50%; /* Makes the image circular, remove if not needed */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Adds a light shadow */
+}
+
+.description-container {
+  flex: 1;
+}
+
+/* Existing Styles */
+.about-container .photo-container {
+  order: 0;
+}
+
+.about-container .description-container {
+  order: 1;
+}
+
+/* New Styles for Flipped version */
+.about-container-flipped .photo-container {
+  order: 1; /* move the photo to the end */
+}
+
+.about-container-flipped .description-container {
+  order: 0; /* move the description to the start */
+}
+
+.social-links {
+  display: flex;
+  gap: 10px; /* Space between icons */
+}
+
+.social-links a {
+  color: #fff; /* Icon color */
+  font-size: 24px; /* Icon size */
+}
+
+.social-links a:hover {
+  color: #005e1f; /* LinkedIn blue for hover effect, change as needed */
+}
+
+.social-links-single a {
+  color: #fff; /* Icon color */
+  font-size: 24px; /* Icon size */
+}
+
+.social-links-single a:hover {
+  color: #005e1f; /* LinkedIn blue for hover effect, change as needed */
+}
+
+.align-left {
+  text-align: left;
+}
+
+.products-container, .projects-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.sidebar {
+  margin-right: 2rem;
+  width: 125px;
+  flex-shrink: 0;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column; /* Ensure the sidebar buttons stack vertically */
+  gap: 2px;
+}
+
+.sidebar li {
+  padding: 1px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.sidebar button {
+  background-color: #fcdb3a;
+  color: black;
+  padding: 8px 12px; /* Adjust padding if necessary */
+  text-decoration: none;
+  border-radius: 4px;
+  display: flex; /* Added for flexbox */
+  align-items: center; /* Vertical centering with flexbox */
+  justify-content: center; /* Horizontal centering with flexbox */
+  cursor: pointer;
+  border: none;
+  font-family: inherit;
+  text-align: center; /* This will ensure any potential multi-line text is also centered */
+  width: 100%;
+  height: 34px;
+  font-weight: normal; /* Makes the text non-bold */
+  padding: 8px 12px; /* Adjust padding if necessary */
+  text-decoration: none;
+  border-radius: 4px; /* Rounded corners */
+}
+
+.sidebar button:hover {
+  background-color: #fff;
+  color: #000;
+  text-decoration: none; /* Removed the underline on hover */
+}
+
+.sidebar button:focus {
+  background-color: #fff; /* Highlight on focus */
+  color: #000;
+  outline: none;
+}
+
+/* Make the "Designs" button appear active by default */
+.sidebar button.active {
+  background-color: #fff;
+  color: #000;
+}
+
+.content {
+  flex-grow: 1;
+}
+
+button {
+  background: none;
+  border: none;
+  padding: 0;
+  font-family: inherit;
+  color: inherit;
+  text-align: inherit;
+}
+
+button:hover {
+  text-decoration: none;
+}
+
+button:focus {
+  outline: none;
+}
+
+.projects-image {
+  border-radius: 25px;
+  max-width: 625px;
+  transition: transform 0.3s; /* Smooth transform transition */
+
+}
+
+.social-links-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.mobile-logo {
+  display: none; 
+}
+
+
+
+
+
+.app-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three equal columns */
+  grid-template-rows: repeat(3, auto); /* Three rows */
+  gap: 10px; /* Gap between icons */
+}
+
+.icon-container {
+  text-align: center; /* Center the icons */
+}
+
+/* Place the first icon in the middle column of the first row */
+.app-grid > .icon-container:nth-child(1) {
+  grid-column: 2/3; 
+  grid-row: 1/2;
+}
+
+/* Manually place other icons */
+.app-grid > .icon-container:nth-child(2) {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+.app-grid > .icon-container:nth-child(3) {
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+
+.app-grid > .icon-container:nth-child(4) {
+  grid-column: 3/4;
+  grid-row: 2/3;
+}
+
+.app-grid > .icon-container:nth-child(5) {
+  grid-column: 1/2;
+  grid-row: 3/4;
+}
+
+.app-grid > .icon-container:nth-child(6) {
+  grid-column: 2/3;
+  grid-row: 3/4;
+}
+
+.app-grid > .icon-container:nth-child(7) {
+  grid-column: 3/4;
+  grid-row: 3/4;
+}
+
+/* Optional styling for the icons */
+.icon-container img {
+  width: 200px; /* Adjust as needed */
+  border-radius: 10px; /* Rounded corners */
+  transition: transform 0.3s; /* Smooth transition on hover */
+}
+
+/* Scale effect on hover for the icons */
+.icon-container:hover img {
+  transform: scale(1.08); /* Enlarge the icon on hover */
+}
+
+/* Scale effect on hover for the icons */
+.projects-image:hover {
+  transform: scale(1.02); /* Enlarge the icon on hover */
+}
+
+.icon-container[href="https://github.com/scottgriv/Post.e"] img {
+  border: 2.0px solid rgb(46, 46, 46); /* Adjust thickness and color as needed */
+  border-radius: 45px; /* Adjust to match the rounded corners of your icon */
+
+}
+
+.fork-links {
+
+  text-align: 
+  center; margin-top: 10px;
+}
+
+
+
+/* Mobile Styles */
+@media only screen and (max-width: 600px) {
+  *,
+  *:before,
+  *:after {
+    box-sizing: border-box;
+  }
+
+  body {
+    padding: 15px;
+  }
+
+  .desktop-logo {
+      display: none; 
+  }
+
+  .mobile-logo {
+      display: block;
+      width: 100%; /* Adjust this value based on your mobile design */
+      margin: 0 auto;
+  }
+
+  #pagecontent {
+    border-radius: 5px;
+    box-shadow: none;
+    width: 100%; /* Ensures page content fits the screen width */
+    max-width: none; /* Overrides any max-width set elsewhere */
+  }
+
+  #menutabs ul {
+    flex-direction: column;
+  }
+
+  #menutabs li:first-child a {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+  }
+
+  #menutabs li:last-child a {
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+  }
+
+  #menutabs li:not(:last-child) {
+    margin-bottom: 5px;
+  }
+
+  .about-container,
+  .about-container-flipped {
+    flex-direction: column;
+  }
+
+  .projects-container, .products-container {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    margin-right: 0;
+    width: 100%;
+  }
+
+  .sidebar ul li {
+    margin-bottom: 5px; /* Adjust as per the gap you want */
+  }
+
+  #contentarea main {
+    padding: 0 10px;
+    box-sizing: border-box;
+  }
+
+  #pagecontent,
+  #contentarea,
+  #contentarea main {
+    overflow-x: hidden; 
+  }
+
+  img,
+  video,
+  iframe,
+  .projects-image {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .title-header {
+    font-size: 22px;
+  }
+
+  #pagefoot {
+    font-size: 10px;
+  }
+
+  .about-container-flipped .photo-container {
+    order: 0;
+  }
+
+  .about-container-flipped .description-container {
+    order: 1;
+  }
+
+  .photo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .photo-container img {
+    margin: 0 auto;
+  }
+
+}
