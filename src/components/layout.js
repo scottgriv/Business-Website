@@ -71,7 +71,7 @@ const Layout = ({ children }) => {
               <i className="fa-brands fa-x-twitter"></i>
             </a>
             <a
-              href="https://twitter.com/night_owl_labs"
+              href="https://github.com/scottgriv/business-website"
               target="_blank"
               rel="noreferrer"
             >
