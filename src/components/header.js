@@ -10,8 +10,8 @@ const Header = () => {
       <div id="pagehead">
         <div id="headlogo">
             <Link to="/">
-              <img src="/images/company/banner_large.png" alt="Night Owl Labs" title="Night Owl Labs" class="desktop-logo"/>
-              <img src="/images/company/banner_small.png" alt="Night Owl Labs" title="Night Owl Labs" class="mobile-logo"/>
+              <img src="/images/company/banner_large.png" alt="Night Owl Labs" title="Night Owl Labs" className="desktop-logo"/>
+              <img src="/images/company/banner_small.png" alt="Night Owl Labs" title="Night Owl Labs" className="mobile-logo"/>
             </Link>
         </div>
         <div id="menutabs">

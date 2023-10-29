@@ -5,7 +5,7 @@ This repository is catagorized under the **PRG** system.
 ## Project Information
 
 Repository Tier: Gold <br>
-Technology: Gatsby, Netlify, HTML, CSS, JavaScript <br>
+Technology: Gatsby, Netlify, React, HTML, CSS, JavaScript <br>
 Category: SPA, Business Website <br>
 Order: 7 <br>
 

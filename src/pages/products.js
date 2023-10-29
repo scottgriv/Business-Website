@@ -162,14 +162,14 @@ export default function Products() {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <i class="fa-solid fa-trademark"></i>
+                    <i className="fa-solid fa-trademark"></i>
                   </a>
                   <a
                     href="http://tsdr.uspto.gov/#caseNumber=86415605&caseSearchType=US_APPLICATION&caseType=DEFAULT&searchType=statusSearch"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <i class="fa-solid fa-trademark"></i>
+                    <i className="fa-solid fa-trademark"></i>
                   </a>
                 </div>
               </div>

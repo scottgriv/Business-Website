@@ -74,7 +74,7 @@ export default function Projects() {
               </p>
               <hr />
               <h3>App Banners</h3>
-              <div class="app-banners">
+              <div className="app-banners">
                 <a
                   href="https://www.nightowllabs.net"
                   target="_blank"
@@ -155,7 +155,7 @@ export default function Projects() {
               <br />
               <hr />
               <h3>App Icons</h3>
-              <div class="app-grid">
+              <div className="app-grid">
                 <a
                   href="https://www.nightowllabs.net"
                   className="icon-container"
