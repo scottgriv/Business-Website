@@ -1,4 +1,4 @@
-/* src/styles.css */
+/* CSS Style Sheet for the layout of the website */
 
 body {
   background-color: #140f3d;
@@ -9,11 +9,17 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 50px; /* Adjust padding if necessary */
+  padding: 50px;
 }
 
 a {
-  color: #fcdb3a; /* PRG Purple link */
+  color: #fcdb3a; /* Yellow links */
+}
+
+.desktop-logo,
+.mobile-logo {
+  max-width: 100%; /* To make sure image never exceeds its parent width */
+  height: auto; /* Maintains the aspect ratio */
 }
 
 #pagecontent {
@@ -23,6 +29,11 @@ a {
   text-align: center;
   margin: 0 auto;
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+#menutabs {
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
 #menutabs ul {
@@ -43,7 +54,7 @@ a {
 #menutabs a {
   background-color: #fcdb3a;
   color: black;
-  padding: 8px 12px; /* Adjust padding if necessary */
+  padding: 8px 12px;
   text-decoration: none;
   border-radius: 4px; /* Rounded corners */
   display: block; /* To allow the anchor to take full width and height of its parent li */
@@ -69,7 +80,7 @@ a {
   font-size: 0.8em; /* Adjust the font size to make it smaller */
   color: #555; /* Font color */
   text-align: center; /* Center the text */
-  margin: 0 auto; /* Center the content horizontally if needed */
+  margin: 0 auto;
   max-width: 1200px; /* Maximum width for the content */
   padding: 15px; /* Padding on the sides for responsiveness */
 }
@@ -81,20 +92,22 @@ a {
 }
 
 #contentarea main {
-  max-width: 800px; /* Or any desired width */
+  max-width: 800px;
   width: 100%; /* Ensures the main content doesn't exceed the max-width */
   text-align: left;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
 .about-container,
 .about-container-flipped {
   display: flex;
-  flex-direction: row; /* Explicitly set this */
-  gap: 20px; /* Adjust this to your liking */
+  flex-direction: row;
+  gap: 20px;
 }
 
 .photo-container img {
-  max-width: 250px; /* Adjust this to your liking */
+  max-width: 250px;
   border-radius: 50%; /* Makes the image circular, remove if not needed */
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Adds a light shadow */
 }
@@ -103,7 +116,6 @@ a {
   flex: 1;
 }
 
-/* Existing Styles */
 .about-container .photo-container {
   order: 0;
 }
@@ -112,7 +124,7 @@ a {
   order: 1;
 }
 
-/* New Styles for Flipped version */
+/* Flipped about version */
 .about-container-flipped .photo-container {
   order: 1; /* move the photo to the end */
 }
@@ -132,23 +144,25 @@ a {
 }
 
 .social-links a:hover {
-  color: #005e1f; /* LinkedIn blue for hover effect, change as needed */
+  color: #005e1f; /* Green color for links hover effect, change as needed */
 }
 
+/* Single row of social links */
 .social-links-single a {
   color: #fff; /* Icon color */
   font-size: 24px; /* Icon size */
 }
 
 .social-links-single a:hover {
-  color: #005e1f; /* LinkedIn blue for hover effect, change as needed */
+  color: #005e1f; /* Green color for links hover effect, change as needed */
 }
 
 .align-left {
   text-align: left;
 }
 
-.products-container, .projects-container {
+.products-container,
+.projects-container {
   display: flex;
   flex-direction: row;
 }
@@ -176,7 +190,7 @@ a {
 .sidebar button {
   background-color: #fcdb3a;
   color: black;
-  padding: 8px 12px; /* Adjust padding if necessary */
+  padding: 8px 12px;
   text-decoration: none;
   border-radius: 4px;
   display: flex; /* Added for flexbox */
@@ -189,9 +203,6 @@ a {
   width: 100%;
   height: 34px;
   font-weight: normal; /* Makes the text non-bold */
-  padding: 8px 12px; /* Adjust padding if necessary */
-  text-decoration: none;
-  border-radius: 4px; /* Rounded corners */
 }
 
 .sidebar button:hover {
@@ -206,7 +217,7 @@ a {
   outline: none;
 }
 
-/* Make the "Designs" button appear active by default */
+/* Make the side bar button appear active by default */
 .sidebar button.active {
   background-color: #fff;
   color: #000;
@@ -235,16 +246,22 @@ button:focus {
 
 .projects-image {
   border-radius: 25px;
-  max-width: 625px;
   transition: transform 0.3s; /* Smooth transform transition */
-
+  max-width: 100%; /* To make sure image never exceeds its parent width */
+  height: auto; /* Maintains the aspect ratio */
 }
 
 .banner-image {
   border-radius: 15px;
-  max-width: 625px;
   transition: transform 0.3s; /* Smooth transform transition */
+  max-width: 100%; /* To make sure image never exceeds its parent width */
+  height: auto; /* Maintains the aspect ratio */
+}
 
+.app-image {
+  transition: transform 0.3s; /* Smooth transform transition */
+  max-width: 100%; /* To make sure image never exceeds its parent width */
+  height: auto; /* Maintains the aspect ratio */
 }
 
 .social-links-wrapper {
@@ -253,12 +270,8 @@ button:focus {
 }
 
 .mobile-logo {
-  display: none; 
+  display: none;
 }
-
-
-
-
 
 .app-grid {
   display: grid;
@@ -273,7 +286,7 @@ button:focus {
 
 /* Place the first icon in the middle column of the first row */
 .app-grid > .icon-container:nth-child(1) {
-  grid-column: 2/3; 
+  grid-column: 2/3;
   grid-row: 1/2;
 }
 
@@ -310,7 +323,7 @@ button:focus {
 
 /* Optional styling for the icons */
 .icon-container img {
-  width: 200px; /* Adjust as needed */
+  width: 200px;
   border-radius: 10px; /* Rounded corners */
   transition: transform 0.3s; /* Smooth transition on hover */
 }
@@ -321,35 +334,54 @@ button:focus {
 }
 
 /* Scale effect on hover for the icons */
-.projects-image:hover, .banner-image:hover {
+.projects-image:hover,
+.banner-image:hover {
   transform: scale(1.08); /* Enlarge the icon on hover */
 }
 
-.icon-container[href="https://github.com/scottgriv/Post.e"] img {
-  border: 2.0px solid rgb(46, 46, 46); /* Adjust thickness and color as needed */
-  border-radius: 45px; /* Adjust to match the rounded corners of your icon */
-
+.icon-container[href="https://github.com/scottgriv/Post.e"] img
+{
+  border: 2px solid rgb(46, 46, 46);
+  border-radius: 45px;
 }
 
 .fork-links {
-
-  text-align: 
-  center; margin-top: 10px;
+  text-align: center;
+  margin-top: 10px;
 }
 
+/* By default, show everything */
+.responsive-hide {
+  display: inline;
+}
+
+/* When screen width is less than 768px, hide elements with the 'responsive-hide' class */
+@media screen and (max-width: 804px) {
+  .responsive-hide {
+      display: none;
+  }
+}
 
 
 /* Mobile Styles */
 @media only screen and (max-width: 600px) {
+
+  /* Reset box-sizing */
   *,
   *:before,
   *:after {
     box-sizing: border-box;
   }
 
-  .icon-container[href="https://github.com/scottgriv/Post.e"] img {
-    border-radius: 30px; /* Adjust to match the rounded corners of your icon */
-  
+  /* Show the "Us" and "NOL" in About and Contact nav items*/
+  .responsive-hide {
+    display: inline;
+  }
+
+  /* Round the Post.e icon due to a black background */
+  .icon-container[href="https://github.com/scottgriv/Post.e"] img
+  {
+    border-radius: 30px;
   }
 
   body {
@@ -357,13 +389,13 @@ button:focus {
   }
 
   .desktop-logo {
-      display: none; 
+    display: none;
   }
 
   .mobile-logo {
-      display: block;
-      width: 100%; /* Adjust this value based on your mobile design */
-      margin: 0 auto;
+    display: block;
+    width: 100%;
+    margin: 0 auto;
   }
 
   #pagecontent {
@@ -371,6 +403,12 @@ button:focus {
     box-shadow: none;
     width: 100%; /* Ensures page content fits the screen width */
     max-width: none; /* Overrides any max-width set elsewhere */
+  }
+
+  #menutabs,
+  .sidebar {
+    padding-left: 5px;
+    padding-right: 5px;
   }
 
   #menutabs ul {
@@ -396,7 +434,8 @@ button:focus {
     flex-direction: column;
   }
 
-  .projects-container, .products-container {
+  .projects-container,
+  .products-container {
     flex-direction: column;
   }
 
@@ -406,7 +445,7 @@ button:focus {
   }
 
   .sidebar ul li {
-    margin-bottom: 5px; /* Adjust as per the gap you want */
+    margin-bottom: 5px;
   }
 
   #contentarea main {
@@ -417,13 +456,14 @@ button:focus {
   #pagecontent,
   #contentarea,
   #contentarea main {
-    overflow-x: hidden; 
+    overflow-x: hidden;
   }
 
   img,
   video,
   iframe,
-  .projects-image, .banner-image {
+  .projects-image,
+  .banner-image {
     max-width: 100%;
     height: auto;
   }
@@ -453,5 +493,4 @@ button:focus {
   .photo-container img {
     margin: 0 auto;
   }
-
 }

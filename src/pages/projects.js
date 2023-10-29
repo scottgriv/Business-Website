@@ -164,6 +164,7 @@ export default function Projects() {
                 >
                   <img
                     src="/images/projects/icons/nol-icon-rounded.png"
+                    className="app-image"
                     alt="Night Owl Labs"
                   />
                 </a>
@@ -175,6 +176,7 @@ export default function Projects() {
                 >
                   <img
                     src="/images/projects/icons/recipe-resizer-icon-rounded.png"
+                    className="app-image"
                     alt="Recipe Resizer"
                   />
                 </a>
@@ -186,6 +188,7 @@ export default function Projects() {
                 >
                   <img
                     src="/images/projects/icons/bee-heard-icon-rounded.png"
+                    className="app-image"
                     alt="Bee Heard"
                   />
                 </a>
@@ -197,6 +200,7 @@ export default function Projects() {
                 >
                   <img
                     src="/images/projects/icons/prg-icon-rounded.png"
+                    className="app-image"
                     alt="PRG"
                   />
                 </a>
@@ -208,6 +212,7 @@ export default function Projects() {
                 >
                   <img
                     src="/images/projects/icons/post-e-icon-rounded.png"
+                    className="app-image"
                     alt="Post.e"
                   />
                 </a>
@@ -219,6 +224,7 @@ export default function Projects() {
                 >
                   <img
                     src="/images/projects/icons/river-charts-icon-rounded.png"
+                    className="app-image"
                     alt="River Charts"
                   />
                 </a>
@@ -230,6 +236,7 @@ export default function Projects() {
                 >
                   <img
                     src="/images/projects/icons/palm-tree-icon-rounded.png"
+                    className="app-image"
                     alt="Palm Tree"
                   />
                 </a>
@@ -253,8 +260,8 @@ export default function Projects() {
                   API calls to fetch a large data set which is then exported
                   into a CSV file for the end-user. This allowed the user to
                   quickly get a large amount of data in a single file for
-                  further analysis, saving them time and effort 
-                  vs. manually downloading the data.
+                  further analysis, saving them time and effort vs. manually
+                  downloading the data.
                 </p>
                 <p>
                   Check out the below GitHub link for a similar open source
@@ -295,7 +302,8 @@ export default function Projects() {
             <div className="projects-section">
               <h2>Business</h2>
               <p>
-                Below are some of our client business projects that we have been involved in.
+                Below are some of our client business projects that we have been
+                involved in.
               </p>
               <div className="projects-card">
                 <hr />

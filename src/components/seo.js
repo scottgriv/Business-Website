@@ -39,16 +39,19 @@ function Seo({ description, title, children }) {
       <meta property="og:image" content="/images/company/banner_small.png" />
       <meta property="og:type" content="website" />
       <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:creator" content={site.siteMetadata?.author || ''} />
+      <meta name="twitter:creator" content={site.siteMetadata?.author || ""} />
       <meta name="twitter:title" content={title} />
       <meta name="twitter:description" content={metaDescription} />
       <meta name="twitter:image" content="/images/company/banner_small.png" />
       <meta name="msapplication-TileColor" content="#000000" />
       <meta name="theme-color" content="#000000" />
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
-      
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      />
+
       {children}
-  </>
+    </>
   )
 }
 

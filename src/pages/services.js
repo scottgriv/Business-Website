@@ -6,20 +6,21 @@ export default function Services() {
     <Layout>
       <h1>Services</h1>
       <p>
-        At <b>Night Owl Labs</b>, we specialize in offering comprehensive software development and 
-        consulting services tailored to your needs. Whether you're a startup or an established 
-        business looking to evaluate the feasibility of a new idea or seeking a dedicated 
-        partner for a full-scale project, our team is equipped to guide and collaborate 
-        with you every step of the way.
+        At <b>Night Owl Labs</b>, we specialize in offering comprehensive
+        software development and consulting services tailored to your needs.
+        Whether you're a startup or an established business looking to evaluate
+        the feasibility of a new idea or seeking a dedicated partner for a
+        full-scale project, our team is equipped to guide and collaborate with
+        you every step of the way.
       </p>
       <p>
-        From API integration, mobile apps, websites, custom solutions, UI/UX design, 
-        to business strategy, we've got you covered. Below is a list of our core services. 
-        If you have any questions or would like to discuss a project, please don't hesitate 
-        to{" "}
-        <a href="/contact">Contact Us</a>. 
-        Also, check out our <a href="/projects">Projects</a> to see some of our recent work.
-     </p>
+        From API integration, mobile apps, websites, custom solutions, UI/UX
+        design, to business strategy, we've got you covered. Below is a list of
+        our core services. If you have any questions or would like to discuss a
+        project, please don't hesitate to <a href="/contact">Contact Us</a>.
+        Also, check out our <a href="/projects">Projects</a> to see some of our
+        recent work.
+      </p>
 
       <ul>
         <li>
