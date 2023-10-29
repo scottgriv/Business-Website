@@ -322,7 +322,7 @@ button:focus {
 
 /* Scale effect on hover for the icons */
 .projects-image:hover, .banner-image:hover {
-  transform: scale(1.09); /* Enlarge the icon on hover */
+  transform: scale(1.08); /* Enlarge the icon on hover */
 }
 
 .icon-container[href="https://github.com/scottgriv/Post.e"] img {
