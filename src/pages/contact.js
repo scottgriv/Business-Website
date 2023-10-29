@@ -44,6 +44,15 @@ export default function Contact() {
       </a>
       <br />
       <hr />
+      <div className="social-links-wrapper">
+          <div className="social-links">
+      <img
+          src="/images/company/nol-icon-rounded.png"
+          alt="Night Owl Labs"
+          title="Night Owl Labs"
+          className="company-thumbnail-contact"
+        />
+        </div></div>
     </Layout>
   )
 }

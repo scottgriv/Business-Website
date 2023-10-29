@@ -15,7 +15,7 @@ export default function Home() {
       <p>
         We pride ourselves on crafting state-of-the-art mobile apps, websites,
         and software solutions. Our creations are not only functional but also
-        aesthetically pleasing. At <b>Night Owl Labs</b> , we believe that the
+        aesthetically pleasing. At <b>Night Owl Labs</b>, we believe that the
         future of software lies in sound design and usability, coupled with
         traditional pillars of reliability, accessibility, and scalability.
       </p>

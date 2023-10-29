@@ -4,21 +4,33 @@ import Layout from "../components/layout"
 export default function About() {
   return (
     <Layout>
-      <h1>Meet the Owls</h1>
+      <h1>
+        Meet the Owls{" "}
+        <img
+          src="/images/company/nol-icon-white.png"
+          alt="Night Owl Labs"
+          title="Night Owl Labs"
+          className="company-thumbnail"
+        />
+      </h1>
 
       <p>
         <b>Night Owl Labs</b>, established in 2014, has been at the forefront of
         providing exceptional IT products and services for nearly a decade.
         Comprising a dedicated team of software engineers, designers, and
-        business professionals, <b>NOL</b> boasts a wealth of experience across various
-        technologies and industries. Our passion is evident in every project we
-        undertake building beautiful, functional, and scalable software
-        tailored to meet your precise needs.
+        business professionals, <b>NOL</b> boasts a wealth of experience across
+        various technologies and industries. Our passion is evident in every
+        project we undertake building beautiful, functional, and scalable
+        software tailored to meet your precise needs.
       </p>
       <div className="about-container">
         <div className="photo-container">
           <a href="https://scottgrivner.dev" target="_blank" rel="noreferrer">
-            <img src="/images/about/scott_grivner.jpg" alt="Scott Grivner" />
+            <img
+              className="about-image"
+              src="/images/about/scott_grivner.jpg"
+              alt="Scott Grivner"
+            />
           </a>
         </div>
 
@@ -73,7 +85,11 @@ export default function About() {
             target="_blank"
             rel="noreferrer"
           >
-            <img src="/images/about/anya_druzhenko.jpg" alt="Anya Druzhenko" />
+            <img
+              className="about-image"
+              src="/images/about/anya_druzhenko.jpg"
+              alt="Anya Druzhenko"
+            />
           </a>
         </div>
 
@@ -113,6 +129,7 @@ export default function About() {
             rel="noreferrer"
           >
             <img
+              className="about-image"
               src="/images/about/devin_olshefski.jpg"
               alt="Devin Olshefski"
             />
@@ -154,7 +171,11 @@ export default function About() {
             target="_blank"
             rel="noreferrer"
           >
-            <img src="/images/about/daniel_volovic.jpg" alt="Daniel Volovic" />
+            <img
+              className="about-image"
+              src="/images/about/daniel_volovic.jpg"
+              alt="Daniel Volovic"
+            />
           </a>
         </div>
 

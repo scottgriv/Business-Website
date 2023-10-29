@@ -248,6 +248,16 @@ button:focus {
   outline: none;
 }
 
+.company-thumbnail {
+  width: 35px;
+  height: 35px;
+}
+
+.company-thumbnail-contact {
+  width: 65px;
+  height: 65px;
+}
+
 .projects-image {
   border-radius: 25px;
   transition: transform 0.3s; /* Smooth transform transition */
@@ -257,6 +267,12 @@ button:focus {
 
 .banner-image {
   border-radius: 15px;
+  transition: transform 0.3s; /* Smooth transform transition */
+  max-width: 100%; /* To make sure image never exceeds its parent width */
+  height: auto; /* Maintains the aspect ratio */
+}
+
+.about-image {
   transition: transform 0.3s; /* Smooth transform transition */
   max-width: 100%; /* To make sure image never exceeds its parent width */
   height: auto; /* Maintains the aspect ratio */
@@ -339,7 +355,8 @@ button:focus {
 
 /* Scale effect on hover for the icons */
 .projects-image:hover,
-.banner-image:hover {
+.banner-image:hover,
+.about-image:hover {
   transform: scale(1.08); /* Enlarge the icon on hover */
 }
 
