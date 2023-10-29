@@ -29,7 +29,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Night Owl Labs`,
-        short_name: `starter`,
+        short_name: `Night Owl Labs`,
         start_url: `/`,
         background_color: `#000000`,
         // This will impact how browsers show your PWA/website

@@ -35,7 +35,7 @@ export default function Projects() {
             </li>
             <li>
               <button
-                href="#"
+                className={selectedSection === "development" ? "active" : ""}
                 onClick={e => {
                   e.preventDefault()
                   setSelectedSection("development")
@@ -46,7 +46,7 @@ export default function Projects() {
             </li>
             <li>
               <button
-                href="#"
+                className={selectedSection === "business" ? "active" : ""}
                 onClick={e => {
                   e.preventDefault()
                   setSelectedSection("business")

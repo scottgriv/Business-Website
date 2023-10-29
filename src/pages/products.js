@@ -38,7 +38,7 @@ export default function Products() {
             </li>
             <li>
               <button
-                href="#"
+                className={selectedSection === "open-source" ? "active" : ""}
                 onClick={e => {
                   e.preventDefault()
                   setSelectedSection("open-source")
@@ -49,7 +49,7 @@ export default function Products() {
             </li>
             <li>
               <button
-                href="#"
+                className={selectedSection === "content" ? "active" : ""}
                 onClick={e => {
                   e.preventDefault()
                   setSelectedSection("content")
