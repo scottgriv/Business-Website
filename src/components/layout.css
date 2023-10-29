@@ -340,6 +340,11 @@ button:focus {
     box-sizing: border-box;
   }
 
+  .icon-container[href="https://github.com/scottgriv/Post.e"] img {
+    border-radius: 30px; /* Adjust to match the rounded corners of your icon */
+  
+  }
+
   body {
     padding: 15px;
   }
