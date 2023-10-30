@@ -44,15 +44,28 @@ export default function Contact() {
       </a>
       <br />
       <hr />
+        <br />
+        <div className="social-links-wrapper">
+        <div className="social-links">
+        <a href="https://github.com/scottgriv/business-website"
+          target="_blank"
+          rel="noreferrer">
+          <i className="fa-solid fa-code-fork fa-bounce"></i>{" "}
+        </a>
+        </div>
+      </div>
       <div className="social-links-wrapper">
-          <div className="social-links">
-      <img
-          src="/images/company/nol-icon-rounded.png"
-          alt="Night Owl Labs"
-          title="Night Owl Labs"
-          className="company-thumbnail-contact"
-        />
-        </div></div>
+      <p>
+        Like this website? Feel free to <a
+          href="https://github.com/scottgriv/business-website"
+          target="_blank"
+          rel="noreferrer"
+        >
+          {" "}
+           Fork it on GitHub!
+        </a>
+      </p>
+      </div>
     </Layout>
   )
 }
