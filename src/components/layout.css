@@ -1,9 +1,94 @@
 /* CSS Style Sheet for the layout of the website */
 
+/* Import Calibre font */
+/* Regular weight */
+@font-face {
+  font-family: 'Calibre';
+  src: url('/fonts/Calibre/Calibre-Regular.ttf') format('truetype');
+  font-weight: 400; /* Regular weight */
+  font-style: normal;
+}
+
+/* Medium weight */
+@font-face {
+  font-family: 'Calibre';
+  src: url('/fonts/Calibre/Calibre-Medium.ttf') format('truetype');
+  font-weight: 500; /* Medium weight */
+  font-style: normal;
+}
+
+/* Semibold weight */
+@font-face {
+  font-family: 'Calibre';
+  src: url('/fonts/Calibre/Calibre-Semibold.ttf') format('truetype');
+  font-weight: 600; /* Semibold weight */
+  font-style: normal;
+}
+
+/* Bold weight */
+@font-face {
+  font-family: 'Calibre';
+  src: url('/fonts/Calibre/Calibre-Bold.ttf') format('truetype');
+  font-weight: 700; /* Bold weight */
+  font-style: normal;
+}
+
+/* Regular italic style */
+@font-face {
+  font-family: 'Calibre';
+  src: url('/fonts/Calibre/Calibre-Italic.ttf') format('truetype');
+  font-weight: 400; /* Regular weight */
+  font-style: italic;
+}
+
+/* Import SFMono font */
+/* Regular weight */
+@font-face {
+  font-family: 'SFMono';
+  src: url('/fonts/SFMono/SFMono-Regular.ttf') format('truetype');
+  font-weight: 400; /* Regular weight */
+  font-style: normal;
+}
+
+/* Medium weight */
+@font-face {
+  font-family: 'SFMono';
+  src: url('/fonts/SFMono/SFMono-Medium.ttf') format('truetype');
+  font-weight: 500; /* Medium weight */
+  font-style: normal;
+}
+
+/* Semibold weight */
+@font-face {
+  font-family: 'SFMono';
+  src: url('/fonts/SFMono/SFMono-Semibold.ttf') format('truetype');
+  font-weight: 600; /* Semibold weight */
+  font-style: normal;
+}
+
+/* Bold weight */
+@font-face {
+  font-family: 'SFMono';
+  src: url('/fonts/SFMono/SFMono-Bold.ttf') format('truetype');
+  font-weight: 700; /* Bold weight */
+  font-style: normal;
+}
+
+/* Regular italic style */
+@font-face {
+  font-family: 'SFMono';
+  src: url('/fonts/SFMono/SFMono-Italic.ttf') format('truetype');
+  font-weight: 400; /* Regular weight */
+  font-style: italic;
+}
+
+
 body {
+  font-family: 'Calibre', Arial, sans-serif; /* Use Source Code Pro font */
+  font-weight: 400; /* This will use the Calibre-Regular font */
+  font-size: 20px; /* Set default font size */
   background-color: #140f3d;
   color: white;
-  font-family: Arial, sans-serif;
   margin: 0;
   display: flex;
   flex-direction: column;
@@ -52,6 +137,9 @@ a {
 }
 
 #menutabs a {
+  font-family: 'SFMono', Arial, sans-serif; /* Use Source Code Pro font */
+  font-weight: 700; /* This will use the Calibre-Regular font */
+  font-size: 16px; /* Set default font size */
   background-color: #fcdb3a;
   color: black;
   padding: 8px 12px;
@@ -209,6 +297,12 @@ a {
   font-weight: normal; /* Makes the text non-bold */
 }
 
+.sidebar h3 {
+  font-family: 'SFMono', Arial, sans-serif; /* Use Source Code Pro font */
+  font-weight: 700; /* This will use the Calibre-Regular font */
+  font-size: 15px; /* Set default font size */
+}
+
 .sidebar button:hover {
   background-color: #fff;
   color: #000;
@@ -249,8 +343,8 @@ button:focus {
 }
 
 .company-thumbnail {
-  width: 35px;
-  height: 35px;
+  width: 40px;
+  height: 40px;
 }
 
 .company-thumbnail-contact {

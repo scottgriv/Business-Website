@@ -13,13 +13,13 @@ const Header = () => {
         <div id="headlogo">
           <Link to="/">
             <img
-              src="/images/company/banner_large.png"
+              src="/images/company/nol-banner_large.png"
               alt="Night Owl Labs"
               title="Night Owl Labs"
               className="desktop-logo"
             />
             <img
-              src="/images/company/banner_small.png"
+              src="/images/company/nol-banner_small.png"
               alt="Night Owl Labs"
               title="Night Owl Labs"
               className="mobile-logo"

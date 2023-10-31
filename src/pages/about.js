@@ -7,7 +7,7 @@ export default function About() {
       <h1>
         Meet the Owls{" "}
         <img
-          src="/images/company/nol-icon-white.png"
+          src="/images/company/nol-icon-transparent.png"
           alt="Night Owl Labs"
           title="Night Owl Labs"
           className="company-thumbnail"
