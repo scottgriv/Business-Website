@@ -76,19 +76,6 @@ export default function Projects() {
               <h3>App Banners</h3>
               <div className="app-banners">
                 <a
-                  href="https://www.nightowllabs.net"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <img
-                    src="/images/projects/banners/nol-banner_large.png"
-                    className="banner-image"
-                    alt="Night Owl Labs"
-                  />
-                </a>
-                <br />
-                <br />
-                <a
                   href="https://www.beeheard.com"
                   target="_blank"
                   rel="noreferrer"
@@ -151,11 +138,36 @@ export default function Projects() {
                     alt="Palm Tree"
                   />
                 </a>
+                <br />
+                <br />
+                <a
+                  href="https://www.nightowllabs.net"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src="/images/projects/banners/nol-banner_large.png"
+                    className="banner-image"
+                    alt="Night Owl Labs"
+                  />
+                </a>
               </div>
               <br />
               <hr />
               <h3>App Icons</h3>
               <div className="app-grid">
+                <a
+                  href="https://www.nightowllabs.net"
+                  className="icon-container"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src="/images/projects/icons/nol-icon-rounded.png"
+                    className="app-image"
+                    alt="Night Owl Labs"
+                  />
+                </a>
                 <a
                   href="https://www.reciperesizer.com"
                   className="icon-container"
@@ -226,18 +238,6 @@ export default function Projects() {
                     src="/images/projects/icons/palm-tree-icon-rounded.png"
                     className="app-image"
                     alt="Palm Tree"
-                  />
-                </a>
-                <a
-                  href="https://www.nightowllabs.net"
-                  className="icon-container"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <img
-                    src="/images/projects/icons/nol-icon-rounded.png"
-                    className="app-image"
-                    alt="Night Owl Labs"
                   />
                 </a>
               </div>
