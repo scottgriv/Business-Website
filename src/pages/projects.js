@@ -157,18 +157,6 @@ export default function Projects() {
               <h3>App Icons</h3>
               <div className="app-grid">
                 <a
-                  href="https://www.nightowllabs.net"
-                  className="icon-container"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <img
-                    src="/images/projects/icons/nol-icon-rounded.png"
-                    className="app-image"
-                    alt="Night Owl Labs"
-                  />
-                </a>
-                <a
                   href="https://www.reciperesizer.com"
                   className="icon-container"
                   target="_blank"
@@ -238,6 +226,18 @@ export default function Projects() {
                     src="/images/projects/icons/palm-tree-icon-rounded.png"
                     className="app-image"
                     alt="Palm Tree"
+                  />
+                </a>
+                <a
+                  href="https://www.nightowllabs.net"
+                  className="icon-container"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src="/images/projects/icons/nol-icon-rounded.png"
+                    className="app-image"
+                    alt="Night Owl Labs"
                   />
                 </a>
               </div>
