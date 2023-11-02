@@ -583,8 +583,12 @@ button:focus {
     height: auto;
   }
 
-  .title-header {
-    font-size: 22px;
+  .title-header-large {
+    font-size: 30px;
+  }
+
+  .title-header-small {
+    font-size: 26px;
   }
 
   #pagefoot {

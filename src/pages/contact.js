@@ -4,7 +4,7 @@ import Layout from "../components/layout"
 export default function Contact() {
   return (
     <Layout>
-      <h1>Contact Night Owl Labs</h1>
+      <h1 className="title-header-large">Contact Night Owl Labs</h1>
       <p>
         We'd love to hear from you! Whether you have questions, feedback, or any
         inquiries, feel free to reach out to us through the following channels:
@@ -17,7 +17,7 @@ export default function Contact() {
       </a>
       <br />
       <hr />
-      <h2>Connect with us</h2>
+      <h2>Connect with Us!</h2>
       <p>Follow or contact us on our social platforms:</p>
       <a
         href="https://github.com/Night-Owl-Labs"

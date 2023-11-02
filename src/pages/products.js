@@ -6,7 +6,7 @@ export default function Products() {
 
   return (
     <Layout>
-      <h1 className="products-header">Products</h1>
+      <h1 className="title-header-large">Products</h1>
       <p>
         <b>Night Owl Labs</b> takes immense pride in creating innovative
         software products tailored to the evolving needs of the modern world. We

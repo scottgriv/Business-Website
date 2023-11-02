@@ -4,7 +4,7 @@ import Layout from "../components/layout"
 export default function About() {
   return (
     <Layout>
-      <h1>
+      <h1 className="title-header-large"> 
         Meet the Owls{" "}
         <img
           src="/images/company/nol-icon-transparent.png"

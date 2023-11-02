@@ -6,7 +6,7 @@ export default function Projects() {
 
   return (
     <Layout>
-      <h1 className="projects-header">Projects</h1>
+      <h1 className="title-header-large">Projects</h1>
       <p className="projects-intro">
         At <b>Night Owl Labs</b>, we pride ourselves on a rich portfolio that
         spans across multiple domains of the tech industry. Our projects serve
@@ -87,7 +87,6 @@ export default function Projects() {
                   />
                 </a>
                 <br />
-                <br />
                 <a
                   href="https://www.prgoptimized.com"
                   target="_blank"
@@ -99,7 +98,6 @@ export default function Projects() {
                     alt="PRG"
                   />
                 </a>
-                <br />
                 <br />
                 <a
                   href="https://github.com/scottgriv/Post.e"
@@ -113,7 +111,6 @@ export default function Projects() {
                   />
                 </a>
                 <br />
-                <br />
                 <a
                   href="https://www.rivercharts.app"
                   target="_blank"
@@ -126,7 +123,6 @@ export default function Projects() {
                   />
                 </a>
                 <br />
-                <br />
                 <a
                   href="https://github.com/scottgriv/Palm-Tree"
                   target="_blank"
@@ -138,7 +134,6 @@ export default function Projects() {
                     alt="Palm Tree"
                   />
                 </a>
-                <br />
                 <br />
                 <a
                   href="https://www.nightowllabs.net"

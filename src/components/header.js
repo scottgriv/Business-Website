@@ -35,7 +35,7 @@ const Header = () => {
             </li>
             <li>
               <Link to="/about" activeClassName="active">
-                About <span className="responsive-hide">NOL</span>
+                About
               </Link>
             </li>
             <li>
@@ -60,7 +60,7 @@ const Header = () => {
             </li>
             <li>
               <Link to="/contact" activeClassName="active">
-                Contact <span className="responsive-hide">Us</span>
+                Contact
               </Link>
             </li>
             {/* ... other navigation items */}

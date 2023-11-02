@@ -4,7 +4,7 @@ import Layout from "../components/layout"
 export default function FAQ() {
   return (
     <Layout>
-      <h1>Frequently Asked Questions</h1>
+      <h1 className="title-header-small">Frequently Asked Questions</h1>
       <p>
         Below are some of the most common questions we receive from clients.
       </p>

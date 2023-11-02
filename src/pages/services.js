@@ -4,7 +4,7 @@ import Layout from "../components/layout"
 export default function Services() {
   return (
     <Layout>
-      <h1>Services</h1>
+      <h1 className="title-header-large">Services</h1>
       <p>
         At <b>Night Owl Labs</b>, we specialize in offering comprehensive
         software development and consulting services tailored to your needs.

@@ -4,7 +4,7 @@ import Layout from "../components/layout"
 export default function Home() {
   return (
     <Layout>
-      <h1 className="title-header">Welcome to Night Owl Labs! 👋</h1>
+      <h1 className="title-header-small">Welcome to Night Owl Labs! 👋</h1>
       <p>
         Since our inception in 2014, <b>Night Owl Labs</b> has been at the
         forefront of digital innovation. We offer a wide range of consulting{" "}
