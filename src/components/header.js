@@ -1,10 +1,10 @@
 import React from "react"
 import { Link } from "gatsby"
 import Seo from "./seo"
-import { CONFIG } from './config.js';
+import { CONFIG } from "./config.js"
 
 const Header = () => {
-  const showHeader = CONFIG.showHeader;
+  const showHeader = CONFIG.showHeader
 
   return (
     <>
@@ -12,7 +12,7 @@ const Header = () => {
         title="Night Owl Labs"
         description="Software Development, Design, Consulting, Education"
       />
-      <div id="pagehead" style={{ display: showHeader ? 'block' : 'none' }}>
+      <div id="pagehead" style={{ display: showHeader ? "block" : "none" }}>
         <div id="headlogo">
           <Link to="/">
             <img
@@ -39,6 +39,11 @@ const Header = () => {
             <li>
               <Link to="/about" activeClassName="active">
                 About
+              </Link>
+            </li>
+            <li>
+              <Link to="/company" activeClassName="active">
+                Company
               </Link>
             </li>
             <li>

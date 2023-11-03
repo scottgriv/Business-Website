@@ -30,46 +30,21 @@ export default function Home() {
         we've aided countless clients in realizing their ambitions and enhancing
         their digital presence.
       </p>
-
-      <p>
-        Community is integral to our ethos. At <b>Night Owl Labs</b>, we
-        actively contribute to the open-source sphere, sharing projects and
-        tools on platforms like{" "}
-        <a
-          href="https://github.com/Night-Owl-Labs"
-          target="_blank"
-          rel="noreferrer"
-        >
-          GitHub
-        </a>{" "}
-        to assist others in their tech endeavors. We also post content on{" "}
-        <a
-          href="https://www.linkedin.com/company/nightowllabs"
-          target="_blank"
-          rel="noreferrer"
-        >
-          LinkedIn
-        </a>{" "}
-        and{" "}
-        <a
-          href="https://twitter.com/night_owl_labs"
-          target="_blank"
-          rel="noreferrer"
-        >
-          X
-        </a>
-        . Beyond being developers, we are educators and consultants dedicated to
-        empowering others with knowledge and expertise.
-      </p>
-
       <p>
         Whether you're in search of cutting-edge digital solutions, perceptive
         consulting, or enlightening content to elevate your venture,{" "}
         <b>Night Owl Labs</b> stands as your trusted ally.{" "}
       </p>
 
-      <p><b><i>Dive into our offerings, and let's build the future together.</i></b></p>
-      <p>Don't hesitate to <a href="/contact">Contact</a> us to discuss what <b>NOL</b> can do for you!</p>
+      <p>
+        <b>
+          <i>Dive into our offerings, and let's build the future together.</i>
+        </b>
+      </p>
+      <p>
+        Don't hesitate to <a href="/contact">Contact</a> us to discuss what{" "}
+        <b>NOL</b> can do for you!
+      </p>
     </Layout>
   )
 }

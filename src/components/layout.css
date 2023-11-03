@@ -318,6 +318,17 @@ button:focus {
   height: auto; /* Maintains the aspect ratio */
 }
 
+.projects-image-small {
+  transition: transform 0.3s; /* Smooth transform transition */
+  width: 25%;
+  height: auto; /* Maintains the aspect ratio */
+}
+
+.projects-image-small-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
 .banner-image {
   border-radius: 15px;
   transition: transform 0.3s; /* Smooth transform transition */
@@ -408,6 +419,7 @@ button:focus {
 
 /* Scale effect on hover for the icons */
 .projects-image:hover,
+.projects-image-small:hover,
 .banner-image:hover,
 .about-image:hover {
   transform: scale(1.08); /* Enlarge the icon on hover */
@@ -462,14 +474,12 @@ button:focus {
   color: #fff;
 }
 
-
 /* Media Queries */
 /* When screen width is less than 768px, hide elements with the 'responsive-hide' class */
 @media screen and (max-width: 804px) {
   .responsive-hide {
     display: none;
   }
-  
 }
 
 /* Mobile Styles */
@@ -612,5 +622,4 @@ button:focus {
     bottom: 35px; /* Closer to the bottom on small screens */
     right: 35px; /* Closer to the right on small screens */
   }
-
 }

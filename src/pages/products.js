@@ -9,16 +9,11 @@ export default function Products() {
       <h1 className="title-header-large">Products</h1>
       <p>
         <b>Night Owl Labs</b> takes immense pride in creating innovative
-        software products tailored to the evolving needs of the modern world. We
-        believe in blending functionality with user-centric design to deliver
-        experiences that are both practical and memorable.
-      </p>
-
-      <p>
-        Whether they are fully-developed applications available to the public or
-        beta versions inviting user feedback, each product reflects our
-        dedication to quality and innovation. Explore our range of published
-        software products and get a sneak peek into what's coming next.
+        software products and open source projects tailored to the evolving
+        needs of the modern world. We believe in blending functionality with
+        user-centric design to deliver experiences that are both practical and
+        memorable. Explore our range of published software products and get a
+        sneak peek into what's coming next.
       </p>
 
       <div className="products-container">
@@ -104,8 +99,12 @@ export default function Products() {
                     alt="Recipe Resizer"
                   />
                 </a>
-                <br />
-                <br />
+                <p>
+                  <b>Category:</b> Mobile Application.
+                </p>
+                <p>
+                  <b>Technology:</b> iOS, Swift, SwiftUI, Core Data.
+                </p>
                 <div className="social-links">
                   <a
                     href="https://reciperesizer.com"
@@ -147,8 +146,12 @@ export default function Products() {
                     alt="Bee Heard"
                   />
                 </a>
-                <br />
-                <br />
+                <p>
+                  <b>Category:</b> Mobile Application.
+                </p>
+                <p>
+                  <b>Technology:</b> TBA.
+                </p>
                 <div className="social-links">
                   <a
                     href="https://www.beeheard.com"
@@ -181,25 +184,46 @@ export default function Products() {
             <div className="product-section">
               <h2>Open Source</h2>
               <p>
-                At <b>Night Owl Labs</b>, we are proud of our contributions to
-                the open source community. You can explore a variety of our
-                projects on{" "}
+                Community is integral to our ethos. At <b>Night Owl Labs</b>, we
+                actively contribute to the open-source sphere, sharing projects
+                and tools on platforms like{" "}
                 <a
-                  href="https://github.com/night-owl-labs"
+                  href="https://github.com/Night-Owl-Labs"
                   target="_blank"
                   rel="noreferrer"
                 >
                   GitHub
                 </a>{" "}
-                and on our founder Scott Grivner's{" "}
+                to assist others in their tech endeavors. We also post content
+                on{" "}
                 <a
-                  href="https://github.com/scottgriv"
+                  href="https://www.linkedin.com/company/nightowllabs"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  GitHub
+                  LinkedIn
                 </a>{" "}
-                as well.
+                and{" "}
+                <a
+                  href="https://twitter.com/night_owl_labs"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  X
+                </a>
+                . Beyond being developers, we are educators and consultants
+                dedicated to empowering others with knowledge and expertise.
+                <p>
+                  Check out our founder, Scott Grivner's{" "}
+                  <a
+                    href="https://github.com/scottgriv"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    GitHub
+                  </a>{" "}
+                  , as well.
+                </p>
               </p>
               <hr />
               <div className="project-card">
@@ -231,8 +255,14 @@ export default function Products() {
                     alt="Personal Repository Guidelines"
                   />
                 </a>
-                <br />
-                <br />
+                <p>
+                  <b>Category:</b> Catagorization, Guidelines, Templates,
+                  Standards, Documentation.
+                </p>
+                <p>
+                  <b>Technology:</b> Markdown, API, GitHub Actions, Jekyll,
+                  Python, DataTables.
+                </p>
                 <div className="social-links">
                   <a
                     href="https://www.prgoptimized.com"
@@ -277,8 +307,13 @@ export default function Products() {
                     alt="Post.e"
                   />
                 </a>
-                <br />
-                <br />
+                <p>
+                  <b>Category:</b> Mobile Application.
+                </p>
+                <p>
+                  <b>Technology:</b> iOS, watchOS, UIKit, Objective-C, Swift,
+                  PHP, MySQL.
+                </p>
                 <div className="social-links">
                   <a
                     href="https://github.com/scottgriv/Post.e"
@@ -317,8 +352,12 @@ export default function Products() {
                     alt="River Charts"
                   />
                 </a>
-                <br />
-                <br />
+                <p>
+                  <b>Category:</b> Web Application.
+                </p>
+                <p>
+                  <b>Technology:</b> Python, Django, Plotly, Pandas, API.
+                </p>
                 <div className="social-links">
                   <a
                     href="https://www.rivercharts.app"
@@ -363,11 +402,108 @@ export default function Products() {
                     alt="Palm Tree"
                   />
                 </a>
-                <br />
-                <br />
+                <p>
+                  <b>Category:</b> Web Application.
+                </p>
+                <p>
+                  <b>Technology:</b> JavaScript, PHP, HTML, CSS, MySQL.
+                </p>
                 <div className="social-links">
                   <a
                     href="https://github.com/scottgriv/Palm-Tree"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <i className="fab fa-github"></i>
+                  </a>
+                </div>
+              </div>
+              <hr />
+              <div className="project-card">
+                <h3>
+                  {" "}
+                  <a
+                    href="https://github.com/Night-Owl-Labs/SOLID-Principles"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    SOLID Principles
+                  </a>
+                </h3>
+                <p>
+                  In software engineering, SOLID is a mnemonic acronym for five
+                  design principles intended to make object-oriented designs
+                  more understandable, flexible, and maintainable.
+                </p>
+                <a
+                  href="https://github.com/Night-Owl-Labs/SOLID-Principles"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <div className="projects-image-small-wrapper">
+                    <img
+                      className="projects-image-small"
+                      src="/images/products/SOLID.png"
+                      alt="SOLID Principles"
+                    />
+                  </div>
+                </a>
+                <p>
+                  <b>Category:</b> Software Architecture. Clean Code.
+                </p>
+                <p>
+                  <b>Technology:</b> Java. Markdown.
+                </p>
+                <div className="social-links">
+                  <a
+                    href="https://github.com/Night-Owl-Labs/SOLID-Principles"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <i className="fab fa-github"></i>
+                  </a>
+                </div>
+              </div>
+              <hr />
+              <div className="project-card">
+                <h3>
+                  {" "}
+                  <a
+                    href="https://github.com/Night-Owl-Labs/OOP-Principles"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    OOP Principles
+                  </a>
+                </h3>
+                <p>
+                  About This repository aims to provide a comprehensive guide to
+                  Object-Oriented Programming (OOP) principles. Whether you are
+                  new to OOP or want to reinforce your understanding, this
+                  repository has you covered.
+                </p>
+                <a
+                  href="https://github.com/Night-Owl-Labs/OOP-Principles"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <div className="projects-image-small-wrapper">
+                    <img
+                      className="projects-image-small"
+                      src="/images/products/OOP.png"
+                      alt="OOP Principles"
+                    />
+                  </div>
+                </a>
+                <p>
+                  <b>Category:</b> Software Architecture. Clean Code.
+                </p>
+                <p>
+                  <b>Technology:</b> Java. Markdown.
+                </p>
+                <div className="social-links">
+                  <a
+                    href="https://github.com/Night-Owl-Labs/OOP-Principles"
                     target="_blank"
                     rel="noreferrer"
                   >

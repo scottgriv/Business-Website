@@ -245,7 +245,13 @@ export default function Projects() {
             <div className="projects-section">
               <h2>Development</h2>
               <p>
-                Below are some of our client projects that we have developed.
+                Our passion for excellence is reflected in every project we
+                undertake. We are dedicated to building not only beautiful but
+                also functional and scalable software solutions that are
+                meticulously tailored to meet your exact needs. Below, you will
+                find a portfolio of client projects that showcase our expertise.
+                Should you have any questions or wish to discuss your own
+                project, please feel free to <a href="/contact">Contact</a> us.
               </p>
               <div className="projects-card">
                 <hr />

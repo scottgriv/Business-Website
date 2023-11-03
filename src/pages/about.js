@@ -4,7 +4,7 @@ import Layout from "../components/layout"
 export default function About() {
   return (
     <Layout>
-      <h1 className="title-header-large"> 
+      <h1 className="title-header-large">
         Meet the Owls{" "}
         <img
           src="/images/company/nol-icon-transparent.png"
@@ -19,9 +19,7 @@ export default function About() {
         providing exceptional IT products and services for nearly a decade.
         Comprising a dedicated team of software engineers, designers, and
         business professionals, <b>NOL</b> boasts a wealth of experience across
-        various technologies and industries. Our passion is evident in every
-        project we undertake building beautiful, functional, and scalable
-        software tailored to meet your precise needs.
+        various technologies and industries.
       </p>
       <div className="about-container">
         <div className="photo-container">
