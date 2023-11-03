@@ -452,7 +452,7 @@ export default function Products() {
                   <b>Category:</b> Software Architecture. Clean Code.
                 </p>
                 <p>
-                  <b>Technology:</b> Java. Markdown.
+                  <b>Technology:</b> Java, Markdown.
                 </p>
                 <div className="social-links">
                   <a
@@ -499,7 +499,7 @@ export default function Products() {
                   <b>Category:</b> Software Architecture. Clean Code.
                 </p>
                 <p>
-                  <b>Technology:</b> Java. Markdown.
+                  <b>Technology:</b> Java, Markdown.
                 </p>
                 <div className="social-links">
                   <a
