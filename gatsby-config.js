@@ -31,16 +31,17 @@ module.exports = {
         name: `Night Owl Labs`,
         short_name: `Night Owl Labs`,
         start_url: `/`,
-        background_color: `#0E2F00`,
+        background_color: `#FCDB3A`,
         // This will impact how browsers show your PWA/website
         // https://css-tricks.com/meta-theme-color-and-trickery/
         //theme_color: `#FFFFFF`, //White
-        //theme_color: `#FCDB3A`, //Yellow
+        theme_color: `#FCDB3A`, //Yellow
         //theme_color: `#0E2F00`, //Dark Green
         //theme_color: `#005E1F`, //Lighter Green
-        theme_color: `#0E2F00`, //Dark Green
+        //theme_color: `#0E2F00`, //Dark Green
         display: `minimal-ui`,
         icon: `src/images/icon-yellow-rounded.png`, // This path is relative to the root of the site.
+        display: `standalone`,
       },
     },
   ],
