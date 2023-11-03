@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Header from './header';
 import Footer from './footer';
-import './Layout.css';
+import './layout.css';
 
 const Layout = ({ children }) => {
   const [showScroll, setShowScroll] = useState(false);
