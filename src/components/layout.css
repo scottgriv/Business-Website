@@ -1,91 +1,34 @@
 /* CSS Style Sheet for the layout of the website */
 
-/* Import Calibre font */
-/* Regular weight */
+/* Import Roboto font */
+/* Regular style */
 @font-face {
-  font-family: 'Calibre';
-  src: url('/fonts/Calibre/Calibre-Regular.ttf') format('truetype');
-  font-weight: 400; /* Regular weight */
-  font-style: normal;
-}
-
-/* Medium weight */
-@font-face {
-  font-family: 'Calibre';
-  src: url('/fonts/Calibre/Calibre-Medium.ttf') format('truetype');
-  font-weight: 500; /* Medium weight */
-  font-style: normal;
-}
-
-/* Semibold weight */
-@font-face {
-  font-family: 'Calibre';
-  src: url('/fonts/Calibre/Calibre-Semibold.ttf') format('truetype');
-  font-weight: 600; /* Semibold weight */
-  font-style: normal;
-}
-
-/* Bold weight */
-@font-face {
-  font-family: 'Calibre';
-  src: url('/fonts/Calibre/Calibre-Bold.ttf') format('truetype');
-  font-weight: 700; /* Bold weight */
+  font-family: 'Roboto';
+  src: url('/fonts/Roboto/Roboto-Regular.ttf') format('truetype');
+  font-weight: 400; 
   font-style: normal;
 }
 
 /* Regular italic style */
 @font-face {
-  font-family: 'Calibre';
-  src: url('/fonts/Calibre/Calibre-Italic.ttf') format('truetype');
-  font-weight: 400; /* Regular weight */
+  font-family: 'Roboto';
+  src: url('/fonts/Roboto/Roboto-Italic.ttf') format('truetype');
+  font-weight: 400; 
   font-style: italic;
 }
 
-/* Import SFMono font */
-/* Regular weight */
+/* Bold style */
 @font-face {
-  font-family: 'SFMono';
-  src: url('/fonts/SFMono/SFMono-Regular.ttf') format('truetype');
-  font-weight: 400; /* Regular weight */
+  font-family: 'Roboto';
+  src: url('/fonts/Roboto/Roboto-Bold.ttf') format('truetype');
+  font-weight: 700;
   font-style: normal;
-}
-
-/* Medium weight */
-@font-face {
-  font-family: 'SFMono';
-  src: url('/fonts/SFMono/SFMono-Medium.ttf') format('truetype');
-  font-weight: 500; /* Medium weight */
-  font-style: normal;
-}
-
-/* Semibold weight */
-@font-face {
-  font-family: 'SFMono';
-  src: url('/fonts/SFMono/SFMono-Semibold.ttf') format('truetype');
-  font-weight: 600; /* Semibold weight */
-  font-style: normal;
-}
-
-/* Bold weight */
-@font-face {
-  font-family: 'SFMono';
-  src: url('/fonts/SFMono/SFMono-Bold.ttf') format('truetype');
-  font-weight: 700; /* Bold weight */
-  font-style: normal;
-}
-
-/* Regular italic style */
-@font-face {
-  font-family: 'SFMono';
-  src: url('/fonts/SFMono/SFMono-Italic.ttf') format('truetype');
-  font-weight: 400; /* Regular weight */
-  font-style: italic;
 }
 
 
 body {
-  font-family: 'Calibre', Arial, sans-serif; /* Use Source Code Pro font */
-  font-weight: 400; /* This will use the Calibre-Regular font */
+  font-family: 'Roboto', Arial, sans-serif; /* Use custom font */
+  font-weight: 400; /* This will use the regular font */
   font-size: 20px; /* Set default font size */
   background-color: #140f3d;
   color: white;
@@ -105,6 +48,23 @@ a {
 .mobile-logo {
   max-width: 100%; /* To make sure image never exceeds its parent width */
   height: auto; /* Maintains the aspect ratio */
+}
+
+.landing-logo {
+  border-radius: 15px;
+  transition: transform 0.3s; /* Smooth transform transition */
+  max-width: 100%; /* To make sure image never exceeds its parent width */
+  height: auto; /* Maintains the aspect ratio */
+}
+
+.landing-logo:hover {
+  transform: scale(1.03); /* Enlarge the icon on hover */
+}
+
+.landing-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #pagecontent {
@@ -137,8 +97,8 @@ a {
 }
 
 #menutabs a {
-  font-family: 'SFMono', Arial, sans-serif; /* Use Source Code Pro font */
-  font-weight: 700; /* This will use the Calibre-Regular font */
+  font-family: 'Roboto', Arial, sans-serif; /* Use custom font */
+  font-weight: 700; /* This will use the bold font */
   font-size: 16px; /* Set default font size */
   background-color: #fcdb3a;
   color: black;
@@ -298,8 +258,8 @@ a {
 }
 
 .sidebar h3 {
-  font-family: 'SFMono', Arial, sans-serif; /* Use Source Code Pro font */
-  font-weight: 700; /* This will use the Calibre-Regular font */
+  font-family: 'Roboto', Arial, sans-serif; /* Use custom font */
+  font-weight: 700; /* This will use the bold font */
   font-size: 15px; /* Set default font size */
 }
 
@@ -588,7 +548,7 @@ button:focus {
   }
 
   .title-header-small {
-    font-size: 26px;
+    font-size: 25px;
   }
 
   #pagefoot {

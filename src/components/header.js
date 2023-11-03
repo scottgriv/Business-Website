@@ -1,15 +1,18 @@
 import React from "react"
 import { Link } from "gatsby"
 import Seo from "./seo"
+import { CONFIG } from './config.js';
 
 const Header = () => {
+  const showHeader = CONFIG.showHeader;
+
   return (
     <>
       <Seo
         title="Night Owl Labs"
         description="Software Development, Design, Consulting, Education"
       />
-      <div id="pagehead">
+      <div id="pagehead" style={{ display: showHeader ? 'block' : 'none' }}>
         <div id="headlogo">
           <Link to="/">
             <img
