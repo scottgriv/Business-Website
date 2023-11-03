@@ -10,15 +10,23 @@ const Layout = ({ children }) => {
   useEffect(() => {
     // Ensure that window is available before adding event listeners
     if (typeof window !== 'undefined') {
+
       const handleScroll = () => {
+        // Get the maximum scroll value to prevent 'over-scrolling' effects
+        const maxScroll = document.body.offsetHeight - window.innerHeight;
+      
         let scrolled = window.scrollY;
+        // Prevent parallax effect when 'over-scrolling' happens.
+        scrolled = Math.max(0, Math.min(scrolled, maxScroll));
+      
         let parallaxAmount = 0.3;
         let paddingOffset = 50;
         let fadeStart = paddingOffset;
         let fadeEnd = 250;
         let opacity = 1 - Math.min(1, (scrolled - fadeStart) / (fadeEnd - fadeStart));
+      
         let headlogo = document.getElementById('headlogo');
-
+      
         if (headlogo) {
           headlogo.style.transform = `translateY(${-scrolled * parallaxAmount}px)`;
           headlogo.style.opacity = opacity;
