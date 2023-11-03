@@ -45,6 +45,7 @@ function Seo({ description, title, children }) {
       <meta name="twitter:image" content="/images/company/nol-banner_small.png" />
       <meta name="msapplication-TileColor" content="#000000" />
       <meta name="theme-color" content="#000000" />
+      <meta name="apple-mobile-web-app-capable" content="yes" />
       <link
         rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
