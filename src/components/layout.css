@@ -435,8 +435,8 @@ button:focus {
   border: none;
   border-radius: 50%; /* Makes it a circle */
   padding: 0;
-  width: 75px; /* Set width and height to be the same for a circle */
-  height: 75px;
+  width: 65px; /* Set width and height to be the same for a circle */
+  height: 65px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
   display: flex; /* Ensures the icon centers inside the button */
   justify-content: center; /* Centers the icon horizontally */

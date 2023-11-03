@@ -73,7 +73,7 @@ const Layout = ({ children }) => {
         className={`scroll-to-top ${showScroll ? 'visible' : ''}`}
         aria-label="Scroll to top"
       >
-        <i className="fas fa-arrow-up"></i>
+        <i class="fa-solid fa-arrow-up fa-flip"></i>
       </button>
     </div>
   );
