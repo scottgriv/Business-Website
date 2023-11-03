@@ -8,58 +8,52 @@ const Layout = ({ children }) => {
   const [scrollTimeout, setScrollTimeout] = useState(null);
 
   useEffect(() => {
-    const handleScroll = () => {
-      let scrolled = window.scrollY;
-      let parallaxAmount = 0.3;
-      let paddingOffset = 50;
-      let fadeStart = paddingOffset;
-      let fadeEnd = 250;
-      let opacity = 1 - Math.min(1, (scrolled - fadeStart) / (fadeEnd - fadeStart));
-      let headlogo = document.getElementById('headlogo');
+    // Ensure that window is available before adding event listeners
+    if (typeof window !== 'undefined') {
+      const handleScroll = () => {
+        let scrolled = window.scrollY;
+        let parallaxAmount = 0.3;
+        let paddingOffset = 50;
+        let fadeStart = paddingOffset;
+        let fadeEnd = 250;
+        let opacity = 1 - Math.min(1, (scrolled - fadeStart) / (fadeEnd - fadeStart));
+        let headlogo = document.getElementById('headlogo');
 
-      if (headlogo) {
-        headlogo.style.transform = `translateY(${-scrolled * parallaxAmount}px)`;
-        headlogo.style.opacity = opacity;
-      }
+        if (headlogo) {
+          headlogo.style.transform = `translateY(${-scrolled * parallaxAmount}px)`;
+          headlogo.style.opacity = opacity;
+        }
 
-      setShowScroll(scrolled > 500);
+        setShowScroll(scrolled > 500);
 
-      // Clear any existing timeouts to reset the timer
-      if (scrollTimeout) clearTimeout(scrollTimeout);
+        // Clear any existing timeouts to reset the timer
+        if (scrollTimeout) clearTimeout(scrollTimeout);
 
-      // Set a new timeout
-      const newTimeout = setTimeout(() => {
-        setShowScroll(false);
-      }, 4000); // Hide button 4 seconds after scrolling stops
-      setScrollTimeout(newTimeout);
-    };
+        // Set a new timeout
+        const newTimeout = setTimeout(() => {
+          setShowScroll(false);
+        }, 4000); // Hide button 4 seconds after scrolling stops
+        setScrollTimeout(newTimeout);
+      };
 
-    window.addEventListener('scroll', handleScroll);
+      window.addEventListener('scroll', handleScroll);
 
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-      if (scrollTimeout) clearTimeout(scrollTimeout);
-    };
+      return () => {
+        window.removeEventListener('scroll', handleScroll);
+        if (scrollTimeout) clearTimeout(scrollTimeout);
+      };
+    }
   }, [scrollTimeout]);
 
   const scrollTop = () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-    // Reset scroll visibility and clear timeout
-    setShowScroll(true);
-    if (scrollTimeout) clearTimeout(scrollTimeout);
+    // Check if window is available
+    if (typeof window !== 'undefined') {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+      // Reset scroll visibility and clear timeout
+      setShowScroll(true);
+      if (scrollTimeout) clearTimeout(scrollTimeout);
+    }
   };
-
-  /* Scroll to the first <h1> element on the page */
-  
-  // const scrollToH1 = () => {
-  //   const h1 = document.querySelector('h1'); // This selects the first <h1> element
-  //   if (h1) {
-  //     h1.scrollIntoView({ behavior: 'smooth', block: 'start' });
-  //     if (scrollTimeout) clearTimeout(scrollTimeout);
-
-  //   }
-  // };
-  
 
   return (
     <div id="pagecontent">
