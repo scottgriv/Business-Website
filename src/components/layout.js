@@ -1,33 +1,65 @@
-import React, { useEffect } from "react"
-import Header from "./header"
-import Footer from "./footer"
-import "./layout.css"
+import React, { useState, useEffect } from 'react';
+import Header from './Header';
+import Footer from './Footer';
+import './Layout.css';
 
 const Layout = ({ children }) => {
+  const [showScroll, setShowScroll] = useState(false);
+  const [scrollTimeout, setScrollTimeout] = useState(null);
+
   useEffect(() => {
     const handleScroll = () => {
-      var scrolled = window.pageYOffset
-      var parallaxAmount = 0.3 // Adjust this for stronger or weaker parallax
+      let scrolled = window.scrollY;
+      let parallaxAmount = 0.3;
+      let paddingOffset = 50;
+      let fadeStart = paddingOffset;
+      let fadeEnd = 250;
+      let opacity = 1 - Math.min(1, (scrolled - fadeStart) / (fadeEnd - fadeStart));
+      let headlogo = document.getElementById('headlogo');
 
-      var paddingOffset = 50 // Your body's padding
-      var fadeStart = paddingOffset // Start fade-out after 50 pixels (accounting for padding)
-      var fadeEnd = 250 // End fade-out after 500 pixels of actual scrolling (added to the 50px padding)
-      var opacity =
-        1 - Math.min(1, (scrolled - fadeStart) / (fadeEnd - fadeStart))
+      if (headlogo) {
+        headlogo.style.transform = `translateY(${-scrolled * parallaxAmount}px)`;
+        headlogo.style.opacity = opacity;
+      }
 
-      var headlogo = document.getElementById("headlogo")
-      headlogo.style.transform =
-        "translateY(" + -scrolled * parallaxAmount + "px)"
-      headlogo.style.opacity = opacity
-    }
+      setShowScroll(scrolled > 500);
 
-    window.addEventListener("scroll", handleScroll)
+      // Clear any existing timeouts to reset the timer
+      if (scrollTimeout) clearTimeout(scrollTimeout);
 
-    // Cleanup on unmount
+      // Set a new timeout
+      const newTimeout = setTimeout(() => {
+        setShowScroll(false);
+      }, 4000); // Hide button 4 seconds after scrolling stops
+      setScrollTimeout(newTimeout);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
     return () => {
-      window.removeEventListener("scroll", handleScroll)
-    }
-  }, [])
+      window.removeEventListener('scroll', handleScroll);
+      if (scrollTimeout) clearTimeout(scrollTimeout);
+    };
+  }, [scrollTimeout]);
+
+  const scrollTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+    // Reset scroll visibility and clear timeout
+    setShowScroll(true);
+    if (scrollTimeout) clearTimeout(scrollTimeout);
+  };
+
+  /* Scroll to the first <h1> element on the page */
+  
+  // const scrollToH1 = () => {
+  //   const h1 = document.querySelector('h1'); // This selects the first <h1> element
+  //   if (h1) {
+  //     h1.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  //     if (scrollTimeout) clearTimeout(scrollTimeout);
+
+  //   }
+  // };
+  
 
   return (
     <div id="pagecontent">
@@ -41,8 +73,16 @@ const Layout = ({ children }) => {
       <footer>
         <Footer />
       </footer>
-    </div>
-  )
-}
 
-export default Layout
+      <button 
+        onClick={scrollTop} 
+        className={`scroll-to-top ${showScroll ? 'visible' : ''}`}
+        aria-label="Scroll to top"
+      >
+        <i className="fas fa-arrow-up"></i>
+      </button>
+    </div>
+  );
+};
+
+export default Layout;

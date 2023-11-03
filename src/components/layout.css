@@ -3,31 +3,30 @@
 /* Import Roboto font */
 /* Regular style */
 @font-face {
-  font-family: 'Roboto';
-  src: url('/fonts/Roboto/Roboto-Regular.ttf') format('truetype');
-  font-weight: 400; 
+  font-family: "Roboto";
+  src: url("/fonts/Roboto/Roboto-Regular.ttf") format("truetype");
+  font-weight: 400;
   font-style: normal;
 }
 
 /* Regular italic style */
 @font-face {
-  font-family: 'Roboto';
-  src: url('/fonts/Roboto/Roboto-Italic.ttf') format('truetype');
-  font-weight: 400; 
+  font-family: "Roboto";
+  src: url("/fonts/Roboto/Roboto-Italic.ttf") format("truetype");
+  font-weight: 400;
   font-style: italic;
 }
 
 /* Bold style */
 @font-face {
-  font-family: 'Roboto';
-  src: url('/fonts/Roboto/Roboto-Bold.ttf') format('truetype');
+  font-family: "Roboto";
+  src: url("/fonts/Roboto/Roboto-Bold.ttf") format("truetype");
   font-weight: 700;
   font-style: normal;
 }
 
-
 body {
-  font-family: 'Roboto', Arial, sans-serif; /* Use custom font */
+  font-family: "Roboto", Arial, sans-serif; /* Use custom font */
   font-weight: 400; /* This will use the regular font */
   font-size: 20px; /* Set default font size */
   background-color: #140f3d;
@@ -97,7 +96,7 @@ a {
 }
 
 #menutabs a {
-  font-family: 'Roboto', Arial, sans-serif; /* Use custom font */
+  font-family: "Roboto", Arial, sans-serif; /* Use custom font */
   font-weight: 700; /* This will use the bold font */
   font-size: 16px; /* Set default font size */
   background-color: #fcdb3a;
@@ -258,7 +257,7 @@ a {
 }
 
 .sidebar h3 {
-  font-family: 'Roboto', Arial, sans-serif; /* Use custom font */
+  font-family: "Roboto", Arial, sans-serif; /* Use custom font */
   font-weight: 700; /* This will use the bold font */
   font-size: 15px; /* Set default font size */
 }
@@ -430,17 +429,51 @@ button:focus {
   display: inline;
 }
 
-/* When screen width is less than 768px, hide elements with the 'responsive-hide' class */
-@media screen and (max-width: 804px) {
-  .responsive-hide {
-      display: none;
-  }
+/* Scrolling Popup Arrow Button */
+.scroll-to-top {
+  background: #005e1f;
+  border: none;
+  border-radius: 50%; /* Makes it a circle */
+  padding: 0;
+  width: 75px; /* Set width and height to be the same for a circle */
+  height: 75px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  display: flex; /* Ensures the icon centers inside the button */
+  justify-content: center; /* Centers the icon horizontally */
+  align-items: center; /* Centers the icon vertically */
+  cursor: pointer;
+  z-index: 1000; /* Ensure it's above other content */
+  position: fixed;
+  bottom: 75px; /* Closer to the bottom edge */
+  right: 75px; /* Closer to the right edge */
+  cursor: pointer;
+  opacity: 0; /* Start with the button invisible */
+  visibility: hidden; /* Hide the button */
+  transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out; /* Smooth transition for both opacity and visibility */
+}
+
+.scroll-to-top.visible {
+  opacity: 1; /* Full visibility when the button should be shown */
+  visibility: visible; /* Make the button visible */
+}
+
+.scroll-to-top i {
+  font-size: 24px; /* Larger font size for the icon */
+  color: #fff;
 }
 
 
+/* Media Queries */
+/* When screen width is less than 768px, hide elements with the 'responsive-hide' class */
+@media screen and (max-width: 804px) {
+  .responsive-hide {
+    display: none;
+  }
+  
+}
+
 /* Mobile Styles */
 @media only screen and (max-width: 600px) {
-
   /* Reset box-sizing */
   *,
   *:before,
@@ -572,4 +605,12 @@ button:focus {
   .photo-container img {
     margin: 0 auto;
   }
+
+  .scroll-to-top {
+    width: 50px; /* Set width and height to be the same for a circle */
+    height: 50px;
+    bottom: 35px; /* Closer to the bottom on small screens */
+    right: 35px; /* Closer to the right on small screens */
+  }
+
 }
