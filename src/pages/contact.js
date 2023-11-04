@@ -44,27 +44,39 @@ export default function Contact() {
       </a>
       <br />
       <hr />
-        <br />
-        <div className="social-links-wrapper">
+      <br />
+      <div className="social-links-wrapper">
         <div className="social-links">
-        <a href="https://github.com/scottgriv/business-website"
-          target="_blank"
-          rel="noreferrer">
-          <i className="fa-solid fa-code-fork fa-bounce"></i>{" "}
-        </a>
+          <a
+            href="https://github.com/scottgriv/business-website"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <i id="github-fork" className="fa-solid fa-code-fork fa-bounce"></i>{" "}
+          </a>
+        </div>
+        <br />
+        <div className="social-links">
+          <a
+            href="https://github.com/scottgriv/business-website"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <i id="github-star" className="fa-regular fa-star fa-bounce"></i>{" "}
+          </a>
         </div>
       </div>
-      <div className="social-links-wrapper">
-      <p>
-        Like this website? Feel free to <a
-          href="https://github.com/scottgriv/business-website"
-          target="_blank"
-          rel="noreferrer"
-        >
-          {" "}
-           Fork it on GitHub!
-        </a>
-      </p>
+      <div className="closing-wrapper">
+        <p>Like this website? Feel free to<br />
+          <a
+            href="https://github.com/scottgriv/business-website"
+            target="_blank"
+            rel="noreferrer"
+          >
+            {" "}
+            Fork and Star it on GitHub!
+          </a>
+        </p>
       </div>
     </Layout>
   )

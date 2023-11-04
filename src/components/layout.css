@@ -180,9 +180,32 @@ a {
   order: 0; /* move the description to the start */
 }
 
+#github-star {
+  color: #fcdb3a;
+}
+
+#github-fork {
+  color: #ff7518;
+}
+
+.closing-wrapper {
+  display: flex;
+  flex-direction: column; /* Stack the children vertically */
+  justify-content: center; /* Center children along the main axis */
+  align-items: center; /* Center children along the cross axis */
+  text-align: center;
+}
+
+.social-links-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
 .social-links {
   display: flex;
   gap: 10px; /* Space between icons */
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .social-links a {
@@ -348,11 +371,6 @@ button:focus {
   height: auto; /* Maintains the aspect ratio */
 }
 
-.social-links-wrapper {
-  display: flex;
-  justify-content: center;
-}
-
 .mobile-logo {
   display: none;
 }
@@ -472,6 +490,13 @@ button:focus {
 .scroll-to-top i {
   font-size: 24px; /* Larger font size for the icon */
   color: #fff;
+}
+
+.block-quote {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400; /* This will use the regular weight */
+  font-style: italic; /* This will use the italic style */
+  color: #7f7f7f; /* Font color */
 }
 
 /* Media Queries */

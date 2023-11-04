@@ -18,8 +18,8 @@ export default function Company() {
         exceed expectations.
       </p>
       <hr />
-      <blockquote>
-        <h2>Our Vision</h2>
+      <h2>Our Vision</h2>
+      <blockquote className="block-quote">
         <p>
           "Our vision is to revolutionize how people interact with technology,
           making every engagement an opportunity for joy and wonder. We aim to
@@ -27,14 +27,29 @@ export default function Company() {
           merely tools but become integral, cherished parts of daily life."
         </p>
       </blockquote>
-      <blockquote>
-        <h2>Our Mission</h2>
+      <h2>Our Mission</h2>
+      <blockquote className="block-quote">
         <p>
           "Our mission is to innovate and elevate everyday interactions through
           our products, ensuring that every user experience is imbued with
           creativity, joy, and simplicity. We are dedicated to designing
           solutions that resonate with our users, bringing a touch of excitement
           to the mundane and making the ordinary extraordinary."
+        </p>
+      </blockquote>
+      <h2>Words from our Founder</h2>
+      <blockquote className="block-quote">
+        <p>
+          "With the upcoming AI revolution at our doorstep, NOL is 
+          positioned to be a leader in the field of software development. We have a unique ability that
+          combines cutting edge technology with a memorable user experience. We believe combining both 
+          of these aspects is the key to creating a successful product that will stand above the rest.
+          AI may be able to code and design, but it can't combine the two to create a product that
+          will resonate with users. That's where we come in. We are the bridge between the two, and I believe 
+          utilizing AI as a tool, instead of fearing it, will be the key to our success."
+          <br />
+          <br />
+          -Scott Grivner, Founder and CEO of Night Owl Labs.
         </p>
       </blockquote>
       <hr />
