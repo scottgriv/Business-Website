@@ -8,10 +8,6 @@ const Header = () => {
 
   return (
     <>
-      <Seo
-        title="Night Owl Labs"
-        description="Software Development, Design, Consulting, Education"
-      />
       <div id="pagehead" style={{ display: showHeader ? "block" : "none" }}>
         <div id="headlogo">
           <Link to="/">
