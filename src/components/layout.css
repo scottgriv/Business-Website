@@ -61,7 +61,8 @@ a {
 }
 
 .landing-container h1,
-.landing-container h2 {
+.landing-container h2,
+.landing-container p {
   margin-top: 0;
   margin-bottom: 0;
 }
