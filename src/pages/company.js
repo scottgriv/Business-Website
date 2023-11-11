@@ -25,7 +25,6 @@ export default function Company() {
         They started the company with the goal of creating a software development firm that would be able to create products that would
         resonate with users, and bring a touch of excitement to the mundane. Almost a decade later, they have been able to do just that.
       </p>
-      <hr />
       <h2>Our Vision</h2>
       <blockquote className="block-quote">
         <p>
