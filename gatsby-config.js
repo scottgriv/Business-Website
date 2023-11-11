@@ -39,7 +39,7 @@ module.exports = {
         //theme_color: `#0E2F00`, //Dark Green
         //theme_color: `#005E1F`, //Lighter Green
         theme_color: `#0E2F00`, //Dark Green
-        display: `minimal-ui`,
+        // display: `minimal-ui`,
         icon: `src/images/icon.png`, // This path is relative to the root of the site.
         display: `standalone`,
       },

@@ -60,10 +60,23 @@ a {
   transform: scale(1.03); /* Enlarge the icon on hover */
 }
 
+.landing-container h1,
+.landing-container h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 .landing-container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 20px; /* Adjust the space as needed */
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.landing-subtitle {
+  color: #FCDB3A
 }
 
 #pagecontent {
@@ -514,6 +527,14 @@ button:focus {
   *:before,
   *:after {
     box-sizing: border-box;
+  }
+
+  .landing-title {
+    font-size: 25px;
+  }
+
+  .landing-subtitle {
+    font-size: 15px;
   }
 
   /* Show the "Us" and "NOL" in About and Contact nav items*/

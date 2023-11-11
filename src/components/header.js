@@ -1,6 +1,5 @@
 import React from "react"
 import { Link } from "gatsby"
-import Seo from "./seo"
 import { CONFIG } from "./config.js"
 
 const Header = () => {

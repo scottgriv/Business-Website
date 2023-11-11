@@ -16,9 +16,12 @@ const Layout = ({ children }) => {
         const maxScroll = document.body.offsetHeight - window.innerHeight
 
         let scrolled = window.scrollY
+
         // Prevent parallax effect when 'over-scrolling' happens.
         scrolled = Math.max(0, Math.min(scrolled, maxScroll))
 
+        // Parallax effect
+        // Header logo        
         let parallaxAmount = 0.3
         let paddingOffset = 50
         let fadeStart = paddingOffset
@@ -35,15 +38,29 @@ const Layout = ({ children }) => {
           headlogo.style.opacity = opacity
         }
 
+        // Landing page logo
+        let parallaxAmountLanding = 0.1;  // Different parallax amount for landing logo
+        let fadeStartLanding = 15;
+        let fadeEndLanding = 500;
+        let opacityLanding =
+          1 - Math.min(1, (scrolled - fadeStartLanding) / (fadeEndLanding - fadeStartLanding));
+        let landinglogo = document.getElementById("landinglogo");
+
+        if (landinglogo) {
+          landinglogo.style.transform = `translateY(${-scrolled * parallaxAmountLanding}px)`; // Note the change here
+          landinglogo.style.opacity = opacityLanding;
+        }
+
         setShowScroll(scrolled > 500)
 
+        // Up Scroll Arrow Configuration
         // Clear any existing timeouts to reset the timer
         if (scrollTimeout) clearTimeout(scrollTimeout)
 
         // Set a new timeout
         const newTimeout = setTimeout(() => {
           setShowScroll(false)
-        }, 4000) // Hide button 4 seconds after scrolling stops
+        }, 7000) // Hide button 7 seconds after scrolling stops
         setScrollTimeout(newTimeout)
       }
 

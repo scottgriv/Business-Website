@@ -291,7 +291,7 @@ export default function Projects() {
                 <h3>Machine Learning Forecast Tool</h3>
                 <p>
                   Developed a tool that predicts stock market trends using
-                  machine learning algorithms, aiding investors in making
+                  machine learning algorithms and Black–Scholes Model, aiding investors in making
                   informed decisions.
                 </p>
               </div>

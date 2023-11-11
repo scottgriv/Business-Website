@@ -18,6 +18,14 @@ export default function Company() {
         exceed expectations.
       </p>
       <hr />
+      <h2>Our History</h2>
+      <p>
+        <b>Night Owl Labs</b> was founded in 2014 by Scott Grivner and Daniel Volovic. Devin Olshefski was brought on as a partner in 2016.
+        The three of them have been friends since grade school, and have always had a passion for business and technology. 
+        They started the company with the goal of creating a software development firm that would be able to create products that would
+        resonate with users, and bring a touch of excitement to the mundane. Almost a decade later, they have been able to do just that.
+      </p>
+      <hr />
       <h2>Our Vision</h2>
       <blockquote className="block-quote">
         <p>
