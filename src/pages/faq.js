@@ -99,19 +99,6 @@ export default function FAQ() {
       <h4>
         Have more questions? Don't hesitate to <a href="/contact">Contact</a> us. We'd love to hear from you!
       </h4>
-      <div className="social-links-wrapper">
-        <div className="social-links">
-          <a href="/contact">
-          <img
-            src="/images/company/nol-icon-rounded.png"
-            alt="Night Owl Labs"
-            title="Night Owl Labs"
-            className="company-thumbnail-contact"
-          />
-          </a>
-        </div>
-        </div>
-      <hr />
     </Layout>
   )
 }

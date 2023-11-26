@@ -67,6 +67,11 @@ a {
   margin-bottom: 0;
 }
 
+#landing-footer {
+  height: 100px;
+  width: 100px;
+}
+
 .landing-container {
   display: flex;
   flex-direction: column;
