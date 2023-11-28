@@ -270,7 +270,7 @@ export default function Projects() {
                 </p>
                 <div className="social-links">
                   <a
-                    href="https://github.com/scottgriv"
+                    href="https://github.com/scottgriv/js-api_data_fisher"
                     target="_blank"
                     rel="noreferrer"
                   >
