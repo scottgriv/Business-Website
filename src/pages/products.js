@@ -238,11 +238,11 @@ export default function Products() {
                   </a>
                 </h3>
                 <p>
-                  A repository categorization and guideline system developed to
-                  standardize repositories, projects, README’s, and overall
-                  repository structure. Utilizes GitHub Actions to create a
-                  custom tier table to showcase your categorized repositories
-                  for your GitHub portfolio.
+                  Revolutionize your GitHub Portfolio with this system.
+                  Utilizing GitHub Actions, it auto-generates a categorized
+                  display for organized, impactful repository presentation.
+                  Includes essential guidelines and templates for READMEs and
+                  repository structure.
                 </p>
                 <a
                   href="https://www.prgoptimized.com"
@@ -256,7 +256,7 @@ export default function Products() {
                   />
                 </a>
                 <p>
-                  <b>Category:</b> Catagorization, Guidelines, Templates,
+                  <b>Category:</b> Categorization, Guidelines, Templates,
                   Standards, Documentation.
                 </p>
                 <p>
@@ -477,7 +477,7 @@ export default function Products() {
                   </a>
                 </h3>
                 <p>
-                  About This repository aims to provide a comprehensive guide to
+                  This repository aims to provide a comprehensive guide to
                   Object-Oriented Programming (OOP) principles. Whether you are
                   new to OOP or want to reinforce your understanding, this
                   repository has you covered.
