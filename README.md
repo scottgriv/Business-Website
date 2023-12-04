@@ -27,7 +27,7 @@ A dynamic and versatile static business website, expertly crafted using Gatsby f
 
 <div align="center">
     <a href="https://nightowllabs.net" target="_blank">
-        <img src="./docs/images/demo_1.png" style="width: 40%;"/>
+        <img src="./docs/images/demo_1.png" style="width: 60%;"/>
     </a>
     <br>
     <i>Fully customizable business website</i>
@@ -35,7 +35,7 @@ A dynamic and versatile static business website, expertly crafted using Gatsby f
 <br>
 <div align="center">
     <a href="https://reciperesizer.com" target="_blank">
-        <img src="./docs/images/demo_2.png" style="width: 40%;"/>
+        <img src="./docs/images/demo_2.png" style="width: 60%;"/>
     </a>
     <br>
     <i>Optionally, you can also use it as a product or app landing page</i>
@@ -43,7 +43,7 @@ A dynamic and versatile static business website, expertly crafted using Gatsby f
 <br>
 <div align="center">
     <a href="https://beeheard.com" target="_blank">
-        <img src="./docs/images/demo_3.png" style="width: 40%;"/>
+        <img src="./docs/images/demo_3.png" style="width: 60%;"/>
     </a>
     <br>
     <i>Easily change the color scheme to match your brand</i>
