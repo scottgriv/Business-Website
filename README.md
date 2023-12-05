@@ -59,6 +59,7 @@ A dynamic and versatile static business website, expertly crafted using Gatsby f
     - [Installation & Set Up](#installation--set-up)
     - [Building and Running for Production](#building-and-running-for-production)
     - [Configuration](#configuration)
+    - [Customization](#customization)
 - [What's Inside?](#whats-inside)
 - [Closing](#closing)
 - [What's Next?](#whats-next)
@@ -148,6 +149,21 @@ export const CONFIG = {
     }, 7000) // Hide button 7 seconds after scrolling stops
     setScrollTimeout(newTimeout)
 ```
+### Customization
+
+Below is a list of the main files you can customize to your liking:
+
+1. `config.js` contains the site configuration (see above).
+2. `src/components/layout.js` contains the site layout. This is where the header, footer, and up arrow are displayed. 
+3. `src/components/layout.css` contains the site layout CSS. This is where you can customize the styles and colors of the site.
+4. `src/components/seo.js` contains the site SEO. You can easily customize the SEO by editing the `siteMetadata` tree.
+5. `src/components/header.js` contains the site header and navigation menu. You can easily customize the menu items by editing the `menutabs` tree.
+6. `src/components/footer.js` contains the site footer. You can easily customize the footer items by editing the `pagefoot` tree.
+7. `src/images` directory contains the `icon.png` used for the site favicon and other places a small icon is needed.
+8. `src/pages` directory contains the site pages. You can easily add, remove, or edit pages here. 
+    - Make sure you also update the `src/components/header.js` file to include your new pages in the navigation menu.
+9. In the root directory, you can also edit the `gatsby-config.js` file to change the site metadata and other settings.
+10. Also in the root directory, you will find another directory called `static`. This directory contains the `fonts` and `images` folders. You can use the `fonts` folder to store your custom fonts and the `images` folder to store your custom images used throughout the site.
 
 ## What's Inside?
 
