@@ -9,10 +9,10 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Software Development, Design, Consulting, Education`,
-    description: `Software Development, Design, Consulting, Education`,
+    title: `Night Owl Labs, LLC.`,
+    description: `Software Development, Design, Consulting, and Education Company`,
     author: `@Night_Owl_Labs`,
-    siteUrl: `https://www.nghtowllabs.net`,
+    siteUrl: `https://nightowllabs.net`,
   },
   plugins: [
     `gatsby-plugin-image`,
