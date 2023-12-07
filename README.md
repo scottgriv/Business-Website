@@ -254,7 +254,8 @@ Feel free to submit a pull request if you find any issues or have any suggestion
 
 - [Gatsby](https://www.gatsbyjs.com/)
 - [Netlify](https://www.netlify.com/)
-- [React](https://reactjs.org/)     
+- [React](https://reactjs.org/)    
+- [Font Awesome](https://fontawesome.com/)] 
 
 ## License
 
