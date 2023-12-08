@@ -39,6 +39,14 @@ body {
   padding: 50px;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Roboto", Arial, sans-serif; /* Use custom font */
+}
+
+footer {
+  font-family: "Roboto", Arial, sans-serif; /* Use custom font */
+}
+
 a {
   color: #fcdb3a; /* Yellow links */
 }
