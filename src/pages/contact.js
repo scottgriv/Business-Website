@@ -16,6 +16,7 @@ export default function Contact() {
         <i className="fa-regular fa-envelope"></i> info@nightowllabs.net
       </a>
       <br />
+      <br />
       <hr />
       <h2>Connect with Us!</h2>
       <p>Follow or contact us on our social platforms:</p>
@@ -42,6 +43,7 @@ export default function Contact() {
       >
         <i className="fa-brands fa-x-twitter"></i> @Night_Owl_Labs on X
       </a>
+      <br />
       <br />
       <hr />
       <br />
