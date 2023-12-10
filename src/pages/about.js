@@ -108,6 +108,13 @@ export default function About() {
             craft beautiful and intuitive user experiences.
           </p>
           <div className="social-links">
+          <a
+              href="https://github.com/anyaenko"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i className="fab fa-github"></i>
+            </a>
             <a
               href="https://www.linkedin.com/in/anya-druzhenko-56985a180"
               target="_blank"
