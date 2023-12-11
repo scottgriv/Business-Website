@@ -276,9 +276,6 @@ This project is released under the terms of the **MIT License**, which permits u
     <a href="https://github.com/scottgriv/Business-Website" target="_blank">
         <img src="./docs/images/icon.png" width="100" height="100"/>
     </a>
-</div>
-<br>
-<div align="center">
     <a href="https://github.com/Night-Owl-Labs" target="_blank">
         <img src="./docs/images/footer.png" width="100" height="100"/>
     </a>
