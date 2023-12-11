@@ -88,7 +88,7 @@ export default function Projects() {
                 </a>
                 <br />
                 <a
-                  href="https://www.prgoptimized.com"
+                  href="https://www.prgportfolio.com"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -270,7 +270,7 @@ export default function Projects() {
                 </p>
                 <div className="social-links">
                   <a
-                    href="https://github.com/scottgriv/js-api_data_fisher"
+                    href="https://github.com/scottgriv/javascript-api_data_fisher"
                     target="_blank"
                     rel="noreferrer"
                   >
