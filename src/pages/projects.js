@@ -136,7 +136,7 @@ export default function Projects() {
                 </a>
                 <br />
                 <a
-                  href="https://www.nightowllabs.net"
+                  href="https://www.nightowllabs.io"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -152,7 +152,7 @@ export default function Projects() {
               <h3>App Icons</h3>
               <div className="app-grid">
                 <a
-                  href="https://www.nightowllabs.net"
+                  href="https://www.nightowllabs.io"
                   className="icon-container"
                   target="_blank"
                   rel="noreferrer"
@@ -188,7 +188,7 @@ export default function Projects() {
                   />
                 </a>
                 <a
-                  href="https://www.prgoptimized.com"
+                  href="https://www.prgportfolio.com"
                   className="icon-container"
                   target="_blank"
                   rel="noreferrer"

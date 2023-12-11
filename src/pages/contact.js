@@ -12,8 +12,8 @@ export default function Contact() {
       <hr />
       <h2>Email</h2>
       <p>For general inquiries, support, or consulting services:</p>
-      <a href="mailto:info@nightowllabs.net" target="_blank" rel="noreferrer">
-        <i className="fa-regular fa-envelope"></i> info@nightowllabs.net
+      <a href="mailto:info@nightowllabs.io" target="_blank" rel="noreferrer">
+        <i className="fa-regular fa-envelope"></i> info@nightowllabs.io
       </a>
       <br />
       <br />

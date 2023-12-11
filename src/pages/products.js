@@ -230,7 +230,7 @@ export default function Products() {
                 <h3>
                   {" "}
                   <a
-                    href="https://www.prgoptimized.com"
+                    href="https://www.prgportfolio.com"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -245,7 +245,7 @@ export default function Products() {
                   repository structure.
                 </p>
                 <a
-                  href="https://www.prgoptimized.com"
+                  href="https://www.prgportfolio.com"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -264,6 +264,13 @@ export default function Products() {
                   Python, DataTables.
                 </p>
                 <div className="social-links">
+                  <a
+                    href="https://www.prgportfolio.com"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <i className="fa-solid fa-arrow-up-right-from-square"></i>
+                  </a>
                   <a
                     href="https://www.prgoptimized.com"
                     target="_blank"

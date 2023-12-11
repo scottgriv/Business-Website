@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="social-links-wrapper">
           <div className="social-links">
             <a
-              href="mailto:info@nightowllabs.net"
+              href="mailto:info@nightowllabs.io"
               target="_blank"
               rel="noreferrer"
             >
