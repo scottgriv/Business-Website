@@ -12,7 +12,7 @@ module.exports = {
     title: `Software Development, Design, Consulting, and Education Company`,
     description: `Software Development, Design, Consulting, and Education Company`,
     author: `@Night_Owl_Labs`,
-    siteUrl: `https://nightowllabs.net`,
+    siteUrl: `https://nightowllabs.io`,
   },
   plugins: [
     `gatsby-plugin-image`,
