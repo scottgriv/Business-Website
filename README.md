@@ -19,7 +19,7 @@
 <h1 align="center">🗃️ Business Website 💼</h1>
 
 <p align="center">
-    <a href="https://app.netlify.com/sites/nightowllabs/deploys"><img src="https://api.netlify.com/api/v1/badges/38516967-7780-400e-bc3a-2807a946596c/deploy-status" alt="Gatsby Badge" /></a>
+    <a href="https://app.netlify.com/sites/nightowllabs/deploys"><img src="https://api.netlify.com/api/v1/badges/38516967-7780-400e-bc3a-2807a946596c/deploy-status" alt="Netlify Status" /></a>
 </p>
 
 A dynamic and versatile static business website, expertly crafted using Gatsby for optimal performance and hosted on Netlify for reliability. This website comes with a multitude of menu options and features, catering to diverse business needs. Additionally, it includes a dedicated section for a product or app landing page, perfect for showcasing new releases, features, and driving user engagement.
