@@ -30,7 +30,7 @@ A dynamic and versatile static business website, expertly crafted using Gatsby f
         <img src="./docs/images/demo_1.png" style="width: 60%;"/>
     </a>
     <br>
-    <i>Fully customizable business website</i>
+    <i>Fully customizable business website.</i>
 </div>
 <br>
 <div align="center">
@@ -38,7 +38,7 @@ A dynamic and versatile static business website, expertly crafted using Gatsby f
         <img src="./docs/images/demo_2.png" style="width: 60%;"/>
     </a>
     <br>
-    <i>Optionally, you can also use it as a product or app landing page</i>
+    <i>Optionally, you can also use it as a product or app landing page.</i>
 </div>
 <br>
 <div align="center">
@@ -46,7 +46,15 @@ A dynamic and versatile static business website, expertly crafted using Gatsby f
         <img src="./docs/images/demo_3.png" style="width: 60%;"/>
     </a>
     <br>
-    <i>Easily change the color scheme to match your brand</i>
+    <i>Easily change the color scheme to match your brand.</i>
+</div>
+<br>
+<div align="center">
+    <a href="https://prgoptimized.com" target="_blank">
+        <img src="./docs/images/demo_4.png" style="width: 60%;"/>
+    </a>
+    <br>
+    <i>Create custom website pages to showcase your company or product.</i>
 </div>
 
 ---------------
