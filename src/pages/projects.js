@@ -76,6 +76,30 @@ export default function Projects() {
               <h3>App Banners</h3>
               <div className="app-banners">
                 <a
+                  href="https://www.nightowllabs.io"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src="/images/projects/banners/nol-banner_large.png"
+                    className="banner-image"
+                    alt="Night Owl Labs"
+                  />
+                </a>
+                <br />
+                <a
+                  href="https://www.reciperesizer.com"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src="/images/projects/banners/recipe-resizer-banner_large.png"
+                    className="banner-image"
+                    alt="Recipe Resizer"
+                  />
+                </a>
+                <br />
+                <a
                   href="https://www.beeheard.com"
                   target="_blank"
                   rel="noreferrer"
@@ -134,18 +158,6 @@ export default function Projects() {
                     alt="Palm Tree"
                   />
                 </a>
-                <br />
-                <a
-                  href="https://www.nightowllabs.io"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <img
-                    src="/images/projects/banners/nol-banner_large.png"
-                    className="banner-image"
-                    alt="Night Owl Labs"
-                  />
-                </a>
               </div>
               <br />
               <hr />
@@ -164,6 +176,30 @@ export default function Projects() {
                   />
                 </a>
                 <a
+                  href="https://github.com/scottgriv/Business-Website"
+                  className="icon-container"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src="/images/projects/icons/nol-website-icon-rounded.png"
+                    className="app-image"
+                    alt="Night Owl Labs Website"
+                  />
+                </a>
+                <a
+                  href="https://www.scottgrivner.dev"
+                  className="icon-container"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src="/images/projects/icons/srg-portfolio-icon-rounded.png"
+                    className="app-image"
+                    alt="Scott Grivner Portfolio Website"
+                  />
+                </a>
+                <a
                   href="https://www.reciperesizer.com"
                   className="icon-container"
                   target="_blank"
@@ -176,27 +212,15 @@ export default function Projects() {
                   />
                 </a>
                 <a
-                  href="https://www.beeheard.com"
+                  href="https://www.reciperesizer.com"
                   className="icon-container"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <img
-                    src="/images/projects/icons/bee-heard-icon-rounded.png"
+                    src="/images/projects/icons/recipe-resizer-website-icon-rounded.png"
                     className="app-image"
-                    alt="Bee Heard"
-                  />
-                </a>
-                <a
-                  href="https://www.prgportfolio.com"
-                  className="icon-container"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <img
-                    src="/images/projects/icons/prg-icon-rounded.png"
-                    className="app-image"
-                    alt="PRG"
+                    alt="Recipe Resizer Website"
                   />
                 </a>
                 <a
@@ -212,6 +236,30 @@ export default function Projects() {
                   />
                 </a>
                 <a
+                  href="https://www.beeheard.com"
+                  className="icon-container"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src="/images/projects/icons/bee-heard-icon-rounded.png"
+                    className="app-image"
+                    alt="Bee Heard"
+                  />
+                </a>
+                <a
+                  href="https://www.beeheard.com"
+                  className="icon-container"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src="/images/projects/icons/bee-heard-website-icon-rounded.png"
+                    className="app-image"
+                    alt="Bee Heard Website"
+                  />
+                </a>
+                <a
                   href="https://www.rivercharts.app"
                   className="icon-container"
                   target="_blank"
@@ -221,6 +269,30 @@ export default function Projects() {
                     src="/images/projects/icons/river-charts-icon-rounded.png"
                     className="app-image"
                     alt="River Charts"
+                  />
+                </a>
+                <a
+                  href="https://www.prgportfolio.com"
+                  className="icon-container"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src="/images/projects/icons/prg-icon-rounded.png"
+                    className="app-image"
+                    alt="PRG"
+                  />
+                </a>
+                <a
+                  href="https://www.prgoptimized.com"
+                  className="icon-container"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src="/images/projects/icons/prg-website-icon-rounded.png"
+                    className="app-image"
+                    alt="PRG Website"
                   />
                 </a>
                 <a
