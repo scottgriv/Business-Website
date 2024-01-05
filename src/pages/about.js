@@ -72,6 +72,13 @@ export default function About() {
             >
               <i className="fa-brands fa-x-twitter"></i>
             </a>
+            <a
+              href="mailto:scott.grivner@nightowllabs.io"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i className="fa-regular fa-envelope"></i>
+            </a>
           </div>
         </div>
       </div>
