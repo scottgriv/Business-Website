@@ -541,6 +541,14 @@ button:focus {
   color: #7f7f7f; /* Font color */
 }
 
+.landing-title {
+  text-align: center;
+}
+
+.landing-subtitle {
+  text-align: center;
+}
+
 /* Media Queries */
 /* When screen width is less than 768px, hide elements with the 'responsive-hide' class */
 @media screen and (max-width: 804px) {
@@ -557,13 +565,20 @@ button:focus {
   *:after {
     box-sizing: border-box;
   }
+  
+  .landing-container {
+    gap: 10px; /* Adjust the space as needed */
+  }
 
   .landing-title {
+    text-align: center;
     font-size: 25px;
+    padding: 0;
   }
 
   .landing-subtitle {
-    font-size: 15px;
+    font-size: 20px;
+    text-align: center;
   }
 
   /* Show the "Us" and "NOL" in About and Contact nav items*/
@@ -579,6 +594,7 @@ button:focus {
 
   body {
     padding: 15px;
+    font-size: 17px; /* Set default font size */
   }
 
   .desktop-logo {
