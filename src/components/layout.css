@@ -141,14 +141,15 @@ a {
 
 /* This will highlight the currently active tab with white background */
 #menutabs a.active {
-  background-color: #fff;
-  color: #000;
+  background-color: #005e1f;
+  color: #fff;
 }
 
-/* This is to ensure that visited links retain the intended style */
+/* This is to ensure that visited links retain the intended style
 #menutabs a:visited {
   color: #000;
 }
+*/
 
 #pagefoot {
   font-size: 0.8em; /* Adjust the font size to make it smaller */
