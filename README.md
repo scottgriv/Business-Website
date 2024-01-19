@@ -175,7 +175,7 @@ Below is a list of the main files you can customize to your liking:
 9. In the root directory, you can also edit the `gatsby-config.js` file to change the site metadata and other settings.
 10. Also in the root directory, you will find another directory called `static`. This directory contains the `fonts` and `images` folders. You can use the `fonts` folder to store your custom fonts and the `images` folder to store your custom images used throughout the site.
 
-> [!IMPORTANT!]
+> [!IMPORTANT]
 > Please follow the [Guidelines for Forking This Project](#guidelines-for-forking-this-project) below if you plan on forking and using this project for your own purposes.
 
 ## What's Inside?
