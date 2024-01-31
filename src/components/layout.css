@@ -347,24 +347,6 @@ a {
   color: white;
 }
 
-.sidebar button:hover {
-  background-color: #fff;
-  color: #000;
-  text-decoration: none; /* Removed the underline on hover */
-}
-
-.sidebar button:focus {
-  background-color: #fff; /* Highlight on focus */
-  color: #000;
-  outline: none;
-}
-
-/* Make the side bar button appear active by default */
-.sidebar button.active {
-  background-color: #fff;
-  color: #000;
-}
-
 .content {
   flex-grow: 1;
 }
