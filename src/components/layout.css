@@ -55,6 +55,8 @@ a {
 .mobile-logo {
   max-width: 100%; /* To make sure image never exceeds its parent width */
   height: auto; /* Maintains the aspect ratio */
+  border-top-left-radius: 10px;   /* Top left corner */
+  border-top-right-radius: 10px;  /* Top right corner */
 }
 
 .landing-logo {
@@ -137,8 +139,8 @@ a {
 
 /* This is to ensure that hover links retain the intended style */
 #menutabs a:hover {
-  background-color: #fff;
-  color: #000;
+  background-color: white;
+  color: black;
 }
 
 /* This is to ensure that visited links retain the intended style */
@@ -156,7 +158,7 @@ a {
 #menutabs a.active:hover, 
 #menutabs a.active:visited {
   background-color: #005e1f;
-  color: #fff;
+  color: white;
 }
 
 #pagefoot {
@@ -319,6 +321,30 @@ a {
   font-family: "Roboto", Arial, sans-serif; /* Use custom font */
   font-weight: 700; /* This will use the bold font */
   font-size: 15px; /* Set default font size */
+}
+
+/* This is to ensure that hover links retain the intended style */
+.sidebar button:hover {
+  background-color: white;
+  color: black;
+}
+
+/* This is to ensure that visited links retain the intended style */
+.sidebar button:visited {
+  color: black;
+}
+
+/* Specific rule for visited links when hovered */
+.sidebar button:visited:hover {
+  color: black;
+}
+
+/* Higher specificity for active links */
+.sidebar button.active, 
+.sidebar button.active:hover, 
+.sidebar button.active:visited {
+  background-color: #005e1f;
+  color: white;
 }
 
 .sidebar button:hover {
