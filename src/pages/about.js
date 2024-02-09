@@ -48,7 +48,17 @@ export default function About() {
             to learn more about him and his work.
           </p>
           <div className="social-links">
+          <a
+              href="mailto:scott.grivner@nightowllabs.io"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i className="fa-regular fa-envelope"></i>
+            </a>
             <a href="https://scottgrivner.dev" target="_blank" rel="noreferrer">
+              <i className="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+            <a href="https://prgportfolio.com" target="_blank" rel="noreferrer">
               <i className="fa-solid fa-arrow-up-right-from-square"></i>
             </a>
             <a
@@ -59,11 +69,32 @@ export default function About() {
               <i className="fab fa-github"></i>
             </a>
             <a
+              href="https://stackoverflow.com/u/3092847"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i className="fab fa-stack-overflow"></i>
+            </a>
+            <a
               href="https://www.linkedin.com/in/scottgrivner/"
               target="_blank"
               rel="noreferrer"
             >
               <i className="fab fa-linkedin"></i>
+            </a>
+            <a
+              href="https://codepen.io/scottgriv"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i className="fab fa-codepen"></i>
+            </a>
+            <a
+              href="https://medium.com/@scottgrivner"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i className="fab fa-medium"></i>
             </a>
             <a
               href="https://twitter.com/scottgrivner"
@@ -73,11 +104,18 @@ export default function About() {
               <i className="fa-brands fa-x-twitter"></i>
             </a>
             <a
-              href="mailto:scott.grivner@nightowllabs.io"
+              href="https://www.youtube.com/@scottgrivner"
               target="_blank"
               rel="noreferrer"
             >
-              <i className="fa-regular fa-envelope"></i>
+              <i className="fa-brands fa-youtube"></i>
+            </a>
+            <a
+              href="https://www.buymeacoffee.com/scottgriv"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i className="fa-solid fa-mug-hot"></i>
             </a>
           </div>
         </div>

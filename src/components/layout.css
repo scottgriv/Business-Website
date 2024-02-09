@@ -249,10 +249,13 @@ a {
 .social-links a {
   color: #fff; /* Icon color */
   font-size: 24px; /* Icon size */
+  transition: transform 0.3s ease; /* Smooth transition for the transform */
+
 }
 
 .social-links a:hover {
   color: #005e1f; /* Green color for links hover effect, change as needed */
+  transform: translateY(-5px); /* Moves the button up */
 }
 
 /* Single row of social links */
