@@ -8,7 +8,7 @@ const Footer = () => {
     <>
       <div id="pagefoot" style={{ display: showFooter ? "block" : "none" }}>
         <div className="social-links-wrapper">
-          <div className="social-links">
+          <div className="social-links-footer">
             <a
               href="mailto:info@nightowllabs.io"
               target="_blank"

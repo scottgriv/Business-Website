@@ -239,7 +239,7 @@ a {
   justify-content: center;
 }
 
-.social-links {
+.social-links, .social-links-footer {
   display: flex;
   flex-wrap: wrap; /* Ensure items can wrap */
   gap: 10px; /* Space between icons */
@@ -248,26 +248,16 @@ a {
 }
 
 
-.social-links a {
+.social-links a, .social-links-footer a {
   color: #fff; /* Icon color */
   font-size: 24px; /* Icon size */
   transition: transform 0.3s ease; /* Smooth transition for the transform */
 
 }
 
-.social-links a:hover {
+.social-links a:hover, .social-links-footer a:hover {
   color: #005e1f; /* Green color for links hover effect, change as needed */
   transform: translateY(-5px); /* Moves the button up */
-}
-
-/* Single row of social links */
-.social-links-single a {
-  color: #fff; /* Icon color */
-  font-size: 24px; /* Icon size */
-}
-
-.social-links-single a:hover {
-  color: #005e1f; /* Green color for links hover effect, change as needed */
 }
 
 .fa-code-fork {
@@ -738,7 +728,7 @@ button:focus {
 
   .social-links a {
     flex: 0 0 auto; /* Prevent flex items from growing or shrinking */
-    width: calc(10%); /* Adjust width to fit 5 items per row, accounting for gap */
+    width: calc(9%); /* Adjust width to fit 5 items per row, accounting for gap */
   }
 
 }
