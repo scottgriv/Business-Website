@@ -241,10 +241,12 @@ a {
 
 .social-links {
   display: flex;
+  flex-wrap: wrap; /* Ensure items can wrap */
   gap: 10px; /* Space between icons */
   padding-left: 5px;
   padding-right: 5px;
 }
+
 
 .social-links a {
   color: #fff; /* Icon color */
@@ -733,4 +735,10 @@ button:focus {
     bottom: 35px; /* Closer to the bottom on small screens */
     right: 35px; /* Closer to the right on small screens */
   }
+
+  .social-links a {
+    flex: 0 0 auto; /* Prevent flex items from growing or shrinking */
+    width: calc(10%); /* Adjust width to fit 5 items per row, accounting for gap */
+  }
+
 }
