@@ -28,7 +28,7 @@ export default function Products() {
                   setSelectedSection("apps")
                 }}
               >
-                <h3>Apps</h3>
+                <h3>Published</h3>
               </button>
             </li>
             <li>
@@ -60,10 +60,10 @@ export default function Products() {
         <div className="content">
           {selectedSection === "apps" && (
             <div className="product-section">
-              <h2>Apps</h2>
+              <h2>Published Software</h2>
               <p>
                 {" "}
-                Our showcased applications are a testament to our innovation and
+                Our showcased published applications are a testament to our innovation and
                 capabilities. While these are our in-house creations, our client
                 projects, accessible under the <a href="/projects">
                   Projects
@@ -76,7 +76,7 @@ export default function Products() {
                 <h3>
                   {" "}
                   <a
-                    href="https://www.reciperesizer.com"
+                    href="https://reciperesizer.com"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -89,13 +89,13 @@ export default function Products() {
                   recipes.
                 </p>
                 <a
-                  href="https://www.reciperesizer.com"
+                  href="https://reciperesizer.com"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <img
                     className="projects-image"
-                    src="/images/products/Recipe-Resizer.png"
+                    src="/images/products/platinum/Recipe-Resizer.png"
                     alt="Recipe Resizer"
                   />
                 </a>
@@ -114,7 +114,7 @@ export default function Products() {
                     <i className="fa-brands fa-app-store-ios"></i>
                   </a>
                   <a
-                    href="https://www.reciperesizer.com"
+                    href="https://reciperesizer.com"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -127,7 +127,7 @@ export default function Products() {
                 <h3>
                   {" "}
                   <a
-                    href="https://www.beeheard.com"
+                    href="https://beeheard.com"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -136,13 +136,13 @@ export default function Products() {
                 </h3>
                 <p>To be announced.</p>
                 <a
-                  href="https://www.beeheard.com"
+                  href="https://beeheard.com"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <img
                     className="projects-image"
-                    src="/images/products/Bee-Heard.png"
+                    src="/images/products/platinum/Bee-Heard.png"
                     alt="Bee Heard"
                   />
                 </a>
@@ -154,7 +154,7 @@ export default function Products() {
                 </p>
                 <div className="social-links">
                   <a
-                    href="https://www.beeheard.com"
+                    href="https://beeheard.com"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -182,7 +182,7 @@ export default function Products() {
 
           {selectedSection === "open-source" && (
             <div className="product-section">
-              <h2>Open Source</h2>
+              <h2>Open Source Software</h2>
               <p>
                 Community is integral to our ethos. At <b>Night Owl Labs</b>, we
                 actively contribute to the open-source sphere, sharing projects
@@ -197,7 +197,7 @@ export default function Products() {
                 to assist others in their tech endeavors. We also post content
                 on{" "}
                 <a
-                  href="https://www.linkedin.com/company/nightowllabs"
+                  href="https://linkedin.com/company/nightowllabs"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -230,7 +230,7 @@ export default function Products() {
                 <h3>
                   {" "}
                   <a
-                    href="https://www.prgportfolio.com"
+                    href="https://prgportfolio.com"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -238,20 +238,16 @@ export default function Products() {
                   </a>
                 </h3>
                 <p>
-                  Revolutionize your GitHub Portfolio with this system.
-                  Utilizing GitHub Actions, it auto-generates a categorized
-                  display for organized, impactful repository presentation.
-                  Includes essential guidelines and templates for READMEs and
-                  repository structure.
+                  PRG is a system that transforms the way repositories are organized and presented in your GitHub Portfolio. By harnessing the power of GitHub Actions, it automatically crafts a tier-based display, neatly categorizing your repositories for enhanced clarity and impact. Beyond mere organization, it sets forth comprehensive guidelines for READMEs and overall repository structure, ensuring each project is showcased with maximum professionalism and coherence.
                 </p>
                 <a
-                  href="https://www.prgportfolio.com"
+                  href="https://prgportfolio.com"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <img
                     className="projects-image"
-                    src="/images/products/PRG.png"
+                    src="/images/products/gold/PRG.png"
                     alt="Personal Repository Guidelines"
                   />
                 </a>
@@ -265,14 +261,14 @@ export default function Products() {
                 </p>
                 <div className="social-links">
                   <a
-                    href="https://www.prgportfolio.com"
+                    href="https://prgportfolio.com"
                     target="_blank"
                     rel="noreferrer"
                   >
                     <i className="fa-solid fa-arrow-up-right-from-square"></i>
                   </a>
                   <a
-                    href="https://www.prgoptimized.com"
+                    href="https://prgoptimized.com"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -300,8 +296,7 @@ export default function Products() {
                   </a>
                 </h3>
                 <p>
-                  A fully functional, multi-programming language, “how-to-build”
-                  social media application.
+                  A fully functional, multi-programming language, "how-to-build" social media application. Create a user profile, follow other users, and post messages similar to Twitter/X. Share content with other users by attaching photos, videos, documents, and files to your Posts. Written in Swift & Objective-C for the front-end and multiple back-end languages such as PHP, Python, Node.js, Ruby, Go, Java, Rust, and Perl. Includes a back-end MySQL database, JSON interchange, and multiple out of the box APIs. Designed to teach people how to build their own social media app in mind.
                 </p>
                 <a
                   href="https://github.com/scottgriv/Post.e"
@@ -310,7 +305,7 @@ export default function Products() {
                 >
                   <img
                     className="projects-image"
-                    src="/images/products/Post-e.png"
+                    src="/images/products/gold/Post-e.png"
                     alt="Post.e"
                   />
                 </a>
@@ -344,9 +339,7 @@ export default function Products() {
                   </a>
                 </h3>
                 <p>
-                  A Python, Django, Plotly, and Pandas web application that
-                  visualizes river data pulled using an API from the United
-                  States Geological Survey (USGS).
+                  A Python, Django, Plotly, and Pandas web application that visualizes river data pulled using an API from the United States Geological Survey (USGS). The application allows users to view a river's gage height and discharge based on a specific date range. The application also allows users to view plotted dates of interest on the graph to view river levels for said dates.
                 </p>
                 <a
                   href="https://www.rivercharts.app"
@@ -355,7 +348,7 @@ export default function Products() {
                 >
                   <img
                     className="projects-image"
-                    src="/images/products/River-Charts.png"
+                    src="/images/products/gold/River-Charts.png"
                     alt="River Charts"
                   />
                 </a>
@@ -395,8 +388,7 @@ export default function Products() {
                   </a>
                 </h3>
                 <p>
-                  A web based CRM application with Google Business Review email
-                  request capabilities.
+                  A web based CRM application with Google Business Review email request capabilities. Send marketing emails out to your customers, including emails requesting Google Business Reviews. Directly open a Review window on your Google Business page with a click of a button within the email.
                 </p>
                 <a
                   href="https://github.com/scottgriv/Palm-Tree"
@@ -405,7 +397,7 @@ export default function Products() {
                 >
                   <img
                     className="projects-image"
-                    src="/images/products/Palm-Tree.png"
+                    src="/images/products/gold/Palm-Tree.png"
                     alt="Palm Tree"
                   />
                 </a>
@@ -418,6 +410,262 @@ export default function Products() {
                 <div className="social-links">
                   <a
                     href="https://github.com/scottgriv/Palm-Tree"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <i className="fab fa-github"></i>
+                  </a>
+                </div>
+              </div>
+              <hr />
+              <div className="project-card">
+                <h3>
+                  {" "}
+                  <a
+                    href="https://scottgriv.github.io/CREDITS-Generator/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    CREDITS Generator
+                  </a>
+                </h3>
+                <p>
+                 🚀 The CREDITS Generator is a straightforward tool designed to help you quickly create a CREDITS.md file for acknowledging contributions to your project. Simply input details of contributors, third-party libraries, financial supporters, and special thanks, then review or edit the preview. Once satisfied, download the CREDITS.md file and place it in the root (or .github folder) of your GitHub repository to transparently showcase all project contributions.
+                </p>
+                <a
+                  href="https://scottgriv.github.io/CREDITS-Generator/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <div className="projects-image-small-wrapper">
+                    <img
+                      className="projects-image-small"
+                      src="/images/products/silver/CREDITS-Generator.png"
+                      alt="CREDITS Generator"
+                    />
+                  </div>
+                </a>
+                <p>
+                  <b>Category:</b> Template Generator, Web Application.
+                </p>
+                <p>
+                  <b>Technology:</b> Markdown, Svelte, SvelteKit.
+                </p>
+                <div className="social-links">
+                  <a
+                    href="https://scottgriv.github.io/CREDITS-Generator/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <i className="fa-solid fa-arrow-up-right-from-square"></i>
+                  </a>
+                  <a
+                    href="https://github.com/scottgriv/CREDITS-Generator"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <i className="fab fa-github"></i>
+                  </a>
+                </div>
+              </div>
+              <hr />
+              <div className="project-card">
+                <h3>
+                  {" "}
+                  <a
+                    href="https://scottgriv.github.io/Resolution-Scale-Calculator/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Resolution Scale Calculator
+                  </a>
+                </h3>
+                <p>
+                  Scale design dimensions (width and height) up or down for @1x, @2, and @3x resolutions. In the digital design realm, crafting visually compelling and crisp graphics is pivotal. The Resolution Scale Calculator emerges as a handy little tool for designers and developers eager to recreate or adapt designs inspired by existing website elements.
+                </p>
+                <a
+                  href="https://scottgriv.github.io/Resolution-Scale-Calculator/"
+                  className="icon-container-product"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <div className="projects-image-small-wrapper">
+                    <img
+                      className="projects-image-small"
+                      src="/images/products/silver/Resolution-Scale-Calculator.png"
+                      alt="Resolution Scale Calculator"
+                    />
+                  </div>
+                </a>
+                <p>
+                  <b>Category:</b> Design, Web Application.
+                </p>
+                <p>
+                  <b>Technology:</b> JavaScript, HTML, CSS.
+                </p>
+                <div className="social-links">
+                  <a
+                    href="https://scottgriv.github.io/Resolution-Scale-Calculator/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <i className="fa-solid fa-arrow-up-right-from-square"></i>
+                  </a>
+                  <a
+                    href="https://github.com/scottgriv/Resolution-Scale-Calculator"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <i className="fab fa-github"></i>
+                  </a>
+                </div>
+              </div>
+              <hr />
+              <div className="project-card">
+                <h3>
+                  {" "}
+                  <a
+                    href="https://scottgriv.github.io/GitHub-User-Info/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    GitHub User Info
+                  </a>
+                </h3>
+                <p>
+                  This dynamic web application leverages the GitHub API to provide a comprehensive and interactive search experience, enabling users to effortlessly find and explore profiles of both individual developers and organizations on GitHub. Featuring a sleek, user-friendly interface built with Angular, the application not only displays basic profile information but also offers insights into repositories, contributions, and activity timelines, allowing for in-depth understanding of a user's or organization's coding journey and open-source contributions.
+                </p>
+                <a
+                  href="https://scottgriv.github.io/GitHub-User-Info/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <div className="projects-image-small-wrapper">
+                    <img
+                      className="projects-image-small"
+                      src="/images/products/silver/GitHub-User-Info.png"
+                      alt="GitHub User Info"
+                    />
+                  </div>
+                </a>
+                <p>
+                  <b>Category:</b> API, Web Application.
+                </p>
+                <p>
+                  <b>Technology:</b> GitHub API, Angular, Sass, TypeScript, HTML.
+                </p>
+                <div className="social-links">
+                  <a
+                    href="https://scottgriv.github.io/GitHub-User-Info/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <i className="fa-solid fa-arrow-up-right-from-square"></i>
+                  </a>
+                  <a
+                    href="https://github.com/scottgriv/GitHub-User-Info"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <i className="fab fa-github"></i>
+                  </a>
+                </div>
+              </div>
+              <hr />
+              <div className="project-card">
+                <h3>
+                  {" "}
+                  <a
+                    href="https://scottgriv.github.io/Binary-Converter/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Binary Converter
+                  </a>
+                </h3>
+                <p>
+                  This intuitive web application, built using the progressive JavaScript framework Vue.js, offers a straightforward tool for converting plain text into binary code and vice versa, catering to both educational purposes and practical coding needs. Designed for simplicity and efficiency, users can quickly translate text to binary digits to understand the foundational binary representation of data, or decode binary sequences back into human-readable text. It stands as an indispensable utility for students, programmers, and technology enthusiasts looking to delve into the basics of computer science and data encoding techniques, all while experiencing the reactive and engaging user interface provided by Vue.js.
+                </p>
+                <a
+                  href="https://scottgriv.github.io/Binary-Converter/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <div className="projects-image-small-wrapper">
+                    <img
+                      className="projects-image-small"
+                      src="/images/products/silver/Binary-Converter.png"
+                      alt="Binary Converter"
+                    />
+                  </div>
+                </a>
+                <p>
+                  <b>Category:</b> Converter, Web Application.
+                </p>
+                <p>
+                  <b>Technology:</b> Vue.js, JavaScript, Node.js, Less
+                </p>
+                <div className="social-links">
+                  <a
+                    href="https://scottgriv.github.io/Binary-Converter/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <i className="fa-solid fa-arrow-up-right-from-square"></i>
+                  </a>
+                  <a
+                    href="https://github.com/scottgriv/Binary-Converter"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <i className="fab fa-github"></i>
+                  </a>
+                </div>
+              </div>
+              <hr />
+              <div className="project-card">
+                <h3>
+                  {" "}
+                  <a
+                    href="https://scottgriv.github.io/PWA-Demo-App/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    PWA Demo App
+                  </a>
+                </h3>
+                <p>
+                  This Progressive Web App (PWA) demo showcases the cutting-edge capabilities of web technology by utilizing a robust stack including React, TypeScript, Node.js, PostgreSQL, and styling with Scss/Sass/Less. Designed as both an educational tool and a practical demonstration, it guides users through the intricacies of building a high-performance PWA capable of achieving a perfect Lighthouse score. The project not only highlights best practices for web development and performance optimization but also offers insights into creating seamless, app-like experiences on the web, making it an invaluable resource for developers looking to enhance their skills in crafting modern, efficient web applications.
+                </p>
+                <a
+                  href="https://scottgriv.github.io/PWA-Demo-App/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <div className="projects-image-small-wrapper">
+                    <img
+                      className="projects-image-small"
+                      src="/images/products/silver/PWA-Demo-App.png"
+                      alt="PWA Demo App"
+                    />
+                  </div>
+                </a>
+                <p>
+                  <b>Category:</b> React, TypeScript, Node.js, Postgresql, Sass, Less, Scss, Workbox, Webpack.
+                </p>
+                <p>
+                  <b>Technology:</b> PWA, Web Application.
+                </p>
+                <div className="social-links">
+                  <a
+                    href="https://scottgriv.github.io/PWA-Demo-App/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <i className="fa-solid fa-arrow-up-right-from-square"></i>
+                  </a>
+                  <a
+                    href="https://github.com/scottgriv/PWA-Demo-App"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -450,7 +698,7 @@ export default function Products() {
                   <div className="projects-image-small-wrapper">
                     <img
                       className="projects-image-small"
-                      src="/images/products/SOLID.png"
+                      src="/images/products/silver/SOLID.png"
                       alt="SOLID Principles"
                     />
                   </div>
@@ -497,7 +745,7 @@ export default function Products() {
                   <div className="projects-image-small-wrapper">
                     <img
                       className="projects-image-small"
-                      src="/images/products/OOP.png"
+                      src="/images/products/silver/OOP.png"
                       alt="OOP Principles"
                     />
                   </div>

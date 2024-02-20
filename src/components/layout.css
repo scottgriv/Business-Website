@@ -497,7 +497,8 @@ button:focus {
   transform: scale(1.08); /* Enlarge the icon on hover */
 }
 
-.icon-container[href="https://github.com/scottgriv/Post.e"] img
+.icon-container[href="https://github.com/scottgriv/Post.e"] img, 
+.icon-container-product[href="https://scottgriv.github.io/Resolution-Scale-Calculator/"] img
 {
   border: 2px solid rgb(46, 46, 46);
   border-radius: 45px;
