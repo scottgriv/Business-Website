@@ -1,5 +1,14 @@
 /* CSS Style Sheet for the layout of the website */
 
+/* Import Tally Text font */
+/* Regular style */
+@font-face {
+  font-family: "Tally-Text";
+  src: url("/fonts/Tally-Text/Tally-Text-Bold.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
 /* Import Roboto font */
 /* Regular style */
 @font-face {
@@ -49,6 +58,25 @@ footer {
 
 a {
   color: #fcdb3a; /* Yellow links */
+}
+
+.coming-soon-container {
+  background-color: #FCDB3A; /* Solid yellow background */
+  color: #333; /* Text color - adjust as needed */
+  text-align: center; /* Center align the content */
+  min-height: 85vh; /* Ensure it covers the whole viewport height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Tally-Text", Arial, sans-serif; /* Use custom font */
+}
+
+/* Specific font style for h1 and h2 within .coming-soon-container */
+.coming-soon-container h1,
+.coming-soon-container h2 {
+  margin-bottom: 20px;
+  font-family: "Tally-Text", Arial, sans-serif; /* Use custom font */
 }
 
 .desktop-logo,
