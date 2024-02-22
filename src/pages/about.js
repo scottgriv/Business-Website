@@ -1,5 +1,7 @@
 import React from "react"
 import Layout from "../components/layout"
+import Icon from '../components/icons/icon.js'; // Corrected import statement
+
 
 export default function About() {
   return (
@@ -33,7 +35,7 @@ export default function About() {
         </div>
 
         <div className="description-container">
-          <a href="https://scottgrivner.dev" target="_blank" rel="noreferrer">
+          <a className="regular-link" href="https://scottgrivner.dev" target="_blank" rel="noreferrer">
             <h2>Scott Grivner</h2>
           </a>
           <p>
@@ -42,24 +44,17 @@ export default function About() {
             He has worked with a wide range of technologies in multiple
             industries, and is passionate about building functional and
             beautiful software. Check out his{" "}
-            <a href="https://scottgrivner.dev" target="_blank" rel="noreferrer">
+            <a className="regular-link" href="https://scottgrivner.dev" target="_blank" rel="noreferrer">
               Portfolio
             </a>{" "}
             to learn more about him and his work.
           </p>
           <div className="social-links">
-          <a
-              href="mailto:scott.grivner@nightowllabs.io"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <i className="fa-regular fa-envelope"></i>
-            </a>
             <a href="https://scottgrivner.dev" target="_blank" rel="noreferrer">
               <i className="fa-solid fa-arrow-up-right-from-square"></i>
             </a>
             <a href="https://prgportfolio.com" target="_blank" rel="noreferrer">
-              <i className="fa-solid fa-arrow-up-right-from-square"></i>
+              <Icon name="PRG" />
             </a>
             <a
               href="https://github.com/scottgriv"
@@ -115,7 +110,14 @@ export default function About() {
               target="_blank"
               rel="noreferrer"
             >
-              <i className="fa-solid fa-mug-hot"></i>
+              <Icon name="BMC" />
+            </a>
+            <a
+              href="mailto:scott.grivner@nightowllabs.io"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i className="fa-regular fa-envelope"></i>
             </a>
           </div>
         </div>
@@ -137,7 +139,7 @@ export default function About() {
         </div>
 
         <div className="description-container">
-          <a
+          <a className="regular-link"
             href="https://www.linkedin.com/in/anya-druzhenko-56985a180"
             target="_blank"
             rel="noreferrer"
@@ -187,7 +189,7 @@ export default function About() {
         </div>
 
         <div className="description-container">
-          <a
+          <a className="regular-link"
             href="https://www.linkedin.com/in/devin-olshefski-71399657"
             target="_blank"
             rel="noreferrer"
@@ -230,7 +232,7 @@ export default function About() {
         </div>
 
         <div className="description-container">
-          <a
+          <a className="regular-link"
             href="https://www.linkedin.com/in/daniel-volovic-0862b01b2"
             target="_blank"
             rel="noreferrer"

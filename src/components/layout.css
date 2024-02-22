@@ -74,7 +74,8 @@ a {
 
 /* Specific font style for h1 and h2 within .coming-soon-container */
 .coming-soon-container h1,
-.coming-soon-container h2 {
+.coming-soon-container h2,
+.coming-soon-container h3 {
   margin-bottom: 20px;
   font-family: "Tally-Text", Arial, sans-serif; /* Use custom font */
 }
@@ -374,6 +375,91 @@ a {
   flex-grow: 1;
 }
 
+.coming-soon-link {
+  color: #000;
+  text-decoration: underline;
+}
+/* This is to ensure that hover links retain the intended style */
+.coming-soon-link:hover {
+  color: #005e1f;
+}
+
+/* This is to ensure that visited links retain the intended style */
+.coming-soon-link:visited {
+  color: #000;
+}
+
+/* Specific rule for visited links when hovered */
+.coming-soon-link:visited:hover {
+  color: #005e1f;
+}
+
+/* This is to ensure that hover links retain the intended style */
+.regular-link:hover {
+  color: #fff;
+}
+
+/* This is to ensure that visited links retain the intended style */
+.regular-link:visited {
+  color: #fcdb3a;
+}
+
+/* Specific rule for visited links when hovered */
+.regular-link:visited:hover {
+  color: #fff;
+}
+
+@keyframes bounce {
+  0% {
+    transform: scale(1, 1) translateY(0);
+  }
+  10% {
+    transform: scale(1.1, 0.9) translateY(0);
+  }
+  30% {
+    transform: scale(0.9, 1.1) translateY(-0.5em);
+  }
+  50% {
+    transform: scale(1.05, 0.95) translateY(0);
+  }
+  57% {
+    transform: scale(1, 1) translateY(-0.125em);
+  }
+  64%,
+  100% {
+    transform: scale(1, 1) translateY(0);
+  }
+}
+
+.bounce {
+  animation-name: bounce;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(0.280, 0.840, 0.420, 1);
+}
+
+.code-inline {
+  background-color: #2f363d; /* Darker gray background */
+  color: #ffffff; /* White text color */
+  font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, Courier, monospace; /* Monospace font for code */
+  padding: 0.2em 0.4em; /* Padding around the text */
+  font-size: 85%; /* Adjusted font size */
+  border-radius: 6px; /* Rounded corners for the background */
+}
+
+.code-block {
+  background-color: #f4f4f4; /* Light grey background */
+  color: #333; /* Dark text color for contrast */
+  font-family: 'Courier New', Courier, monospace; /* Monospaced font for code-like appearance */
+  padding: 10px; /* Adds space inside the block */
+  margin: 10px 0; /* Adds space outside the block */
+  border-radius: 5px; /* Optional: rounds the corners */
+  border: 1px solid #ccc; /* Light grey border */
+  overflow-x: auto; /* Adds horizontal scrolling if the code is too wide */
+  white-space: pre-wrap; /* Keeps formatting like line breaks and spaces */
+  word-wrap: break-word; /* Ensures long lines of code wrap */
+}
+
 button {
   background: none;
   border: none;
@@ -522,7 +608,7 @@ button:focus {
 .projects-image-small:hover,
 .banner-image:hover,
 .about-image:hover {
-  transform: scale(1.08); /* Enlarge the icon on hover */
+  transform: scale(1.06); /* Enlarge the icon on hover */
 }
 
 .icon-container[href="https://github.com/scottgriv/Post.e"] img, 

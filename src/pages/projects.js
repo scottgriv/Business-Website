@@ -323,22 +323,68 @@ export default function Projects() {
                 meticulously tailored to meet your exact needs. Below, you will
                 find a portfolio of client projects that showcase our expertise.
                 Should you have any questions or wish to discuss your own
-                project, please feel free to <a href="/contact">Contact</a> us.
+                project, please feel free to{" "}
+                <a className="regular-link" href="/contact">
+                  Contact
+                </a>{" "}
+                us.
               </p>
               <div className="projects-card">
                 <hr />
-                <h3>API Data Export Project</h3>
+                <h3>
+                  {" "}
+                  <a className="regular-link"
+                    href="https://github.com/scottgriv/javascript-api_data_fisher"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    API Data Fisher
+                  </a>
+                </h3>
+                <a
+                  href="https://github.com/scottgriv/javascript-api_data_fisher"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <div className="projects-image-small-wrapper">
+                    <img
+                      className="projects-image-small"
+                      src="/images/products/silver/API-Data-Fisher.png"
+                      alt="OOP Principles"
+                    />
+                  </div>
+                </a>
                 <p>
                   This project involved creating a front-end website that makes
-                  API calls to fetch a large data set which is then exported
-                  into a CSV file for the end-user. This allowed the user to
-                  quickly get a large amount of data in a single file for
-                  further analysis, saving them time and effort vs. manually
-                  downloading the data.
+                  multiple cascading API calls to fetch a large data set which
+                  is then exported and transformed/combined into a CSV file for
+                  the end-user. This allowed the user to quickly get a large
+                  amount of data in a single file for further analysis, saving
+                  them time and effort vs. manually downloading the data from
+                  the front-end of the application and manually formatting,
+                  cleansing, and aggregating it for analysis.
+                </p>
+                <p>Check out A demo of the application below:</p>
+                <p>
+                  <div className="projects-image-small-wrapper">
+                    <img
+                      className="projects-image"
+                      src="/images/products/silver/API-Data-Fisher-Demo.gif"
+                      alt="OOP Principles"
+                    />
+                  </div>
                 </p>
                 <p>
                   Check out the below GitHub link for a similar open source
-                  replica of this project.
+                  replica of this project:
+                  <br />
+                  <br />
+                  <b>Note:</b> We maintain strict confidentiality for all client
+                  projects, ensuring that no details are exposed to open source
+                  or unauthorized entities. We do not open source your projects
+                  unless we have permission and even so, we ensure no secrets
+                  used in the project (i.e. API Credentials or Keys) are
+                  exposed.
                 </p>
                 <div className="social-links">
                   <a
@@ -363,8 +409,8 @@ export default function Projects() {
                 <h3>Machine Learning Forecast Tool</h3>
                 <p>
                   Developed a tool that predicts stock market trends using
-                  machine learning algorithms and Black–Scholes Model, aiding investors in making
-                  informed decisions.
+                  machine learning algorithms and Black–Scholes Model, aiding
+                  investors in making informed decisions.
                 </p>
               </div>
               <hr />

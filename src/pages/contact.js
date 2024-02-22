@@ -12,73 +12,57 @@ export default function Contact() {
       <hr />
       <h2>Email</h2>
       <p>For general inquiries, support, or consulting services:</p>
-      <a href="mailto:info@nightowllabs.io" target="_blank" rel="noreferrer">
-        <i className="fa-regular fa-envelope"></i> info@nightowllabs.io
+      <i className="fa-regular fa-envelope"></i>&nbsp;
+      <a className="regular-link" href="mailto:info@nightowllabs.io" target="_blank" rel="noreferrer">
+         info@nightowllabs.io
       </a>
       <br />
       <br />
       <hr />
       <h2>Connect with Us!</h2>
       <p>Follow or contact us on our social platforms:</p>
-      <a
+      <i className="fab fa-github"></i>&nbsp;
+      <a className="regular-link"
         href="https://github.com/Night-Owl-Labs"
         target="_blank"
         rel="noreferrer"
       >
-        <i className="fab fa-github"></i> Night Owl Labs on GitHub
+        Night Owl Labs on GitHub
       </a>
       <br /> <br />
-      <a
+      <i className="fab fa-linkedin"></i>&nbsp;
+      <a className="regular-link"
         href="https://www.linkedin.com/company/nightowllabs"
         target="_blank"
         rel="noreferrer"
       >
-        <i className="fab fa-linkedin"></i> Night Owl Labs on LinkedIn
+        Night Owl Labs on LinkedIn
       </a>
       <br /> <br />
-      <a
+      <i className="fa-brands fa-x-twitter"></i>&nbsp;
+      <a className="regular-link"
         href="https://twitter.com/night_owl_labs"
         target="_blank"
         rel="noreferrer"
       >
-        <i className="fa-brands fa-x-twitter"></i> @Night_Owl_Labs on X
+       @Night_Owl_Labs on X
       </a>
       <br />
       <br />
       <hr />
-      <br />
-      <div className="social-links-wrapper">
-        <div className="social-links">
-          <a
-            href="https://github.com/scottgriv/business-website"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <i id="github-fork" className="fa-solid fa-code-fork fa-bounce"></i>{" "}
-          </a>
-        </div>
-        <br />
-        <div className="social-links">
-          <a
-            href="https://github.com/scottgriv/business-website"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <i id="github-star" className="fa-regular fa-star fa-bounce"></i>{" "}
-          </a>
-        </div>
-      </div>
       <div className="closing-wrapper">
-        <p>Like this website? Feel free to<br />
-          <a
+        <p>Like this website? Feel free to...<br />
+        <br />
+        <i id="github-fork" className="fa-solid fa-code-fork fa-bounce"></i>&nbsp;&nbsp;
+          <a className="regular-link"
             href="https://github.com/scottgriv/business-website"
             target="_blank"
             rel="noreferrer"
           >
-            {" "}
             Fork and Star it on GitHub!
           </a>
-        </p>
+          &nbsp;&nbsp;<i id="github-star" className="fa-solid fa-star fa-bounce"></i>
+        </p>  
       </div>
       <div className="social-links-wrapper">
         <div className="social-links">

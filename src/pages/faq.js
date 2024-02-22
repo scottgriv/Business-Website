@@ -97,7 +97,7 @@ export default function FAQ() {
         <hr />
       </div>
       <h4>
-        Have more questions? Don't hesitate to <a href="/contact">Contact</a> us. We'd love to hear from you!
+        Have more questions? Don't hesitate to <a className="regular-link" href="/contact">Contact</a> us. We'd love to hear from you!
       </h4>
     </Layout>
   )

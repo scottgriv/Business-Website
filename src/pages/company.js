@@ -65,8 +65,8 @@ export default function Company() {
         project?
       </p>
       <p>
-        Feel free to <a href="/contact">Contact</a> us, or take a look at our{" "}
-        <a href="/projects">Projects</a> to see the dreams we've turned into
+        Feel free to <a className="regular-link" href="/contact">Contact</a> us, or take a look at our{" "}
+        <a className="regular-link" href="/projects">Projects</a> to see the dreams we've turned into
         reality.
       </p>
     </Layout>

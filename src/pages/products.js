@@ -1,5 +1,6 @@
 import React, { useState } from "react"
 import Layout from "../components/layout"
+import Icon from '../components/icons/icon.js'; // Corrected import statement
 
 export default function Products() {
   const [selectedSection, setSelectedSection] = useState("apps")
@@ -65,7 +66,7 @@ export default function Products() {
                 {" "}
                 Our showcased published applications are a testament to our innovation and
                 capabilities. While these are our in-house creations, our client
-                projects, accessible under the <a href="/projects">
+                projects, accessible under the <a className="regular-link" href="/projects">
                   Projects
                 </a>{" "}
                 menu, uphold the same gold standard of quality and meticulous
@@ -75,7 +76,7 @@ export default function Products() {
               <div className="project-card">
                 <h3>
                   {" "}
-                  <a
+                  <a className="regular-link"
                     href="https://reciperesizer.com"
                     target="_blank"
                     rel="noreferrer"
@@ -126,7 +127,7 @@ export default function Products() {
               <div className="project-card">
                 <h3>
                   {" "}
-                  <a
+                  <a className="regular-link"
                     href="https://beeheard.com"
                     target="_blank"
                     rel="noreferrer"
@@ -187,7 +188,7 @@ export default function Products() {
                 Community is integral to our ethos. At <b>Night Owl Labs</b>, we
                 actively contribute to the open-source sphere, sharing projects
                 and tools on platforms like{" "}
-                <a
+                <a className="regular-link"
                   href="https://github.com/Night-Owl-Labs"
                   target="_blank"
                   rel="noreferrer"
@@ -196,7 +197,7 @@ export default function Products() {
                 </a>{" "}
                 to assist others in their tech endeavors. We also post content
                 on{" "}
-                <a
+                <a className="regular-link"
                   href="https://linkedin.com/company/nightowllabs"
                   target="_blank"
                   rel="noreferrer"
@@ -204,7 +205,7 @@ export default function Products() {
                   LinkedIn
                 </a>{" "}
                 and{" "}
-                <a
+                <a className="regular-link"
                   href="https://twitter.com/night_owl_labs"
                   target="_blank"
                   rel="noreferrer"
@@ -215,7 +216,7 @@ export default function Products() {
                 dedicated to empowering others with knowledge and expertise.
                 <p>
                   Check out our founder, Scott Grivner's{" "}
-                  <a
+                  <a className="regular-link"
                     href="https://github.com/scottgriv"
                     target="_blank"
                     rel="noreferrer"
@@ -229,16 +230,16 @@ export default function Products() {
               <div className="project-card">
                 <h3>
                   {" "}
-                  <a
+                  <a className="regular-link"
                     href="https://prgportfolio.com"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    Personal Repository Guidelines
+                    Personal Repository Guidelines (PRG)
                   </a>
                 </h3>
                 <p>
-                  PRG is a system that transforms the way repositories are organized and presented in your GitHub Portfolio. By harnessing the power of GitHub Actions, it automatically crafts a tier-based display, neatly categorizing your repositories for enhanced clarity and impact. Beyond mere organization, it sets forth comprehensive guidelines for READMEs and overall repository structure, ensuring each project is showcased with maximum professionalism and coherence.
+                  PRG is a system that transforms the way repositories are organized and presented in your GitHub Portfolio. By harnessing the power of GitHub Actions, it automatically crafts a tier-based display, neatly categorizing your repositories for enhanced clarity and impact. Beyond mere organization, it sets forth comprehensive guidelines for <span class="code-inline">READMEs</span> and overall repository structure, ensuring each project is showcased with maximum professionalism and coherence.
                 </p>
                 <a
                   href="https://prgportfolio.com"
@@ -265,7 +266,7 @@ export default function Products() {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <i className="fa-solid fa-arrow-up-right-from-square"></i>
+                    <Icon name="PRG" />
                   </a>
                   <a
                     href="https://prgoptimized.com"
@@ -287,7 +288,7 @@ export default function Products() {
               <div className="project-card">
                 <h3>
                   {" "}
-                  <a
+                  <a className="regular-link"
                     href="https://github.com/scottgriv/Post.e"
                     target="_blank"
                     rel="noreferrer"
@@ -330,7 +331,7 @@ export default function Products() {
               <div className="project-card">
                 <h3>
                   {" "}
-                  <a
+                  <a className="regular-link"
                     href="https://www.rivercharts.app"
                     target="_blank"
                     rel="noreferrer"
@@ -379,7 +380,7 @@ export default function Products() {
               <div className="project-card">
                 <h3>
                   {" "}
-                  <a
+                  <a className="regular-link"
                     href="https://github.com/scottgriv/Palm-Tree"
                     target="_blank"
                     rel="noreferrer"
@@ -421,7 +422,7 @@ export default function Products() {
               <div className="project-card">
                 <h3>
                   {" "}
-                  <a
+                  <a className="regular-link"
                     href="https://scottgriv.github.io/CREDITS-Generator/"
                     target="_blank"
                     rel="noreferrer"
@@ -472,7 +473,7 @@ export default function Products() {
               <div className="project-card">
                 <h3>
                   {" "}
-                  <a
+                  <a className="regular-link"
                     href="https://scottgriv.github.io/Resolution-Scale-Calculator/"
                     target="_blank"
                     rel="noreferrer"
@@ -524,7 +525,7 @@ export default function Products() {
               <div className="project-card">
                 <h3>
                   {" "}
-                  <a
+                  <a className="regular-link"
                     href="https://scottgriv.github.io/GitHub-User-Info/"
                     target="_blank"
                     rel="noreferrer"
@@ -575,7 +576,7 @@ export default function Products() {
               <div className="project-card">
                 <h3>
                   {" "}
-                  <a
+                  <a className="regular-link"
                     href="https://scottgriv.github.io/Binary-Converter/"
                     target="_blank"
                     rel="noreferrer"
@@ -626,7 +627,7 @@ export default function Products() {
               <div className="project-card">
                 <h3>
                   {" "}
-                  <a
+                  <a className="regular-link"
                     href="https://scottgriv.github.io/PWA-Demo-App/"
                     target="_blank"
                     rel="noreferrer"
@@ -677,7 +678,7 @@ export default function Products() {
               <div className="project-card">
                 <h3>
                   {" "}
-                  <a
+                  <a className="regular-link"
                     href="https://github.com/Night-Owl-Labs/SOLID-Principles"
                     target="_blank"
                     rel="noreferrer"
@@ -723,7 +724,7 @@ export default function Products() {
               <div className="project-card">
                 <h3>
                   {" "}
-                  <a
+                  <a className="regular-link"
                     href="https://github.com/Night-Owl-Labs/OOP-Principles"
                     target="_blank"
                     rel="noreferrer"
@@ -802,6 +803,10 @@ export default function Products() {
               <p>
                 <b>Stay Tuned!</b> We're excited to share these resources with
                 you soon.
+              </p>
+              <p><b>FYI:</b> If you find yourself on our <a className="regular-link" href="/coming-soon">
+                  Coming Soon
+                </a>{" "} page, you know we're close to releasing a new product!
               </p>
               <hr />
             </div>

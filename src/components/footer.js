@@ -1,5 +1,6 @@
 import React from "react"
 import { CONFIG } from "./config.js"
+import Icon from './icons/icon.js'; // Corrected import statement
 
 const Footer = () => {
   const showFooter = CONFIG.showFooter
@@ -37,12 +38,22 @@ const Footer = () => {
             >
               <i className="fa-brands fa-x-twitter"></i>
             </a>
+            <a href="https://prgportfolio.com" target="_blank" rel="noreferrer">
+              <Icon name="PRG" />
+            </a>
             <a
               href="https://github.com/scottgriv/business-website"
               target="_blank"
               rel="noreferrer"
             >
               <i className="fa-solid fa-code-fork"></i>{" "}
+            </a>
+            <a
+              href="https://github.com/scottgriv/business-website"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i className="fa-regular fa-star"></i>{" "}
             </a>
           </div>
         </div>

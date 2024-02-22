@@ -8,8 +8,8 @@ export default function Home() {
       <p>
         Since our inception in 2014, <b>Night Owl Labs</b> has been at the
         forefront of digital innovation. We publish our own software{" "}
-        <a href="/products">Products</a> and also offer a wide range of consulting{" "}
-        <a href="/services">Services</a>
+        <a className="regular-link" href="/products">Products</a> and also offer a wide range of consulting{" "}
+        <a className="regular-link" href="/services">Services</a>.
       </p>
 
       <p>
@@ -42,7 +42,7 @@ export default function Home() {
         </b>
       </p>
       <p>
-        Don't hesitate to <a href="/contact">Contact</a> us to discuss what{" "}
+        Don't hesitate to <a className="regular-link" href="/contact">Contact</a> us to discuss what{" "}
         <b>NOL</b> can do for you!
       </p>
     </Layout>
