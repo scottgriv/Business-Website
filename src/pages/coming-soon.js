@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import "../components/layout.css"
 
 export default function ComingSoon() {
   useEffect(() => {
