@@ -843,7 +843,7 @@ button:focus {
 
   .social-links a {
     flex: 0 0 auto; /* Prevent flex items from growing or shrinking */
-    width: calc(9%); /* Adjust width to fit 5 items per row, accounting for gap */
+    width: calc(8%); /* Adjust width to fit 5 items per row, accounting for gap */
   }
 
 }

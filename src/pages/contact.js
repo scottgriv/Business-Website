@@ -63,10 +63,7 @@ export default function Contact() {
           </a>
           &nbsp;&nbsp;<i id="github-star" className="fa-solid fa-star fa-bounce"></i>
         </p>  
-      </div>
-      <div className="social-links-wrapper">
-        <div className="social-links">
-          <a href="https://github.com/Night-Owl-Labs">
+        <a href="https://github.com/Night-Owl-Labs">
           <img
             src="/images/company/nol-footer.png"
             alt="Night Owl Labs"
@@ -75,8 +72,7 @@ export default function Contact() {
             id="landing-footer"
           />
           </a>
-        </div>
-        </div>
+      </div>
       <hr />
     </Layout>
   )
