@@ -676,6 +676,14 @@ button:focus {
   text-align: center;
 }
 
+.text-center {
+  text-align: center;
+}
+
+.title-header-small {
+  text-align: center;
+}
+
 /* Media Queries */
 /* When screen width is less than 768px, hide elements with the 'responsive-hide' class */
 @media screen and (max-width: 804px) {
@@ -808,7 +816,7 @@ button:focus {
     font-size: 30px;
   }
 
-  .title-header-small {
+  .title-header-small, .faq-header-small {
     font-size: 25px;
   }
 

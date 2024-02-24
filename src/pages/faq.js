@@ -4,7 +4,7 @@ import Layout from "../components/layout"
 export default function FAQ() {
   return (
     <Layout>
-      <h1 className="title-header-small">Frequently Asked Questions</h1>
+      <h1 className="faq-header-small">Frequently Asked Questions</h1>
       <p>
         Below are some of the most common questions we receive from clients.
       </p>
@@ -96,8 +96,15 @@ export default function FAQ() {
         </p>
         <hr />
       </div>
-      <h4>
-        Have more questions? Don't hesitate to <a className="regular-link" href="/contact">Contact</a> us. We'd love to hear from you!
+      <h4 className="text-center">
+        Have more questions?
+        <br />
+        Don't hesitate to{" "}
+        <a className="regular-link" href="/contact">
+          Contact
+        </a>{" "}
+        us! <br />
+        We'd love to hear from you!
       </h4>
     </Layout>
   )

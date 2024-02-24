@@ -1,7 +1,6 @@
 import React from "react"
 import Layout from "../components/layout"
-import Icon from '../components/icons/icon.js'; // Corrected import statement
-
+import Icon from "../components/icons/icon.js" // Corrected import statement
 
 export default function About() {
   return (
@@ -23,6 +22,8 @@ export default function About() {
         business professionals, <b>NOL</b> boasts a wealth of experience across
         various technologies and industries.
       </p>
+      <hr />
+      <br />
       <div className="about-container">
         <div className="photo-container">
           <a href="https://scottgrivner.dev" target="_blank" rel="noreferrer">
@@ -35,16 +36,26 @@ export default function About() {
         </div>
 
         <div className="description-container">
-          <a className="regular-link" href="https://scottgrivner.dev" target="_blank" rel="noreferrer">
+          <a
+            className="regular-link"
+            href="https://scottgrivner.dev"
+            target="_blank"
+            rel="noreferrer"
+          >
             <h2>Scott Grivner</h2>
           </a>
           <p>
             Founder of <b>Night Owl Labs</b>, Scott brings over a decade of
-            professional software engineering and design experience to the team.
-            He has worked with a wide range of technologies in multiple
-            industries, and is passionate about building functional and
-            beautiful software. Check out his{" "}
-            <a className="regular-link" href="https://scottgrivner.dev" target="_blank" rel="noreferrer">
+            professional Software Engineering, Architecture, and Design
+            experience to the team. He has worked with a wide range of
+            technologies in multiple industries, and is passionate about
+            building functional and beautiful software. Check out his{" "}
+            <a
+              className="regular-link"
+              href="https://scottgrivner.dev"
+              target="_blank"
+              rel="noreferrer"
+            >
               Portfolio
             </a>{" "}
             to learn more about him and his work.
@@ -139,7 +150,8 @@ export default function About() {
         </div>
 
         <div className="description-container">
-          <a className="regular-link"
+          <a
+            className="regular-link"
             href="https://www.linkedin.com/in/anya-druzhenko-56985a180"
             target="_blank"
             rel="noreferrer"
@@ -149,13 +161,14 @@ export default function About() {
 
           <p>
             Classically trained as a Chef and working in some of the most
-            prestigious restaurants in Manhattan, NYC, Anya's culinary expertise
-            is only matched by her passion for software design. She brings a
-            unique perspective to the team by using her creative talents to
-            craft beautiful and intuitive user experiences.
+            prestigious restaurants in Manhattan, NYC, cooking elaborate dishes
+            for big named individuals, Anya's culinary expertise is only matched
+            by her passion for Software Design. She brings a unique perspective
+            to the team by using her creative talents to craft beautiful and
+            intuitive user experiences.
           </p>
           <div className="social-links">
-          <a
+            <a
               href="https://github.com/anyaenko"
               target="_blank"
               rel="noreferrer"
@@ -189,7 +202,8 @@ export default function About() {
         </div>
 
         <div className="description-container">
-          <a className="regular-link"
+          <a
+            className="regular-link"
             href="https://www.linkedin.com/in/devin-olshefski-71399657"
             target="_blank"
             rel="noreferrer"
@@ -198,10 +212,12 @@ export default function About() {
           </a>
 
           <p>
-            Devin brings a business and project management skillset to the team.
-            He has a background and masters in Logistics & Supply Chain, and is
-            passionate about helping businesses grow and thrive. He has been
-            tasked to lead a number of large scale projects over the past
+            Devin brings a business and project management skill set to the
+            team. He has over a decade of experience in Logistics & Supply
+            Chain; he's currently a Capacity Planning Manager at a large US
+            company and holds a masters degree in Logistics & Supply Chain.
+            Devin is passionate about helping businesses grow and thrive. He has
+            been tasked to lead a number of large scale projects over the past
             decade, and is excited to bring his expertise to the team.
           </p>
           <div className="social-links">
@@ -232,7 +248,8 @@ export default function About() {
         </div>
 
         <div className="description-container">
-          <a className="regular-link"
+          <a
+            className="regular-link"
             href="https://www.linkedin.com/in/daniel-volovic-0862b01b2"
             target="_blank"
             rel="noreferrer"
@@ -241,12 +258,14 @@ export default function About() {
           </a>
 
           <p>
-            Dan holds three degrees in a number of fields, his most recent is in
-            Computer Information Systems and is currently in the process of
-            aquiring a number of IT certificates. Daniel is our teams
-            "wildcard", he's able to find solutions to problems that others
-            can't. He has worked in a number of industries and brings an
-            outsiders perspective to the team.
+            Dan holds three degrees in a number of fields, including Criminal
+            Justice, Psychology, and Computer Information Systems; he is also
+            currently in the process of acquiring a number of IT certificates.
+            Dan is our team's 'wildcard,' able to find solutions to problems
+            that others can't. He has worked in various industries, including
+            Nuclear Security, which is why IT Security is always at the
+            forefront of his mind. Dan brings an outsider's perspective to the
+            team, and we're happy to have him.
           </p>
           <div className="social-links">
             <a
@@ -259,6 +278,25 @@ export default function About() {
           </div>
         </div>
       </div>
+      <hr />
+      <h2>Interested in joining our Parliament of Owls?</h2>
+      <p>
+        Currently, we do not have any open positions here at{" "}
+        <b>Night Owl Labs</b>. We tend to keep our team small and follow a{" "}
+        <a
+          className="regular-link"
+          href="https://a.co/d/fBdBFPJ"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Company of One
+        </a>{" "}
+        philosophy and only hire when absolutely necessary (we believe that
+        bigger isn't always better). However, if we do post job openings, we
+        will stand up a dedicated "Careers" tab right here on our website so
+        keep an eye out for it if you're interested in becoming the latest Owl
+        to join our team!
+      </p>
     </Layout>
   )
 }

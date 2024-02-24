@@ -4,12 +4,35 @@ import Layout from "../components/layout"
 export default function Home() {
   return (
     <Layout>
-      <h1 className="title-header-small">Welcome to Night Owl Labs! 👋</h1>
+      <h1 className="title-header-small">
+        🌙 🦉 Welcome to Night Owl Labs! 👋
+      </h1>
       <p>
         Since our inception in 2014, <b>Night Owl Labs</b> has been at the
-        forefront of digital innovation. We publish our own software{" "}
-        <a className="regular-link" href="/products">Products</a> and also offer a wide range of consulting{" "}
-        <a className="regular-link" href="/services">Services</a>.
+        forefront of digital innovation.
+        <br />
+        <br />
+        <li>
+          📱 We publish our own Software{" "}
+          <a className="regular-link" href="/products">
+            Products
+          </a>
+          .
+        </li>
+        <li>
+          👨🏻‍💻 We offer a wide range of Consulting{" "}
+          <a className="regular-link" href="/services">
+            Services
+          </a>
+          .
+        </li>
+        <li>
+          🎨 We've worked on a large number of Development, Design, and Business {" "}
+          <a className="regular-link" href="/projects">
+            Projects
+          </a>
+          .
+        </li>
       </p>
 
       <p>
@@ -42,8 +65,11 @@ export default function Home() {
         </b>
       </p>
       <p>
-        Don't hesitate to <a className="regular-link" href="/contact">Contact</a> us to discuss what{" "}
-        <b>NOL</b> can do for you!
+        Don't hesitate to{" "}
+        <a className="regular-link" href="/contact">
+          Contact
+        </a>{" "}
+        us to discuss what <b>NOL</b> can do for you!
       </p>
     </Layout>
   )
