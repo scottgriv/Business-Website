@@ -24,7 +24,7 @@ export default function About() {
       </p>
       <hr />
       <br />
-      <div className="about-container">
+      <div className="about-container" id="scott-grivner">
         <div className="photo-container">
           <a href="https://scottgrivner.dev" target="_blank" rel="noreferrer">
             <img
@@ -42,7 +42,7 @@ export default function About() {
             target="_blank"
             rel="noreferrer"
           >
-            <h2 id="scott-grivner">Scott Grivner</h2>
+            <h2>Scott Grivner</h2>
           </a>
           <p>
             Founder of <b>Night Owl Labs</b>, Scott brings over a decade of
@@ -144,7 +144,7 @@ export default function About() {
         </div>
       </div>
       <br />
-      <div className="about-container-flipped">
+      <div className="about-container-flipped" id="anya-druzhenko">
         <div className="photo-container">
           <a
             href="https://www.linkedin.com/in/anya-druzhenko-56985a180"
@@ -166,7 +166,7 @@ export default function About() {
             target="_blank"
             rel="noreferrer"
           >
-            <h2 id="anya-druzhenko">Anya Druzhenko</h2>
+            <h2>Anya Druzhenko</h2>
           </a>
 
           <p>
@@ -196,7 +196,7 @@ export default function About() {
         </div>
       </div>
       <br />
-      <div className="about-container">
+      <div className="about-container" id="devin-olshefski">
         <div className="photo-container">
           <a
             href="https://www.linkedin.com/in/devin-olshefski-71399657"
@@ -218,7 +218,7 @@ export default function About() {
             target="_blank"
             rel="noreferrer"
           >
-            <h2 id="devin-olshefski">Devin Olshefski</h2>
+            <h2>Devin Olshefski</h2>
           </a>
 
           <p>
@@ -242,7 +242,7 @@ export default function About() {
         </div>
       </div>
       <br />
-      <div className="about-container-flipped">
+      <div className="about-container-flipped" id="daniel-volovic">
         <div className="photo-container">
           <a
             href="https://www.linkedin.com/in/daniel-volovic-0862b01b2"
@@ -264,7 +264,7 @@ export default function About() {
             target="_blank"
             rel="noreferrer"
           >
-            <h2 id="daniel-volovic">Daniel Volovic</h2>
+            <h2>Daniel Volovic</h2>
           </a>
 
           <p>

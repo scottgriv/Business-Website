@@ -29,7 +29,7 @@ export default function Products() {
                   setSelectedSection("published")
                 }}
               >
-                <h3 id="published">Published</h3>
+                <h3>Published</h3>
               </button>
             </li>
             <li>
@@ -40,7 +40,7 @@ export default function Products() {
                   setSelectedSection("open-source")
                 }}
               >
-                <h3 id="open-source">Open Source</h3>
+                <h3>Open Source</h3>
               </button>
             </li>
             <li>
@@ -51,7 +51,7 @@ export default function Products() {
                   setSelectedSection("content")
                 }}
               >
-                <h3 id="content">Content</h3>
+                <h3>Content</h3>
               </button>
             </li>
           </ul>
@@ -61,7 +61,7 @@ export default function Products() {
         <div className="content">
           {selectedSection === "published" && (
             <div className="product-section">
-              <h2>Published Software</h2>
+              <h2 id="published-software">Published Software</h2>
               <p>
                 {" "}
                 Our showcased published applications are a testament to our
@@ -182,7 +182,7 @@ export default function Products() {
 
           {selectedSection === "open-source" && (
             <div className="product-section">
-              <h2>Open Source Software</h2>
+              <h2 id="open-source-software">Open Source Software</h2>
               <p>
                 Community is integral to our ethos. At <b>Night Owl Labs</b>, we
                 actively contribute to the open-source sphere, sharing projects
@@ -860,7 +860,7 @@ export default function Products() {
 
           {selectedSection === "content" && (
             <div className="product-section">
-              <h2>Upcoming Content</h2>
+              <h2 id="upcoming-content">Upcoming Content</h2>
               <p>
                 <b>At Night Owl Labs</b>, we're always looking forward to
                 providing valuable insights and resources to our community. In

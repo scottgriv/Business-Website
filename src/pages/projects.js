@@ -30,7 +30,7 @@ export default function Projects() {
                   setSelectedSection("designs")
                 }}
               >
-                <h3 id="designs">Designs</h3>
+                <h3>Designs</h3>
               </button>
             </li>
             <li>
@@ -41,7 +41,7 @@ export default function Projects() {
                   setSelectedSection("development")
                 }}
               >
-                <h3 id="development">Development</h3>
+                <h3>Development</h3>
               </button>
             </li>
             <li>
@@ -52,7 +52,7 @@ export default function Projects() {
                   setSelectedSection("business")
                 }}
               >
-                <h3 id="business">Business</h3>
+                <h3>Business</h3>
               </button>
             </li>
           </ul>
@@ -62,7 +62,7 @@ export default function Projects() {
         <div className="content">
           {selectedSection === "designs" && (
             <div className="projects-section">
-              <h2>Designs</h2>
+              <h2 id="designs">Designs</h2>
               <p>
                 We have a passion for creating designs that are not only
                 aesthetically pleasing, but also functional and easy to use. We
@@ -315,7 +315,7 @@ export default function Projects() {
 
           {selectedSection === "development" && (
             <div className="projects-section">
-              <h2>Development</h2>
+              <h2 id="development">Development</h2>
               <p>
                 Our passion for excellence is reflected in every project we
                 undertake. We are dedicated to building not only beautiful but
@@ -419,7 +419,7 @@ export default function Projects() {
 
           {selectedSection === "business" && (
             <div className="projects-section">
-              <h2>Business</h2>
+              <h2 id="business">Business</h2>
               <p>
                 Below are some of our client business projects that we have been
                 involved in.
