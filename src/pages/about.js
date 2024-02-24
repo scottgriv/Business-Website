@@ -61,6 +61,13 @@ export default function About() {
             to learn more about him and his work.
           </p>
           <div className="social-links">
+            <a
+              href="mailto:scott.grivner@nightowllabs.io"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i className="fa-regular fa-envelope"></i>
+            </a>
             <a href="https://scottgrivner.dev" target="_blank" rel="noreferrer">
               <i className="fa-solid fa-arrow-up-right-from-square"></i>
             </a>
@@ -127,11 +134,11 @@ export default function About() {
               <Icon name="BMC" />
             </a>
             <a
-              href="mailto:scott.grivner@nightowllabs.io"
+              href="https://fishbrain.com/anglers/scottgriv"
               target="_blank"
               rel="noreferrer"
             >
-              <i className="fa-regular fa-envelope"></i>
+              <i class="fa-solid fa-fish"></i>            
             </a>
           </div>
         </div>
