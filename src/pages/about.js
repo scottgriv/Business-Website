@@ -42,7 +42,7 @@ export default function About() {
             target="_blank"
             rel="noreferrer"
           >
-            <h2>Scott Grivner</h2>
+            <h2 id="scott-grivner">Scott Grivner</h2>
           </a>
           <p>
             Founder of <b>Night Owl Labs</b>, Scott brings over a decade of
@@ -166,7 +166,7 @@ export default function About() {
             target="_blank"
             rel="noreferrer"
           >
-            <h2>Anya Druzhenko</h2>
+            <h2 id="anya-druzhenko">Anya Druzhenko</h2>
           </a>
 
           <p>
@@ -218,7 +218,7 @@ export default function About() {
             target="_blank"
             rel="noreferrer"
           >
-            <h2>Devin Olshefski</h2>
+            <h2 id="devin-olshefski">Devin Olshefski</h2>
           </a>
 
           <p>
@@ -264,7 +264,7 @@ export default function About() {
             target="_blank"
             rel="noreferrer"
           >
-            <h2>Daniel Volovic</h2>
+            <h2 id="daniel-volovic">Daniel Volovic</h2>
           </a>
 
           <p>

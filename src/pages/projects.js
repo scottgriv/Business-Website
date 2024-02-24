@@ -30,7 +30,7 @@ export default function Projects() {
                   setSelectedSection("designs")
                 }}
               >
-                <h3>Designs</h3>
+                <h3 id="designs">Designs</h3>
               </button>
             </li>
             <li>
@@ -41,7 +41,7 @@ export default function Projects() {
                   setSelectedSection("development")
                 }}
               >
-                <h3>Development</h3>
+                <h3 id="development">Development</h3>
               </button>
             </li>
             <li>
@@ -52,7 +52,7 @@ export default function Projects() {
                   setSelectedSection("business")
                 }}
               >
-                <h3>Business</h3>
+                <h3 id="business">Business</h3>
               </button>
             </li>
           </ul>

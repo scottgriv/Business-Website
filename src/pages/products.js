@@ -3,7 +3,7 @@ import Layout from "../components/layout"
 import Icon from "../components/icons/icon.js" // Corrected import statement
 
 export default function Products() {
-  const [selectedSection, setSelectedSection] = useState("apps")
+  const [selectedSection, setSelectedSection] = useState("published")
 
   return (
     <Layout>
@@ -23,13 +23,13 @@ export default function Products() {
           <ul>
             <li>
               <button
-                className={selectedSection === "apps" ? "active" : ""}
+                className={selectedSection === "published" ? "active" : ""}
                 onClick={e => {
                   e.preventDefault()
-                  setSelectedSection("apps")
+                  setSelectedSection("published")
                 }}
               >
-                <h3>Published</h3>
+                <h3 id="published">Published</h3>
               </button>
             </li>
             <li>
@@ -40,7 +40,7 @@ export default function Products() {
                   setSelectedSection("open-source")
                 }}
               >
-                <h3>Open Source</h3>
+                <h3 id="open-source">Open Source</h3>
               </button>
             </li>
             <li>
@@ -51,7 +51,7 @@ export default function Products() {
                   setSelectedSection("content")
                 }}
               >
-                <h3>Content</h3>
+                <h3 id="content">Content</h3>
               </button>
             </li>
           </ul>
@@ -59,7 +59,7 @@ export default function Products() {
 
         {/* Content based on Selected Section */}
         <div className="content">
-          {selectedSection === "apps" && (
+          {selectedSection === "published" && (
             <div className="product-section">
               <h2>Published Software</h2>
               <p>
