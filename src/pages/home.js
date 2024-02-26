@@ -20,14 +20,14 @@ export default function Home() {
           .
         </li>
         <li>
-          👨🏻‍💻 We offer a wide range of Consulting{" "}
+          👨🏻‍💻 We offer a wide range of Software and Business Consulting{" "}
           <a className="regular-link" href="/services">
             Services
           </a>
           .
         </li>
         <li>
-          🎨 We've worked on a large number of Development, Design, and Business {" "}
+          🎨 We've worked on a large number of Development, Design, Marketing, and Business {" "}
           <a className="regular-link" href="/projects">
             Projects
           </a>
