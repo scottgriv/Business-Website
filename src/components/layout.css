@@ -816,7 +816,11 @@ button:focus {
     font-size: 30px;
   }
 
-  .title-header-small, .faq-header-small {
+  .title-header-small {
+    font-size: 20px;
+  }
+
+  .faq-header-small {
     font-size: 25px;
   }
 
