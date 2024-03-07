@@ -134,6 +134,13 @@ export default function About() {
               <Icon name="BMC" />
             </a>
             <a
+              href="https://github.com/sponsors/scottgriv"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i class="fa-solid fa-heart"></i>
+            </a>
+            <a
               href="https://fishbrain.com/anglers/scottgriv"
               target="_blank"
               rel="noreferrer"
