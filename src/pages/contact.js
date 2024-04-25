@@ -11,10 +11,15 @@ export default function Contact() {
       </p>
       <hr />
       <h2>Email us!</h2>
-      <p>For general inquiries, support, or consulting services:</p>
+      <p>For general inquiries or consulting services:</p>
       <i className="fa-regular fa-envelope"></i>&nbsp;
       <a className="regular-link" href="mailto:info@nightowllabs.io" target="_blank" rel="noreferrer">
          info@nightowllabs.io
+      </a>
+      <p>For support around our products and prior provided services:</p>
+      <i className="fa-regular fa-envelope"></i>&nbsp;
+      <a className="regular-link" href="mailto:support@nightowllabs.io" target="_blank" rel="noreferrer">
+         support@nightowllabs.io
       </a>
       <br />
       <h2>Connect with us!</h2>
