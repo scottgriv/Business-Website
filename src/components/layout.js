@@ -87,7 +87,7 @@ const Layout = ({ children }) => {
     <>
       <Seo
         title="Night Owl Labs"
-        description="Software Development, Design, Consulting, and Education Company."
+        description="Software Development, Design, Consulting, Education"
       />
       <div id="pagecontent">
         <header>
