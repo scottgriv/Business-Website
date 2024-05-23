@@ -167,13 +167,6 @@ export default function Products() {
                   >
                     <i className="fa-regular fa-registered"></i>
                   </a>
-                  <a
-                    href="http://tsdr.uspto.gov/#caseNumber=86415605&caseSearchType=US_APPLICATION&caseType=DEFAULT&searchType=statusSearch"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <i className="fa-regular fa-registered"></i>
-                  </a>
                 </div>
               </div>
               <hr />
@@ -445,6 +438,70 @@ export default function Products() {
                 <div className="social-links">
                   <a
                     href="https://github.com/scottgriv/Palm-Tree"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <i className="fab fa-github"></i>
+                  </a>
+                </div>
+              </div>
+              <hr />
+              <div className="project-card">
+                <h3>
+                  {" "}
+                  <a
+                    className="regular-link"
+                    href="https://launchportals.netlify.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Launch Portals
+                  </a>
+                </h3>
+                <p>
+                  Launch Portals is a dynamic web application designed for
+                  developers, marketers, and project managers to showcase and
+                  monitor their digital projects. This tool not only provides
+                  quick links to projects, repositories, websites, apps, and
+                  social media pages but also crucially displays and verifies
+                  the metadata of each link. Users can easily ensure that their
+                  projects are presented correctly across platforms by checking
+                  Open Graph tags and other metadata in real-time. Whether
+                  you're launching a new app or managing an existing portfolio,
+                  Launch Portals helps you maintain control over how your
+                  projects appear to the world, enhancing visibility and
+                  consistency across the web.
+                </p>
+                <a
+                  href="https://launchportals.netlify.app/"
+                  className="icon-container-product"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <div className="projects-image-small-wrapper">
+                    <img
+                      className="projects-image-small"
+                      src="/images/products/gold/Launch-Portals.png"
+                      alt="Launch Portals"
+                    />
+                  </div>
+                </a>
+                <p>
+                  <b>Category:</b> Web Application.
+                </p>
+                <p>
+                  <b>Technology:</b> Gatsby.js, Netlify, React, JavaScript
+                </p>
+                <div className="social-links">
+                  <a
+                    href="https://launchportals.netlify.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <i className="fa-solid fa-arrow-up-right-from-square"></i>
+                  </a>
+                  <a
+                    href="https://github.com/scottgriv/Launch-Portals"
                     target="_blank"
                     rel="noreferrer"
                   >

@@ -158,6 +158,18 @@ export default function Projects() {
                     alt="Palm Tree"
                   />
                 </a>
+                <br />
+                <a
+                  href="https://launchportals.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src="/images/projects/banners/launch-portals-banner_large.png"
+                    className="banner-image"
+                    alt="Launch Portals"
+                  />
+                </a>
               </div>
               <br />
               <hr />
@@ -305,6 +317,18 @@ export default function Projects() {
                     src="/images/projects/icons/palm-tree-icon-rounded.png"
                     className="app-image"
                     alt="Palm Tree"
+                  />
+                </a>
+                <a
+                  href="https://launchportals.netlify.app/"
+                  className="icon-container"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src="/images/projects/icons/launch-portals-icon-rounded.png"
+                    className="app-image"
+                    alt="Launch Portals"
                   />
                 </a>
               </div>
