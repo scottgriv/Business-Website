@@ -480,7 +480,7 @@ export default function Products() {
                 >
                   <div className="projects-image-small-wrapper">
                     <img
-                      className="projects-image-small"
+                      className="projects-image"
                       src="/images/products/gold/Launch-Portals.png"
                       alt="Launch Portals"
                     />
