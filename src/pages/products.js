@@ -404,7 +404,7 @@ export default function Products() {
                   {" "}
                   <a
                     className="regular-link"
-                    href="https://github.com/scottgriv/Palm-Tree"
+                    href="https://scottgriv.github.io/Palm-Tree/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -419,7 +419,7 @@ export default function Products() {
                   page with a click of a button within the email.
                 </p>
                 <a
-                  href="https://github.com/scottgriv/Palm-Tree"
+                  href="https://scottgriv.github.io/Palm-Tree/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -436,6 +436,13 @@ export default function Products() {
                   <b>Technology:</b> JavaScript, PHP, HTML, CSS, MySQL.
                 </p>
                 <div className="social-links">
+                  <a
+                    href="https://scottgriv.github.io/Palm-Tree/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <i className="fa-solid fa-arrow-up-right-from-square"></i>
+                  </a>
                   <a
                     href="https://github.com/scottgriv/Palm-Tree"
                     target="_blank"

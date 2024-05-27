@@ -148,7 +148,7 @@ export default function Projects() {
                 </a>
                 <br />
                 <a
-                  href="https://github.com/scottgriv/Palm-Tree"
+                  href="https://scottgriv.github.io/Palm-Tree/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -308,7 +308,7 @@ export default function Projects() {
                   />
                 </a>
                 <a
-                  href="https://github.com/scottgriv/Palm-Tree"
+                  href="https://scottgriv.github.io/Palm-Tree/"
                   className="icon-container"
                   target="_blank"
                   rel="noreferrer"
