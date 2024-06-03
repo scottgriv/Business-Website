@@ -30,7 +30,7 @@ export default function Contact() {
         target="_blank"
         rel="noreferrer"
       >
-        Night Owl Labs on GitHub
+        Night Owl Labs
       </a>
       <br /> <br />
       <i className="fab fa-linkedin"></i>&nbsp;
@@ -39,7 +39,7 @@ export default function Contact() {
         target="_blank"
         rel="noreferrer"
       >
-        Night Owl Labs on LinkedIn
+        Night Owl Labs
       </a>
       <br /> <br />
       <i className="fa-brands fa-x-twitter"></i>&nbsp;
@@ -48,8 +48,17 @@ export default function Contact() {
         target="_blank"
         rel="noreferrer"
       >
-       @Night_Owl_Labs on X
+       @Night_Owl_Labs
       </a>
+      <br /> <br />
+      <i className="fa-brands fa-instagram"></i>&nbsp;
+      <a className="regular-link"
+        href="https://www.instagram.com/nightowllabsllc"
+        target="_blank"
+        rel="noreferrer"
+      >
+       @Night_Owl_Labs
+      </a>      
       <br />
       <h2>Share our website!</h2>
       <p>Know somebody that may need our help? Share the Night Owl Labs website with others:</p>
