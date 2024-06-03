@@ -102,15 +102,15 @@ export default function About() {
             >
               <i className="fab fa-codepen"></i>
             </a>
-            <a href="https://goodreads.com/scottgrivner" target="_blank" rel="noreferrer">
-              <Icon name="Goodreads" />
-            </a>
             <a
               href="https://medium.com/@scottgrivner"
               target="_blank"
               rel="noreferrer"
             >
               <i className="fab fa-medium"></i>
+            </a>
+            <a href="https://goodreads.com/scottgrivner" target="_blank" rel="noreferrer">
+              <Icon name="Goodreads" />
             </a>
             <a
               href="https://twitter.com/scottgrivner"
