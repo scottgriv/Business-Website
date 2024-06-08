@@ -295,9 +295,8 @@ Feel free to submit a pull request if you find any issues or have any suggestion
 ## License
 
 This project is released under the terms of the **MIT License**, which permits use, modification, and distribution of the code, subject to the conditions outlined in the license.
-
 - The [MIT License](https://choosealicense.com/licenses/mit/) provides certain freedoms while preserving rights of attribution to the original creators.
-- For more details, see the [LICENSE](LICENSE) file in this repository. in this repository.
+- For more details and to understand all requirements and conditions, see the [LICENSE](LICENSE) file in this repository.
 
 ## Credits
 
