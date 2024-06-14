@@ -1,6 +1,6 @@
 import React from "react"
 import Layout from "../components/layout"
-import Icon from "../components/icons/icon.js" // Corrected import statement
+import Icon from "../components/icons/icon.js"
 
 export default function About() {
   return (
