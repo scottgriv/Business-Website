@@ -127,6 +127,13 @@ export default function About() {
               <i className="fa-brands fa-youtube"></i>
             </a>
             <a
+              href="https://marketplace.visualstudio.com/publishers/scottgriv"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Icon name="VSCode" />
+            </a>
+            <a
               href="https://www.buymeacoffee.com/scottgriv"
               target="_blank"
               rel="noreferrer"
