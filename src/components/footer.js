@@ -1,6 +1,6 @@
 import React from "react"
 import { CONFIG } from "./config.js"
-import Icon from './icons/icon.js'; // Corrected import statement
+import Icon from './icons/icon.js';
 
 const Footer = () => {
   const showFooter = CONFIG.showFooter
