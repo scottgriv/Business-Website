@@ -9,8 +9,8 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Software Development, Design, Consulting, Education`,
-    description: `Software Development, Design, Consulting, Education`,
+    title: `A Software Development, Design, Consulting, & Education Company`,
+    description: `A Software Development, Design, Consulting, & Education Company`,
     author: `@Night_Owl_Labs`,
     siteUrl: `https://nightowllabs.io`,
   },
