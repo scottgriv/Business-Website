@@ -21,6 +21,7 @@ import {
   IconTwitter,
   IconYouTube,
   IconPRG,
+  IconVSCode,
 } from '../icons';
 
 const Icon = ({ name }) => {
@@ -65,6 +66,8 @@ const Icon = ({ name }) => {
       return <IconYouTube />;
     case 'PRG':
       return <IconPRG />;
+    case 'VSCode':
+        return <IconVSCode />;
     default:
       return <IconExternal />;
   }

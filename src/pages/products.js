@@ -267,13 +267,6 @@ export default function Products() {
                 </p>
                 <div className="social-links">
                   <a
-                    href="https://prgportfolio.com"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <Icon name="PRG" />
-                  </a>
-                  <a
                     href="https://prgoptimized.com"
                     target="_blank"
                     rel="noreferrer"
@@ -281,7 +274,74 @@ export default function Products() {
                     <i className="fa-solid fa-arrow-up-right-from-square"></i>
                   </a>
                   <a
+                    href="https://prgportfolio.com"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <Icon name="PRG" />
+                  </a>
+                  <a
                     href="https://github.com/scottgriv/PRG-Personal-Repository-Guidelines"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <i className="fab fa-github"></i>
+                  </a>
+                </div>
+              </div>
+              <hr />
+              <div className="project-card">
+                <h3>
+                  {" "}
+                  <a
+                    className="regular-link"
+                    href="https://darkcastle.netlify.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Dark Castle Theme
+                  </a>
+                </h3>
+                <p>
+                  A vibrantly elegant dark theme available for multiple
+                  platforms. Inspired by the timeless beauty and mystery of
+                  medieval castles, this theme combines rich, deep colors with a
+                  clean and modern design.
+                </p>
+                <a
+                  href="https://darkcastle.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    className="projects-image"
+                    src="/images/products/gold/Dark-Castle.png"
+                    alt="Dark Castle"
+                  />
+                </a>
+                <p>
+                  <b>Category:</b> Multi-Platform Them
+                </p>
+                <p>
+                  <b>Technology:</b> Hex, RGB, HSL
+                </p>
+                <div className="social-links">
+                  <a
+                    href="https://darkcastle.netlify.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <i className="fa-solid fa-arrow-up-right-from-square"></i>
+                  </a>
+                  <a
+                    href="https://marketplace.visualstudio.com/items?itemName=scottgriv.Dark-Castle"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <Icon name="VSCode" />
+                  </a>
+                  <a
+                    href="https://github.com/scottgriv/Dark-Castle-Theme"
                     target="_blank"
                     rel="noreferrer"
                   >

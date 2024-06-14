@@ -48,7 +48,12 @@ body {
   padding: 50px;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Roboto", Arial, sans-serif; /* Use custom font */
 }
 
@@ -61,7 +66,7 @@ a {
 }
 
 .coming-soon-container {
-  background-color: #FCDB3A; /* Solid yellow background */
+  background-color: #fcdb3a; /* Solid yellow background */
   color: #333; /* Text color - adjust as needed */
   text-align: center; /* Center align the content */
   min-height: 85vh; /* Ensure it covers the whole viewport height */
@@ -84,8 +89,8 @@ a {
 .mobile-logo {
   max-width: 100%; /* To make sure image never exceeds its parent width */
   height: auto; /* Maintains the aspect ratio */
-  border-top-left-radius: 10px;   /* Top left corner */
-  border-top-right-radius: 10px;  /* Top right corner */
+  border-top-left-radius: 10px; /* Top left corner */
+  border-top-right-radius: 10px; /* Top right corner */
 }
 
 .landing-logo {
@@ -121,7 +126,7 @@ a {
   margin-bottom: 0;
 }
 .landing-subtitle {
-  color: #FCDB3A
+  color: #fcdb3a;
 }
 
 #pagecontent {
@@ -183,8 +188,8 @@ a {
 }
 
 /* Higher specificity for active links */
-#menutabs a.active, 
-#menutabs a.active:hover, 
+#menutabs a.active,
+#menutabs a.active:hover,
 #menutabs a.active:visited {
   background-color: #005e1f;
   color: white;
@@ -268,7 +273,8 @@ a {
   justify-content: center;
 }
 
-.social-links, .social-links-footer {
+.social-links,
+.social-links-footer {
   display: flex;
   flex-wrap: wrap; /* Ensure items can wrap */
   gap: 10px; /* Space between icons */
@@ -276,14 +282,15 @@ a {
   padding-right: 5px;
 }
 
-.social-links a, .social-links-footer a {
+.social-links a,
+.social-links-footer a {
   color: #fff; /* Icon color */
   font-size: 24px; /* Icon size */
   transition: transform 0.3s ease; /* Smooth transition for the transform */
-
 }
 
-.social-links a:hover, .social-links-footer a:hover {
+.social-links a:hover,
+.social-links-footer a:hover {
   color: #005e1f; /* Green color for links hover effect, change as needed */
   transform: translateY(-5px); /* Moves the button up */
 }
@@ -363,8 +370,8 @@ a {
 }
 
 /* Higher specificity for active links */
-.sidebar button.active, 
-.sidebar button.active:hover, 
+.sidebar button.active,
+.sidebar button.active:hover,
 .sidebar button.active:visited {
   background-color: #005e1f;
   color: white;
@@ -434,13 +441,14 @@ a {
   animation-name: bounce;
   animation-duration: 1s;
   animation-iteration-count: infinite;
-  animation-timing-function: cubic-bezier(0.280, 0.840, 0.420, 1);
+  animation-timing-function: cubic-bezier(0.28, 0.84, 0.42, 1);
 }
 
 .code-inline {
   background-color: #2f363d; /* Darker gray background */
   color: #ffffff; /* White text color */
-  font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, Courier, monospace; /* Monospace font for code */
+  font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, Courier,
+    monospace; /* Monospace font for code */
   padding: 0.2em 0.4em; /* Padding around the text */
   font-size: 85%; /* Adjusted font size */
   border-radius: 6px; /* Rounded corners for the background */
@@ -449,7 +457,7 @@ a {
 .code-block {
   background-color: #f4f4f4; /* Light grey background */
   color: #333; /* Dark text color for contrast */
-  font-family: 'Courier New', Courier, monospace; /* Monospaced font for code-like appearance */
+  font-family: "Courier New", Courier, monospace; /* Monospaced font for code-like appearance */
   padding: 10px; /* Adds space inside the block */
   margin: 10px 0; /* Adds space outside the block */
   border-radius: 5px; /* Optional: rounds the corners */
@@ -546,7 +554,7 @@ button:focus {
   grid-template-columns: repeat(3, 1fr); /* 3 columns */
   grid-template-rows: repeat(4, auto); /* 4 rows */
   column-gap: 3px; /* Gap between columns */
-  row-gap: 6px;    /* Gap between rows */
+  row-gap: 6px; /* Gap between rows */
 }
 
 /* Place the first icon in the middle column of the first row */
@@ -611,7 +619,8 @@ button:focus {
 }
 
 .icon-container[href="https://github.com/scottgriv/Post.e"] img, 
-.icon-container-product[href="https://scottgriv.github.io/Resolution-Scale-Calculator/"] img
+.icon-container-product[href="https://scottgriv.github.io/Resolution-Scale-Calculator/"] img,
+.icon-container[href="https://darkcastle.netlify.app/"] img
 {
   border: 2px solid rgb(46, 46, 46);
   border-radius: 45px;
@@ -699,7 +708,7 @@ button:focus {
   *:after {
     box-sizing: border-box;
   }
-  
+
   .landing-container {
     gap: 10px; /* Adjust the space as needed */
   }
@@ -854,7 +863,8 @@ button:focus {
 
   .social-links a {
     flex: 0 0 auto; /* Prevent flex items from growing or shrinking */
-    width: calc(8%); /* Adjust width to fit 5 items per row, accounting for gap */
+    width: calc(
+      8%
+    ); /* Adjust width to fit 5 items per row, accounting for gap */
   }
-
 }

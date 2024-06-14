@@ -124,6 +124,18 @@ export default function Projects() {
                 </a>
                 <br />
                 <a
+                  href="https://darkcastle.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src="/images/projects/banners/dark-castle-banner_large.png"
+                    className="banner-image"
+                    alt="Dark Castle"
+                  />
+                </a>
+                <br />
+                <a
                   href="https://github.com/scottgriv/Post.e"
                   target="_blank"
                   rel="noreferrer"
@@ -236,15 +248,15 @@ export default function Projects() {
                   />
                 </a>
                 <a
-                  href="https://github.com/scottgriv/Post.e"
+                  href="https://darkcastle.netlify.app/"
                   className="icon-container"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <img
-                    src="/images/projects/icons/post-e-icon-rounded.png"
+                    src="/images/projects/icons/dark-castle-icon-rounded.png"
                     className="app-image"
-                    alt="Post.e"
+                    alt="Dark Castle"
                   />
                 </a>
                 <a
@@ -272,15 +284,15 @@ export default function Projects() {
                   />
                 </a>
                 <a
-                  href="https://www.rivercharts.app"
+                  href="https://github.com/scottgriv/Post.e"
                   className="icon-container"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <img
-                    src="/images/projects/icons/river-charts-icon-rounded.png"
+                    src="/images/projects/icons/post-e-icon-rounded.png"
                     className="app-image"
-                    alt="River Charts"
+                    alt="Post.e"
                   />
                 </a>
                 <a
@@ -305,6 +317,18 @@ export default function Projects() {
                     src="/images/projects/icons/prg-website-icon-rounded.png"
                     className="app-image"
                     alt="PRG Website"
+                  />
+                </a>
+                <a
+                  href="https://www.rivercharts.app"
+                  className="icon-container"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src="/images/projects/icons/river-charts-icon-rounded.png"
+                    className="app-image"
+                    alt="River Charts"
                   />
                 </a>
                 <a

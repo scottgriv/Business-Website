@@ -19,3 +19,4 @@ export { default as IconStar } from './star';
 export { default as IconTwitter } from './twitter';
 export { default as IconYouTube } from './youtube';
 export { default as IconPRG } from './prg';
+export { default as IconVSCode } from './vscode';
