@@ -320,10 +320,10 @@ export default function Products() {
                   />
                 </a>
                 <p>
-                  <b>Category:</b> Multi-Platform Them
+                  <b>Category:</b> Multi-Platform Theme.
                 </p>
                 <p>
-                  <b>Technology:</b> Hex, RGB, HSL
+                  <b>Technology:</b> Hex, RGB, HSL.
                 </p>
                 <div className="social-links">
                   <a
