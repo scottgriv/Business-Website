@@ -85,7 +85,7 @@ export default function Contact() {
           </a>
           &nbsp;&nbsp;<i id="github-star" className="fa-solid fa-star fa-bounce"></i>
         </p>  
-        <a href="https://github.com/Night-Owl-Labs">
+        <a href="https://github.com/Night-Owl-Labs" target="_blank" rel="noreferrer">
           <img
             src="/images/company/nol-footer.png"
             alt="Night Owl Labs"
