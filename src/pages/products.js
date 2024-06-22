@@ -267,18 +267,18 @@ export default function Products() {
                 </p>
                 <div className="social-links">
                   <a
-                    href="https://prgoptimized.com"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <i className="fa-solid fa-arrow-up-right-from-square"></i>
-                  </a>
-                  <a
                     href="https://prgportfolio.com"
                     target="_blank"
                     rel="noreferrer"
                   >
                     <Icon name="PRG" />
+                  </a>
+                  <a
+                    href="https://prgoptimized.com"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <i className="fa-solid fa-arrow-up-right-from-square"></i>
                   </a>
                   <a
                     href="https://github.com/scottgriv/PRG-Personal-Repository-Guidelines"
