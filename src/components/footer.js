@@ -57,7 +57,7 @@ const Footer = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <i className="fa-solid fa-code-fork"></i>{" "}
+              <i className="fa-solid fa-code-fork"></i>
             </a>
           </div>
         </div>

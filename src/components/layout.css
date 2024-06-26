@@ -257,6 +257,7 @@ a {
 }
 
 #github-fork {
+  font-size: 22px; /* Shrink Fork Icon size */
   color: #ff7518;
 }
 
@@ -756,6 +757,10 @@ button:focus {
     box-sizing: border-box;
   }
 
+  #github-fork {
+    font-size: 18px; /* Shrink Fork Icon size */
+  }
+
   .landing-container {
     gap: 10px; /* Adjust the space as needed */
   }
@@ -921,4 +926,5 @@ button:focus {
       8%
     ); /* Adjust width to fit 5 items per row, accounting for gap */
   }
+  
 }
