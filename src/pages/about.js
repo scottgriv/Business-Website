@@ -5,11 +5,11 @@ import Icon from "../components/icons/icon.js"
 export default function About() {
   return (
     <Layout>
-    <div class="about-header-container">
-    <h1 className="title-header-large">Meet the Owls </h1>
-      <div className="social-links-owl">
+      <div class="about-header-container">
+        <h1 className="title-header-large">Meet the Owls </h1>
+        <div className="social-links-owl">
           <Icon name="NOL" />
-      </div>
+        </div>
       </div>
       <p>
         <b>Night Owl Labs</b>, established in 2014, has been at the forefront of
