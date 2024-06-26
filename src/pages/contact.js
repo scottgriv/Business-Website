@@ -57,7 +57,7 @@ export default function Contact() {
         target="_blank"
         rel="noreferrer"
       >
-       @Night_Owl_Labs
+       @NightOwlLabsLLC
       </a>      
       <br />
       <h2>Share our website!</h2>
