@@ -5,16 +5,12 @@ import Icon from "../components/icons/icon.js"
 export default function About() {
   return (
     <Layout>
-      <h1 className="title-header-large">
-        Meet the Owls{" "}
-        <img
-          src="/images/company/nol-icon-transparent.png"
-          alt="Night Owl Labs"
-          title="Night Owl Labs"
-          className="company-thumbnail"
-        />
-      </h1>
-
+    <div class="about-header-container">
+    <h1 className="title-header-large">Meet the Owls </h1>
+      <div className="social-links-owl">
+          <Icon name="NOL" />
+      </div>
+      </div>
       <p>
         <b>Night Owl Labs</b>, established in 2014, has been at the forefront of
         providing exceptional IT products and services for nearly a decade.
@@ -109,7 +105,11 @@ export default function About() {
             >
               <i className="fab fa-medium"></i>
             </a>
-            <a href="https://goodreads.com/scottgrivner" target="_blank" rel="noreferrer">
+            <a
+              href="https://goodreads.com/scottgrivner"
+              target="_blank"
+              rel="noreferrer"
+            >
               <Icon name="Goodreads" />
             </a>
             <a
@@ -125,13 +125,6 @@ export default function About() {
               rel="noreferrer"
             >
               <i className="fa-brands fa-youtube"></i>
-            </a>
-            <a
-              href="https://marketplace.visualstudio.com/publishers/scottgriv"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <Icon name="VSCode" />
             </a>
             <a
               href="https://www.buymeacoffee.com/scottgriv"
@@ -152,7 +145,7 @@ export default function About() {
               target="_blank"
               rel="noreferrer"
             >
-              <i class="fa-solid fa-fish"></i>            
+              <i class="fa-solid fa-fish"></i>
             </a>
           </div>
         </div>

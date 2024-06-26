@@ -38,8 +38,19 @@ const Footer = () => {
             >
               <i className="fa-brands fa-x-twitter"></i>
             </a>
-            <a href="https://prgportfolio.com" target="_blank" rel="noreferrer">
-              <Icon name="PRG" />
+            <a
+              href="https://www.instagram.com/nightowllabsllc"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i className="fa-brands fa-instagram"></i>
+            </a>
+            <a
+              href="https://reciperesizer.com"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i className="fa-brands fa-app-store-ios"></i>
             </a>
             <a
               href="https://github.com/scottgriv/business-website"
@@ -47,13 +58,6 @@ const Footer = () => {
               rel="noreferrer"
             >
               <i className="fa-solid fa-code-fork"></i>{" "}
-            </a>
-            <a
-              href="https://github.com/scottgriv/business-website"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <i className="fa-regular fa-star"></i>{" "}
             </a>
           </div>
         </div>
