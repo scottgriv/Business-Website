@@ -283,25 +283,6 @@ a {
   margin-bottom: 10px;
 }
 
-.social-links-owl {
-  display: flex;
-  flex-wrap: wrap; /* Ensure items can wrap */
-  gap: 10px; /* Space between icons */
-  margin-left: 0;
-  padding-right: 5px;
-}
-
-.social-links-owl {
-  color: #fff; /* Icon color */
-  font-size: 1px; /* Icon size */
-  transition: transform 0.3s ease; /* Smooth transition for the transform */
-}
-
-.social-links-owl:hover {
-  color: #005e1f; /* Green color for links hover effect, change as needed */
-  transform: translateY(-5px); /* Moves the button up */
-}
-
 .social-links,
 .social-links-footer {
   display: flex;
