@@ -11,11 +11,11 @@ const Footer = () => {
         <div className="social-links-wrapper">
           <div className="social-links-footer">
             <a
-              href="mailto:info@nightowllabs.io"
+              href="https://reciperesizer.com"
               target="_blank"
               rel="noreferrer"
             >
-              <i className="fa-regular fa-envelope"></i>
+              <i className="fa-brands fa-app-store-ios"></i>
             </a>
             <a
               href="https://github.com/Night-Owl-Labs"
@@ -46,18 +46,18 @@ const Footer = () => {
               <i className="fa-brands fa-instagram"></i>
             </a>
             <a
-              href="https://reciperesizer.com"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <i className="fa-brands fa-app-store-ios"></i>
-            </a>
-            <a
               href="https://github.com/scottgriv/business-website"
               target="_blank"
               rel="noreferrer"
             >
               <i className="fa-solid fa-code-fork"></i>
+            </a>
+            <a
+              href="mailto:info@nightowllabs.io"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i className="fa-regular fa-envelope"></i>
             </a>
           </div>
         </div>
