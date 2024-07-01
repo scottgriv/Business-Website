@@ -43,7 +43,7 @@ export default function Services() {
               <ul>
                 <li>Tearing down Monolithic Applications</li>
                 <li>Microservices</li>
-                <li>Working with Legacy Xode</li>
+                <li>Working with Legacy Code</li>
               </ul>
             </li>
             <li>

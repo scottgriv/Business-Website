@@ -381,7 +381,8 @@ export default function Projects() {
                 <hr />
                 <h3>
                   {" "}
-                  <a className="regular-link"
+                  <a
+                    className="regular-link"
                     href="https://github.com/scottgriv/javascript-api_data_fisher"
                     target="_blank"
                     rel="noreferrer"
@@ -474,6 +475,15 @@ export default function Projects() {
               </p>
               <div className="projects-card">
                 <hr />
+                <div className="projects-card">
+                  <h3>Customer Retention Analysis</h3>
+                  <p>
+                    Conducted an in-depth analysis of customer behavior for an
+                    e-commerce platform and developed a retention strategy that
+                    decreased churn rate by 15%.
+                  </p>
+                </div>
+                <hr />
                 <h3>Supply Chain Optimization</h3>
                 <p>
                   We collaborated with a leading manufacturing company to revamp
@@ -488,15 +498,6 @@ export default function Projects() {
                   Formulated a strategy for a beverage company to enter the
                   Asian market, leading to a successful launch and increased
                   sales in the first year.
-                </p>
-              </div>
-              <hr />
-              <div className="projects-card">
-                <h3>Customer Retention Analysis</h3>
-                <p>
-                  Conducted an in-depth analysis of customer behavior for an
-                  e-commerce platform and developed a retention strategy that
-                  decreased churn rate by 15%.
                 </p>
               </div>
               <hr />
