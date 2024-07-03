@@ -32,6 +32,16 @@ export default function Contact() {
       >
         support@nightowllabs.io
       </a>
+      <p>For questions regarding your invoice:</p>
+      <i className="fa-regular fa-envelope"></i>&nbsp;
+      <a
+        className="regular-link"
+        href="mailto:billing@nightowllabs.io"
+        target="_blank"
+        rel="noreferrer"
+      >
+        billing@nightowllabs.io
+      </a>
       <br />
       <h2>Connect with us!</h2>
       <p>Follow or contact us on our social platforms:</p>
