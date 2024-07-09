@@ -161,6 +161,20 @@ export default function Products() {
                     <i className="fa-solid fa-arrow-up-right-from-square"></i>
                   </a>
                   <a
+                    href="https://marketplace.visualstudio.com/items?itemName=night-owl-labs.bee-heard"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <Icon name="VSCode" />
+                  </a>
+                  <a
+                    href="https://github.com/Night-Owl-Labs/Bee-Heard-Code-Memos"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <i className="fab fa-github"></i>
+                  </a>
+                  <a
                     href="http://tsdr.uspto.gov/#caseNumber=86416016&caseSearchType=US_APPLICATION&caseType=DEFAULT&searchType=statusSearch"
                     target="_blank"
                     rel="noreferrer"
