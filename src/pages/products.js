@@ -121,7 +121,7 @@ export default function Products() {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <i className="fa-solid fa-arrow-up-right-from-square"></i>
+                    <i className="fa-solid fa-arrow-up-right-from-square fa-sm"></i>
                   </a>
                 </div>
               </div>
@@ -154,18 +154,18 @@ export default function Products() {
                 </p>
                 <div className="social-links">
                   <a
-                    href="https://beeheard.com"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <i className="fa-solid fa-arrow-up-right-from-square"></i>
-                  </a>
-                  <a
                     href="https://marketplace.visualstudio.com/items?itemName=night-owl-labs.bee-heard"
                     target="_blank"
                     rel="noreferrer"
                   >
                     <Icon name="VSCode" />
+                  </a>
+                  <a
+                    href="https://beeheard.com"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <i className="fa-solid fa-arrow-up-right-from-square fa-sm"></i>
                   </a>
                   <a
                     href="https://github.com/Night-Owl-Labs/Bee-Heard-Code-Memos"
@@ -180,6 +180,66 @@ export default function Products() {
                     rel="noreferrer"
                   >
                     <i className="fa-regular fa-registered"></i>
+                  </a>
+                </div>
+              </div>
+              <hr />
+              <div className="project-card">
+                <h3>
+                  {" "}
+                  <a
+                    className="regular-link"
+                    href="https://darkcastle.netlify.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Dark Castle Theme
+                  </a>
+                </h3>
+                <p>
+                  A vibrantly elegant dark theme available for multiple
+                  platforms. Inspired by the timeless beauty and mystery of
+                  medieval castles, this theme combines rich, deep colors with a
+                  clean and modern design.
+                </p>
+                <a
+                  href="https://darkcastle.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    className="projects-image"
+                    src="/images/products/gold/Dark-Castle.png"
+                    alt="Dark Castle"
+                  />
+                </a>
+                <p>
+                  <b>Category:</b> Multi-Platform Theme.
+                </p>
+                <p>
+                  <b>Technology:</b> Hex, RGB, HSL.
+                </p>
+                <div className="social-links">
+                  <a
+                    href="https://marketplace.visualstudio.com/items?itemName=scottgriv.Dark-Castle"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <Icon name="VSCode" />
+                  </a>
+                  <a
+                    href="https://darkcastle.netlify.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <i className="fa-solid fa-arrow-up-right-from-square fa-sm"></i>
+                  </a>
+                  <a
+                    href="https://github.com/scottgriv/Dark-Castle-Theme"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <i className="fab fa-github"></i>
                   </a>
                 </div>
               </div>
@@ -292,70 +352,10 @@ export default function Products() {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <i className="fa-solid fa-arrow-up-right-from-square"></i>
+                    <i className="fa-solid fa-arrow-up-right-from-square fa-sm"></i>
                   </a>
                   <a
                     href="https://github.com/scottgriv/PRG-Personal-Repository-Guidelines"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <i className="fab fa-github"></i>
-                  </a>
-                </div>
-              </div>
-              <hr />
-              <div className="project-card">
-                <h3>
-                  {" "}
-                  <a
-                    className="regular-link"
-                    href="https://darkcastle.netlify.app/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    Dark Castle Theme
-                  </a>
-                </h3>
-                <p>
-                  A vibrantly elegant dark theme available for multiple
-                  platforms. Inspired by the timeless beauty and mystery of
-                  medieval castles, this theme combines rich, deep colors with a
-                  clean and modern design.
-                </p>
-                <a
-                  href="https://darkcastle.netlify.app/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <img
-                    className="projects-image"
-                    src="/images/products/gold/Dark-Castle.png"
-                    alt="Dark Castle"
-                  />
-                </a>
-                <p>
-                  <b>Category:</b> Multi-Platform Theme.
-                </p>
-                <p>
-                  <b>Technology:</b> Hex, RGB, HSL.
-                </p>
-                <div className="social-links">
-                  <a
-                    href="https://darkcastle.netlify.app/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <i className="fa-solid fa-arrow-up-right-from-square"></i>
-                  </a>
-                  <a
-                    href="https://marketplace.visualstudio.com/items?itemName=scottgriv.Dark-Castle"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <Icon name="VSCode" />
-                  </a>
-                  <a
-                    href="https://github.com/scottgriv/Dark-Castle-Theme"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -461,7 +461,7 @@ export default function Products() {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <i className="fa-solid fa-arrow-up-right-from-square"></i>
+                    <i className="fa-solid fa-arrow-up-right-from-square fa-sm"></i>
                   </a>
                   <a
                     href="https://github.com/scottgriv/River-Charts"
@@ -515,7 +515,7 @@ export default function Products() {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <i className="fa-solid fa-arrow-up-right-from-square"></i>
+                    <i className="fa-solid fa-arrow-up-right-from-square fa-sm"></i>
                   </a>
                   <a
                     href="https://github.com/scottgriv/Palm-Tree"
@@ -579,412 +579,10 @@ export default function Products() {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <i className="fa-solid fa-arrow-up-right-from-square"></i>
+                    <i className="fa-solid fa-arrow-up-right-from-square fa-sm"></i>
                   </a>
                   <a
                     href="https://github.com/scottgriv/Launch-Portals"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <i className="fab fa-github"></i>
-                  </a>
-                </div>
-              </div>
-              <hr />
-              <div className="project-card">
-                <h3>
-                  {" "}
-                  <a
-                    className="regular-link"
-                    href="https://scottgriv.github.io/CREDITS-Generator/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    CREDITS Generator
-                  </a>
-                </h3>
-                <p>
-                  🚀 The CREDITS Generator is a straightforward tool designed to
-                  help you quickly create a CREDITS.md file for acknowledging
-                  contributions to your project. Simply input details of
-                  contributors, third-party libraries, financial supporters, and
-                  special thanks, then review or edit the preview. Once
-                  satisfied, download the CREDITS.md file and place it in the
-                  root (or .github folder) of your GitHub repository to
-                  transparently showcase all project contributions.
-                </p>
-                <a
-                  href="https://scottgriv.github.io/CREDITS-Generator/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <div className="projects-image-small-wrapper">
-                    <img
-                      className="projects-image-small"
-                      src="/images/products/silver/CREDITS-Generator.png"
-                      alt="CREDITS Generator"
-                    />
-                  </div>
-                </a>
-                <p>
-                  <b>Category:</b> Template Generator, Web Application.
-                </p>
-                <p>
-                  <b>Technology:</b> Markdown, Svelte, SvelteKit.
-                </p>
-                <div className="social-links">
-                  <a
-                    href="https://scottgriv.github.io/CREDITS-Generator/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <i className="fa-solid fa-arrow-up-right-from-square"></i>
-                  </a>
-                  <a
-                    href="https://github.com/scottgriv/CREDITS-Generator"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <i className="fab fa-github"></i>
-                  </a>
-                </div>
-              </div>
-              <hr />
-              <div className="project-card">
-                <h3>
-                  {" "}
-                  <a
-                    className="regular-link"
-                    href="https://scottgriv.github.io/Resolution-Scale-Calculator/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    Resolution Scale Calculator
-                  </a>
-                </h3>
-                <p>
-                  Scale design dimensions (width and height) up or down for @1x,
-                  @2, and @3x resolutions. In the digital design realm, crafting
-                  visually compelling and crisp graphics is pivotal. The
-                  Resolution Scale Calculator emerges as a handy little tool for
-                  designers and developers eager to recreate or adapt designs
-                  inspired by existing website elements.
-                </p>
-                <a
-                  href="https://scottgriv.github.io/Resolution-Scale-Calculator/"
-                  className="icon-container-product"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <div className="projects-image-small-wrapper">
-                    <img
-                      className="projects-image-small"
-                      src="/images/products/silver/Resolution-Scale-Calculator.png"
-                      alt="Resolution Scale Calculator"
-                    />
-                  </div>
-                </a>
-                <p>
-                  <b>Category:</b> Design, Web Application.
-                </p>
-                <p>
-                  <b>Technology:</b> JavaScript, HTML, CSS.
-                </p>
-                <div className="social-links">
-                  <a
-                    href="https://scottgriv.github.io/Resolution-Scale-Calculator/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <i className="fa-solid fa-arrow-up-right-from-square"></i>
-                  </a>
-                  <a
-                    href="https://github.com/scottgriv/Resolution-Scale-Calculator"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <i className="fab fa-github"></i>
-                  </a>
-                </div>
-              </div>
-              <hr />
-              <div className="project-card">
-                <h3>
-                  {" "}
-                  <a
-                    className="regular-link"
-                    href="https://scottgriv.github.io/GitHub-User-Info/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    GitHub User Info
-                  </a>
-                </h3>
-                <p>
-                  This dynamic web application leverages the GitHub API to
-                  provide a comprehensive and interactive search experience,
-                  enabling users to effortlessly find and explore profiles of
-                  both individual developers and organizations on GitHub.
-                  Featuring a sleek, user-friendly interface built with Angular,
-                  the application not only displays basic profile information
-                  but also offers insights into repositories, contributions, and
-                  activity timelines, allowing for in-depth understanding of a
-                  user's or organization's coding journey and open-source
-                  contributions.
-                </p>
-                <a
-                  href="https://scottgriv.github.io/GitHub-User-Info/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <div className="projects-image-small-wrapper">
-                    <img
-                      className="projects-image-small"
-                      src="/images/products/silver/GitHub-User-Info.png"
-                      alt="GitHub User Info"
-                    />
-                  </div>
-                </a>
-                <p>
-                  <b>Category:</b> API, Web Application.
-                </p>
-                <p>
-                  <b>Technology:</b> GitHub API, Angular, Sass, TypeScript,
-                  HTML.
-                </p>
-                <div className="social-links">
-                  <a
-                    href="https://scottgriv.github.io/GitHub-User-Info/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <i className="fa-solid fa-arrow-up-right-from-square"></i>
-                  </a>
-                  <a
-                    href="https://github.com/scottgriv/GitHub-User-Info"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <i className="fab fa-github"></i>
-                  </a>
-                </div>
-              </div>
-              <hr />
-              <div className="project-card">
-                <h3>
-                  {" "}
-                  <a
-                    className="regular-link"
-                    href="https://scottgriv.github.io/Binary-Converter/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    Binary Converter
-                  </a>
-                </h3>
-                <p>
-                  This intuitive web application, built using the progressive
-                  JavaScript framework Vue.js, offers a straightforward tool for
-                  converting plain text into binary code and vice versa,
-                  catering to both educational purposes and practical coding
-                  needs. Designed for simplicity and efficiency, users can
-                  quickly translate text to binary digits to understand the
-                  foundational binary representation of data, or decode binary
-                  sequences back into human-readable text. It stands as an
-                  indispensable utility for students, programmers, and
-                  technology enthusiasts looking to delve into the basics of
-                  computer science and data encoding techniques, all while
-                  experiencing the reactive and engaging user interface provided
-                  by Vue.js.
-                </p>
-                <a
-                  href="https://scottgriv.github.io/Binary-Converter/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <div className="projects-image-small-wrapper">
-                    <img
-                      className="projects-image-small"
-                      src="/images/products/silver/Binary-Converter.png"
-                      alt="Binary Converter"
-                    />
-                  </div>
-                </a>
-                <p>
-                  <b>Category:</b> Converter, Web Application.
-                </p>
-                <p>
-                  <b>Technology:</b> Vue.js, JavaScript, Node.js, Less
-                </p>
-                <div className="social-links">
-                  <a
-                    href="https://scottgriv.github.io/Binary-Converter/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <i className="fa-solid fa-arrow-up-right-from-square"></i>
-                  </a>
-                  <a
-                    href="https://github.com/scottgriv/Binary-Converter"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <i className="fab fa-github"></i>
-                  </a>
-                </div>
-              </div>
-              <hr />
-              <div className="project-card">
-                <h3>
-                  {" "}
-                  <a
-                    className="regular-link"
-                    href="https://scottgriv.github.io/PWA-Demo-App/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    PWA Demo App
-                  </a>
-                </h3>
-                <p>
-                  This Progressive Web App (PWA) demo showcases the cutting-edge
-                  capabilities of web technology by utilizing a robust stack
-                  including React, TypeScript, Node.js, PostgreSQL, and styling
-                  with Scss/Sass/Less. Designed as both an educational tool and
-                  a practical demonstration, it guides users through the
-                  intricacies of building a high-performance PWA capable of
-                  achieving a perfect Lighthouse score. The project not only
-                  highlights best practices for web development and performance
-                  optimization but also offers insights into creating seamless,
-                  app-like experiences on the web, making it an invaluable
-                  resource for developers looking to enhance their skills in
-                  crafting modern, efficient web applications.
-                </p>
-                <a
-                  href="https://scottgriv.github.io/PWA-Demo-App/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <div className="projects-image-small-wrapper">
-                    <img
-                      className="projects-image-small"
-                      src="/images/products/silver/PWA-Demo-App.png"
-                      alt="PWA Demo App"
-                    />
-                  </div>
-                </a>
-                <p>
-                  <b>Category:</b> React, TypeScript, Node.js, Postgresql, Sass,
-                  Less, Scss, Workbox, Webpack.
-                </p>
-                <p>
-                  <b>Technology:</b> PWA, Web Application.
-                </p>
-                <div className="social-links">
-                  <a
-                    href="https://scottgriv.github.io/PWA-Demo-App/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <i className="fa-solid fa-arrow-up-right-from-square"></i>
-                  </a>
-                  <a
-                    href="https://github.com/scottgriv/PWA-Demo-App"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <i className="fab fa-github"></i>
-                  </a>
-                </div>
-              </div>
-              <hr />
-              <div className="project-card">
-                <h3>
-                  {" "}
-                  <a
-                    className="regular-link"
-                    href="https://github.com/Night-Owl-Labs/SOLID-Principles"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    SOLID Principles
-                  </a>
-                </h3>
-                <p>
-                  In software engineering, SOLID is a mnemonic acronym for five
-                  design principles intended to make object-oriented designs
-                  more understandable, flexible, and maintainable.
-                </p>
-                <a
-                  href="https://github.com/Night-Owl-Labs/SOLID-Principles"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <div className="projects-image-small-wrapper">
-                    <img
-                      className="projects-image-small"
-                      src="/images/products/silver/SOLID.png"
-                      alt="SOLID Principles"
-                    />
-                  </div>
-                </a>
-                <p>
-                  <b>Category:</b> Software Architecture. Clean Code.
-                </p>
-                <p>
-                  <b>Technology:</b> Java, Markdown.
-                </p>
-                <div className="social-links">
-                  <a
-                    href="https://github.com/Night-Owl-Labs/SOLID-Principles"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <i className="fab fa-github"></i>
-                  </a>
-                </div>
-              </div>
-              <hr />
-              <div className="project-card">
-                <h3>
-                  {" "}
-                  <a
-                    className="regular-link"
-                    href="https://github.com/Night-Owl-Labs/OOP-Principles"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    OOP Principles
-                  </a>
-                </h3>
-                <p>
-                  This repository aims to provide a comprehensive guide to
-                  Object-Oriented Programming (OOP) principles. Whether you are
-                  new to OOP or want to reinforce your understanding, this
-                  repository has you covered.
-                </p>
-                <a
-                  href="https://github.com/Night-Owl-Labs/OOP-Principles"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <div className="projects-image-small-wrapper">
-                    <img
-                      className="projects-image-small"
-                      src="/images/products/silver/OOP.png"
-                      alt="OOP Principles"
-                    />
-                  </div>
-                </a>
-                <p>
-                  <b>Category:</b> Software Architecture. Clean Code.
-                </p>
-                <p>
-                  <b>Technology:</b> Java, Markdown.
-                </p>
-                <div className="social-links">
-                  <a
-                    href="https://github.com/Night-Owl-Labs/OOP-Principles"
                     target="_blank"
                     rel="noreferrer"
                   >

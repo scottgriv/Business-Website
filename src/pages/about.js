@@ -65,7 +65,7 @@ export default function About() {
               <i className="fa-regular fa-envelope"></i>
             </a>
             <a href="https://scottgrivner.dev" target="_blank" rel="noreferrer">
-              <i className="fa-solid fa-arrow-up-right-from-square"></i>
+              <i className="fa-solid fa-arrow-up-right-from-square fa-sm"></i>
             </a>
             <a href="https://prgportfolio.com" target="_blank" rel="noreferrer">
               <Icon name="PRG" />

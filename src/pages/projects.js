@@ -212,18 +212,6 @@ export default function Projects() {
                   />
                 </a>
                 <a
-                  href="https://www.scottgrivner.dev"
-                  className="icon-container"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <img
-                    src="/images/projects/icons/srg-portfolio-icon-rounded.png"
-                    className="app-image"
-                    alt="Scott Grivner Portfolio Website"
-                  />
-                </a>
-                <a
                   href="https://www.reciperesizer.com"
                   className="icon-container"
                   target="_blank"
@@ -399,7 +387,7 @@ export default function Projects() {
                     <img
                       className="projects-image-small"
                       src="/images/products/silver/API-Data-Fisher.png"
-                      alt="OOP Principles"
+                      alt="API Data Fisher"
                     />
                   </div>
                 </a>

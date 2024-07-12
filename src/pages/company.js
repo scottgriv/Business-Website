@@ -20,10 +20,14 @@ export default function Company() {
       <hr />
       <h2>Our History</h2>
       <p>
-        <b>Night Owl Labs</b> was founded in 2014 by Scott Grivner and Daniel Volovic. Devin Olshefski was brought on as a partner in 2016.
-        The three of them have been friends since grade school, and have always had a passion for business and technology. 
-        They started the company with the goal of creating a software development firm that would be able to create products that would
-        resonate with users, and bring a touch of excitement to the mundane. Almost a decade later, they have been able to do just that.
+        <b>Night Owl Labs</b> was founded in 2014 by Scott Grivner and Daniel
+        Volovic. Devin Olshefski was brought on as a partner in 2016. The three
+        of them have been friends since grade school, and have always had a
+        passion for business and technology. They started the company with the
+        goal of creating a software development firm that would be able to
+        create products that would resonate with users, and bring a touch of
+        excitement to the mundane. Almost a decade later, they have been able to
+        do just that.
       </p>
       <h2>Our Vision</h2>
       <blockquote className="block-quote">
@@ -47,13 +51,15 @@ export default function Company() {
       <h2>Words from our Founder</h2>
       <blockquote className="block-quote">
         <p>
-          "With the upcoming AI revolution at our doorstep, NOL is 
-          positioned to be a leader in the field of software development. We have a unique ability that
-          combines cutting edge technology with a memorable user experience. We believe combining both 
-          of these aspects is the key to creating a successful product that will stand above the rest.
-          AI may be able to code and design, but it can't combine the two to create a product that
-          will resonate with users. That's where we come in. We are the bridge between the two, and I believe 
-          utilizing AI as a tool, instead of fearing it, will be the key to our success."
+          "With the upcoming AI revolution at our doorstep, NOL is positioned to
+          be a leader in the field of software development. We have a unique
+          ability that combines cutting edge technology with a memorable user
+          experience. We believe combining both of these aspects is the key to
+          creating a successful product that will stand above the rest. AI may
+          be able to code and design, but it can't combine the two to create a
+          product that will resonate with users. That's where we come in. We are
+          the bridge between the two, and I believe embracing AI as a tool,
+          which is all it currently is, will be the key to our success."
           <br />
           <br />
           -Scott Grivner, Founder and CEO of Night Owl Labs.
@@ -65,9 +71,15 @@ export default function Company() {
         project?
       </p>
       <p>
-        Feel free to <a className="regular-link" href="/contact">Contact</a> us, or take a look at our{" "}
-        <a className="regular-link" href="/projects">Projects</a> to see the dreams we've turned into
-        reality.
+        Feel free to{" "}
+        <a className="regular-link" href="/contact">
+          Contact
+        </a>{" "}
+        us, or take a look at our{" "}
+        <a className="regular-link" href="/projects">
+          Projects
+        </a>{" "}
+        to see the dreams we've turned into reality.
       </p>
     </Layout>
   )

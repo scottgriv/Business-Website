@@ -11,20 +11,6 @@ const Footer = () => {
         <div className="social-links-wrapper">
           <div className="social-links-footer">
             <a
-              href="https://reciperesizer.com"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <i className="fa-brands fa-app-store-ios"></i>
-            </a>
-            <a
-              href="https://github.com/Night-Owl-Labs"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <i className="fab fa-github"></i>
-            </a>
-            <a
               href="https://www.linkedin.com/company/nightowllabs"
               target="_blank"
               rel="noreferrer"
@@ -44,6 +30,27 @@ const Footer = () => {
               rel="noreferrer"
             >
               <i className="fa-brands fa-instagram"></i>
+            </a>
+            <a
+              href="https://reciperesizer.com"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i className="fa-brands fa-app-store-ios"></i>
+            </a>
+            <a
+              href="https://marketplace.visualstudio.com/publishers/night-owl-labs"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Icon name="VSCode" />
+            </a>
+            <a
+              href="https://github.com/Night-Owl-Labs"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i className="fab fa-github"></i>
             </a>
             <a
               href="https://github.com/scottgriv/business-website"
