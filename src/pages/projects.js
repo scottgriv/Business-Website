@@ -236,18 +236,6 @@ export default function Projects() {
                   />
                 </a>
                 <a
-                  href="https://darkcastle.netlify.app/"
-                  className="icon-container"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <img
-                    src="/images/projects/icons/dark-castle-icon-rounded.png"
-                    className="app-image"
-                    alt="Dark Castle"
-                  />
-                </a>
-                <a
                   href="https://www.beeheard.com"
                   className="icon-container"
                   target="_blank"
@@ -269,6 +257,18 @@ export default function Projects() {
                     src="/images/projects/icons/bee-heard-website-icon-rounded.png"
                     className="app-image"
                     alt="Bee Heard Website"
+                  />
+                </a>
+                <a
+                  href="https://darkcastle.netlify.app/"
+                  className="icon-container"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src="/images/projects/icons/dark-castle-icon-rounded.png"
+                    className="app-image"
+                    alt="Dark Castle"
                   />
                 </a>
                 <a
