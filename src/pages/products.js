@@ -87,9 +87,9 @@ export default function Products() {
                   </a>
                 </h3>
                 <p>
-                  A utility application that allows you to resize recipes,
-                  convert unit of measure, cooking tips, and save your favorite
-                  recipes.
+                  Recipe Resizer allows you to effortlessly resize recipe
+                  servings up or down, convert units of measure, and learn
+                  valuable culinary tips from a classically trained chef.
                 </p>
                 <a
                   href="https://reciperesizer.com"
@@ -138,7 +138,7 @@ export default function Products() {
                     Bee Heard
                   </a>
                 </h3>
-                <p>To be announced.</p>
+                <p>A next generation audio recording platform.</p>
                 <a href="https://beeheard.com" target="_blank" rel="noreferrer">
                   <img
                     className="projects-image"
