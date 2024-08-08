@@ -67,9 +67,6 @@ export default function About() {
             <a href="https://scottgrivner.dev" target="_blank" rel="noreferrer">
               <i className="fa-solid fa-arrow-up-right-from-square fa-sm"></i>
             </a>
-            <a href="https://prgportfolio.com" target="_blank" rel="noreferrer">
-              <Icon name="PRG" />
-            </a>
             <a
               href="https://github.com/scottgriv"
               target="_blank"
@@ -91,12 +88,8 @@ export default function About() {
             >
               <i className="fab fa-linkedin"></i>
             </a>
-            <a
-              href="https://codepen.io/scottgriv"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <i className="fab fa-codepen"></i>
+            <a href="https://prgportfolio.com" target="_blank" rel="noreferrer">
+              <Icon name="PRG" />
             </a>
             <a
               href="https://medium.com/@scottgrivner"
@@ -111,6 +104,13 @@ export default function About() {
               rel="noreferrer"
             >
               <Icon name="Goodreads" />
+            </a>
+            <a
+              href="https://codepen.io/scottgriv"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i className="fab fa-codepen"></i>
             </a>
             <a
               href="https://twitter.com/scottgrivner"
