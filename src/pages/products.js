@@ -341,8 +341,6 @@ export default function Products() {
                   >
                     <i className="fab fa-github"></i>
                   </a>
-                </div>
-                <div className="social-links">
                   <a
                     href="https://medium.com/@scottgrivner/understanding-software-ilities-key-attributes-of-quality-software-d4b7fadc9bbe"
                     target="_blank"
