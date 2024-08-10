@@ -302,6 +302,51 @@ export default function Products() {
                   {" "}
                   <a
                     className="regular-link"
+                    href="https://github.com/Night-Owl-Labs/Software-Principles-Collection"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Software Principles Collection
+                  </a>
+                </h3>
+                <p>
+                  A growing curated collection of foundational software
+                  principles, featuring links to repositories that delve into
+                  key concepts like OOP, SOLID, and more.
+                </p>
+                <a
+                  href="https://github.com/Night-Owl-Labs/Software-Principles-Collection"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    className="projects-image"
+                    src="/images/products/silver/Software-Principles-Collection.png"
+                    alt="Post.e"
+                  />
+                </a>
+                <p>
+                  <b>Category:</b> Software Principles, Software Concepts.
+                </p>
+                <p>
+                  <b>Technology:</b> Markdown.
+                </p>
+                <div className="social-links">
+                  <a
+                    href="https://github.com/Night-Owl-Labs/Software-Principles-Collection"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <i className="fab fa-github"></i>
+                  </a>
+                </div>
+              </div>
+              <hr />
+              <div className="project-card">
+                <h3>
+                  {" "}
+                  <a
+                    className="regular-link"
                     href="https://prgportfolio.com"
                     target="_blank"
                     rel="noreferrer"
