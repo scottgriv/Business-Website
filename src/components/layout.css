@@ -763,7 +763,10 @@ button:focus {
 
   /* Round the Post.e icon due to a black background */
   .icon-container[href="https://github.com/scottgriv/Post.e"] img,
-  .icon-container[href="https://darkcastle.netlify.app/"] img
+  .icon-container[href="https://darkcastle.netlify.app/"] img,
+  .regular-link[href="https://github.com/Night-Owl-Labs/Software-Principles-Collection"] img,
+  .regular-link[href="https://darkcastle.netlify.app/"] img,
+  .banner-image[href="https://github.com/Night-Owl-Labs/Software-Principles-Collection"] img
   {
     border-radius: 30px;
   }
