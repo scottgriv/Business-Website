@@ -346,8 +346,8 @@ export default function Products() {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <Icon name="Medium" />
-                    </a>
+                    <i className="fab fa-medium"></i>
+                  </a>
                 </div>
               </div>
               <hr />
