@@ -647,8 +647,12 @@ button:focus {
   transform: scale(1.06); /* Enlarge the icon on hover */
 }
 
+  /* Add border to images due to a black background */
 .icon-container[href="https://github.com/scottgriv/Post.e"] img, 
-.icon-container[href="https://darkcastle.netlify.app/"] img
+.icon-container[href="https://darkcastle.netlify.app/"] img,
+.regular-link[href="https://github.com/Night-Owl-Labs/Software-Principles-Collection"] img,
+.regular-link[href="https://darkcastle.netlify.app/"] img,
+.banner-image[href="https://github.com/Night-Owl-Labs/Software-Principles-Collection"] img
 {
   border: 2px solid rgb(46, 46, 46);
   border-radius: 45px;
@@ -761,7 +765,7 @@ button:focus {
     display: inline;
   }
 
-  /* Round the Post.e icon due to a black background */
+  /* Round the images due to a black background */
   .icon-container[href="https://github.com/scottgriv/Post.e"] img,
   .icon-container[href="https://darkcastle.netlify.app/"] img,
   .regular-link[href="https://github.com/Night-Owl-Labs/Software-Principles-Collection"] img,
