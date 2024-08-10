@@ -204,6 +204,7 @@ export default function Products() {
                 </p>
                 <a
                   href="https://darkcastle.netlify.app/"
+                  className="icon-container-product"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -316,6 +317,7 @@ export default function Products() {
                 </p>
                 <a
                   href="https://github.com/Night-Owl-Labs/Software-Principles-Collection"
+                  className="icon-container-product"
                   target="_blank"
                   rel="noreferrer"
                 >
