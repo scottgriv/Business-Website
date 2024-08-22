@@ -728,6 +728,81 @@ button:focus {
   text-align: center;
 }
 
+/* src/styles/collectables.css */
+.wallpaper-item {
+  display: flex;
+  flex-direction: column; /* Arrange image and buttons in column */
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.wallpaper-image {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px; /* Space between image and buttons */
+  border-radius: 20px; /* Rounded corners */
+  transition: transform 0.3s ease; /* Smooth transition for the transform */
+}
+
+.wallpaper-image:hover {
+  transform: translateY(-5px); /* Moves the button up */
+}
+
+.wallpaper-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.download-button {
+  background-color: #005E1F;
+  color: #FFFFFF;
+  font-weight: bold;
+  border-radius: 20px; /* Rounded corners */
+  padding: 2px 8px;
+  font-size: 0.75em;
+  display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  max-width: 150px; /* Constrain the width */
+  white-space: nowrap; /* Prevent text from wrapping */
+  overflow: hidden; /* Hide overflow text */
+  text-overflow: ellipsis; /* Add ellipsis for overflow text */
+  text-align: center; /* Center align the text */
+  text-decoration: none;
+}
+
+.download-button:hover {
+  background-color: #0E2F00;
+}
+
+/* For WebKit browsers (Chrome, Safari, etc.) */
+::-webkit-scrollbar {
+  width: 12px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #000000; /* Background color of the scrollbar track */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #FCDB3A; /* Color of the scrollbar thumb */
+  border-radius: 6px; /* Roundness of the scrollbar thumb */
+  border: 3px solid #000000; /* Padding around scrollbar thumb */
+}
+
+/* For Firefox */
+* {
+  scrollbar-width: thin; /* Makes the scrollbar thinner */
+  scrollbar-color: #FCDB3A #000000; /* Thumb and track colors */
+}
+
+/* For Internet Explorer and Edge */
+body {
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+
 /* Media Queries */
 /* When screen width is less than 768px, hide elements with the 'responsive-hide' class */
 @media screen and (max-width: 804px) {

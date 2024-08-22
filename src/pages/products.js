@@ -2,6 +2,37 @@ import React, { useState } from "react"
 import Layout from "../components/layout"
 import Icon from "../components/icons/icon.js"
 
+const wallpapers = [
+  {
+    id: 1,
+    name: "Night Owl Labs Brand Wallpaper Collection",
+    imgSrc:
+      "/images/products/wallpaper/demo/NOL_Wallpaper_1_Demo.png",
+    downloadLinks: {
+      desktop:
+        "/images/products/wallpaper/wallpaper_1/NOL_Wallpaper_1_Desktop.png",
+      tablet:
+        "/images/products/wallpaper/wallpaper_1/NOL_Wallpaper_1_Tablet.png",
+      phone:
+        "/images/products/wallpaper/wallpaper_1/NOL_Wallpaper_1_Phone.png",
+    },
+  },
+  {
+    id: 2,
+    name: "Night Owl Labs Website Visitor Wallpaper Collection",
+    imgSrc:
+      "/images/products/wallpaper/demo/NOL_Wallpaper_2_Demo.png",
+    downloadLinks: {
+      desktop:
+        "/images/products/wallpaper/wallpaper_2/NOL_Wallpaper_2_Desktop.png",
+      tablet:
+        "/images/products/wallpaper/wallpaper_2/NOL_Wallpaper_2_Tablet.png",
+      phone:
+        "/images/products/wallpaper/wallpaper_2/NOL_Wallpaper_2_Phone.png",
+    },
+  },
+]
+
 export default function Products() {
   const [selectedSection, setSelectedSection] = useState("published")
 
@@ -45,13 +76,24 @@ export default function Products() {
             </li>
             <li>
               <button
+                className={selectedSection === "wallpaper" ? "active" : ""}
+                onClick={e => {
+                  e.preventDefault()
+                  setSelectedSection("wallpaper")
+                }}
+              >
+                <h3>Wallpaper</h3>
+              </button>
+            </li>
+            <li>
+              <button
                 className={selectedSection === "content" ? "active" : ""}
                 onClick={e => {
                   e.preventDefault()
                   setSelectedSection("content")
                 }}
               >
-                <h3>Content</h3>
+                <h3>Coming Soon</h3>
               </button>
             </li>
           </ul>
@@ -648,13 +690,57 @@ export default function Products() {
             </div>
           )}
 
+          {selectedSection === "wallpaper" && (
+            <div className="product-section">
+              <h2>Wallpaper</h2>
+              <p>
+                Explore our exclusive wallpapers for your devices. Download
+                wallpapers for iPhone, Mac, and iPad below!
+              </p>
+              {wallpapers.map(wallpaper => (
+                <div key={wallpaper.id} className="wallpaper-item">
+                  <h3>{wallpaper.name}</h3>
+
+                  <img
+                    src={wallpaper.imgSrc}
+                    alt={wallpaper.name}
+                    className="wallpaper-image"
+                  />
+                  <div className="wallpaper-buttons">
+                    <a
+                      href={wallpaper.downloadLinks.tablet}
+                      download
+                      className="download-button"
+                    >
+                      Download iPad
+                    </a>
+                    <a
+                      href={wallpaper.downloadLinks.desktop}
+                      download
+                      className="download-button"
+                    >
+                      Download Mac
+                    </a>
+                    <a
+                      href={wallpaper.downloadLinks.phone}
+                      download
+                      className="download-button"
+                    >
+                      Download iPhone
+                    </a>
+                  </div>
+                </div>
+              ))}
+            </div>
+          )}
+
           {selectedSection === "content" && (
             <div className="product-section">
               <h2 id="upcoming-content">Upcoming Content</h2>
               <p>
                 <b>At Night Owl Labs</b>, we're always looking forward to
                 providing valuable insights and resources to our community. In
-                the near future, you can expect:
+                the near future, you can expect some big things:
               </p>
               <ul>
                 <li>
