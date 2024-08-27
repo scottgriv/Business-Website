@@ -148,7 +148,7 @@ export default function Projects() {
                 </a>
                 <br />
                 <a
-                  href="https://www.rivercharts.app"
+                  href="https://scottgriv.pythonanywhere.com/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -308,7 +308,7 @@ export default function Projects() {
                   />
                 </a>
                 <a
-                  href="https://www.rivercharts.app"
+                  href="https://scottgriv.pythonanywhere.com/"
                   className="icon-container"
                   target="_blank"
                   rel="noreferrer"

@@ -518,7 +518,7 @@ export default function Products() {
                   {" "}
                   <a
                     className="regular-link"
-                    href="https://www.rivercharts.app"
+                    href="https://scottgriv.pythonanywhere.com/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -535,7 +535,7 @@ export default function Products() {
                   for said dates.
                 </p>
                 <a
-                  href="https://www.rivercharts.app"
+                  href="https://scottgriv.pythonanywhere.com/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -553,7 +553,7 @@ export default function Products() {
                 </p>
                 <div className="social-links">
                   <a
-                    href="https://www.rivercharts.app"
+                    href="https://scottgriv.pythonanywhere.com/"
                     target="_blank"
                     rel="noreferrer"
                   >
