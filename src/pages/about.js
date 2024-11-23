@@ -151,7 +151,7 @@ export default function About() {
         </div>
       </div>
       <br />
-      <div className="about-container-flipped" id="anya-druzhenko">
+      <div className="about-container-flipped" id="anya-grivner">
         <div className="photo-container">
           <a
             href="https://www.linkedin.com/in/anya-druzhenko-56985a180"
@@ -160,8 +160,8 @@ export default function About() {
           >
             <img
               className="about-image"
-              src="/images/about/anya_druzhenko.jpg"
-              alt="Anya Druzhenko"
+              src="/images/about/anya_grivner.jpg"
+              alt="Anya Grivner"
             />
           </a>
         </div>
@@ -173,7 +173,7 @@ export default function About() {
             target="_blank"
             rel="noreferrer"
           >
-            <h2>Anya Druzhenko</h2>
+            <h2>Anya Grivner</h2>
           </a>
 
           <p>
