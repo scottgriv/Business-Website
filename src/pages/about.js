@@ -40,6 +40,7 @@ export default function About() {
           >
             <h2>Scott Grivner</h2>
           </a>
+          <h3>Founder, Software Development, Business</h3>
           <p>
             Founder of <b>Night Owl Labs</b>, Scott brings over a decade of
             professional Software Engineering, Architecture, and Design
@@ -161,7 +162,7 @@ export default function About() {
             <img
               className="about-image"
               src="/images/about/anya_grivner.jpg"
-              alt="Anya Grivner"
+              alt="Anya Druzhenko"
             />
           </a>
         </div>
@@ -173,16 +174,17 @@ export default function About() {
             target="_blank"
             rel="noreferrer"
           >
-            <h2>Anya Grivner</h2>
+            <h2>Anya Druzhenko</h2>
           </a>
-
+          <h3>Software Design, Recipe Development, Chef</h3>
           <p>
             Classically trained as a Chef and working in some of the most
             prestigious restaurants in Manhattan, NYC, cooking elaborate dishes
             for big named individuals, Anya's culinary expertise is only matched
             by her passion for Software Design. She brings a unique perspective
             to the team by using her creative talents to craft beautiful and
-            intuitive user experiences.
+            intuitive user experiences. She also provides crucial guidance around
+            our Culinary products and services.
           </p>
           <div className="social-links">
             <a
@@ -227,7 +229,7 @@ export default function About() {
           >
             <h2>Devin Olshefski</h2>
           </a>
-
+          <h3>Marketing, Finance, Business Administration</h3>
           <p>
             Devin brings a business and project management skill set to the
             team. He has over a decade of experience in Logistics & Supply
@@ -273,7 +275,7 @@ export default function About() {
           >
             <h2>Daniel Volovic</h2>
           </a>
-
+          <h3>Business Administration, Development</h3>
           <p>
             Dan holds three degrees in a number of fields, including Criminal
             Justice, Psychology, and Computer Information Systems; he is also

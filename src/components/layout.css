@@ -57,6 +57,15 @@ h6 {
   font-family: "Roboto", Arial, sans-serif; /* Use custom font */
 }
 
+.description-container h3 {
+  color: #ccc; /* Yellow links */
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  font-size: 25px
+}
+
 footer {
   font-family: "Roboto", Arial, sans-serif; /* Use custom font */
 }
