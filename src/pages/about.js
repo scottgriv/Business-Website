@@ -40,7 +40,7 @@ export default function About() {
           >
             <h2>Scott Grivner</h2>
           </a>
-          <h3>Founder, Software Development, Business</h3>
+          <h3>Founder, Software Development, Consulting</h3>
           <p>
             Founder of <b>Night Owl Labs</b>, Scott brings over a decade of
             professional Software Engineering, Architecture, and Design
