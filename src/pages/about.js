@@ -176,7 +176,7 @@ export default function About() {
           >
             <h2>Anya Druzhenko</h2>
           </a>
-          <h3>Software Design, Recipe Development, Chef</h3>
+          <h3>Software Design, Consulting</h3>
           <p>
             Classically trained as a Chef and working in some of the most
             prestigious restaurants in Manhattan, NYC, cooking elaborate dishes
@@ -184,7 +184,7 @@ export default function About() {
             by her passion for Software Design. She brings a unique perspective
             to the team by using her creative talents to craft beautiful and
             intuitive user experiences. She also provides crucial guidance around
-            our Culinary products and services.
+            our Culinary software products and services.
           </p>
           <div className="social-links">
             <a
