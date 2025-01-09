@@ -50,7 +50,7 @@ A dynamic and versatile static business website, expertly crafted using Gatsby f
 </div>
 <br>
 <div align="center">
-    <a href="https://prgoptimized.com" target="_blank">
+    <a href="https://prgoptimized.netlify.app" target="_blank">
         <img src="./docs/images/demo_4.png" style="width: 60%;"/>
     </a>
     <br>

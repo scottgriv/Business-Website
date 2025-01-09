@@ -444,7 +444,7 @@ export default function Products() {
                     <Icon name="PRG" />
                   </a>
                   <a
-                    href="https://prgoptimized.com"
+                    href="https://prgoptimized.netlify.app"
                     target="_blank"
                     rel="noreferrer"
                   >
