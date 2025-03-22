@@ -657,7 +657,7 @@ button:focus {
 }
 
   /* Add border to images due to a black background */
-.icon-container[href="https://github.com/scottgriv/Post.e"] img, 
+.icon-container[href="https://post-e.netlify.app/"] img, 
 .icon-container[href="https://darkcastle.netlify.app/"] img
 {
   border: 2px solid rgb(46, 46, 46);
@@ -854,7 +854,7 @@ body {
   }
 
   /* Round the images due to a black background */
-  .icon-container[href="https://github.com/scottgriv/Post.e"] img,
+  .icon-container[href="https://post-e.netlify.app/"] img,
   .icon-container[href="https://darkcastle.netlify.app/"] img,
   .icon-container-product[href="https://github.com/Night-Owl-Labs/Software-Principles-Collection"] img,
   .icon-container-product[href="https://darkcastle.netlify.app/"] img

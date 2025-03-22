@@ -136,7 +136,7 @@ export default function Projects() {
                 </a>
                 <br />
                 <a
-                  href="https://github.com/scottgriv/Post.e"
+                  href="https://post-e.netlify.app/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -296,7 +296,7 @@ export default function Projects() {
                   />
                 </a>
                 <a
-                  href="https://github.com/scottgriv/Post.e"
+                  href="https://post-e.netlify.app/"
                   className="icon-container"
                   target="_blank"
                   rel="noreferrer"

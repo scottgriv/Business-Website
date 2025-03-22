@@ -6,29 +6,25 @@ const wallpapers = [
   {
     id: 1,
     name: "Night Owl Labs Brand Wallpaper Collection",
-    imgSrc:
-      "/images/products/wallpaper/demo/NOL_Wallpaper_1_Demo.png",
+    imgSrc: "/images/products/wallpaper/demo/NOL_Wallpaper_1_Demo.png",
     downloadLinks: {
       desktop:
         "/images/products/wallpaper/wallpaper_1/NOL_Wallpaper_1_Desktop.png",
       tablet:
         "/images/products/wallpaper/wallpaper_1/NOL_Wallpaper_1_Tablet.png",
-      phone:
-        "/images/products/wallpaper/wallpaper_1/NOL_Wallpaper_1_Phone.png",
+      phone: "/images/products/wallpaper/wallpaper_1/NOL_Wallpaper_1_Phone.png",
     },
   },
   {
     id: 2,
     name: "Night Owl Labs Website Visitor Wallpaper Collection",
-    imgSrc:
-      "/images/products/wallpaper/demo/NOL_Wallpaper_2_Demo.png",
+    imgSrc: "/images/products/wallpaper/demo/NOL_Wallpaper_2_Demo.png",
     downloadLinks: {
       desktop:
         "/images/products/wallpaper/wallpaper_2/NOL_Wallpaper_2_Desktop.png",
       tablet:
         "/images/products/wallpaper/wallpaper_2/NOL_Wallpaper_2_Tablet.png",
-      phone:
-        "/images/products/wallpaper/wallpaper_2/NOL_Wallpaper_2_Phone.png",
+      phone: "/images/products/wallpaper/wallpaper_2/NOL_Wallpaper_2_Phone.png",
     },
   },
 ]
@@ -465,7 +461,7 @@ export default function Products() {
                   {" "}
                   <a
                     className="regular-link"
-                    href="https://github.com/scottgriv/Post.e"
+                    href="https://post-e.netlify.app/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -485,7 +481,7 @@ export default function Products() {
                   media app in mind.
                 </p>
                 <a
-                  href="https://github.com/scottgriv/Post.e"
+                  href="https://post-e.netlify.app/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -503,6 +499,13 @@ export default function Products() {
                   PHP, MySQL.
                 </p>
                 <div className="social-links">
+                  <a
+                    href="https://post-e.netlify.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <i className="fa-solid fa-arrow-up-right-from-square fa-sm"></i>
+                  </a>
                   <a
                     href="https://github.com/scottgriv/Post.e"
                     target="_blank"
