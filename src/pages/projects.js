@@ -308,6 +308,18 @@ export default function Projects() {
                   />
                 </a>
                 <a
+                  href="https://post-e.netlify.app/"
+                  className="icon-container"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src="/images/projects/icons/post-e-website-icon-rounded.png"
+                    className="app-image"
+                    alt="Post.e Website"
+                  />
+                </a>
+                <a
                   href="https://scottgriv.pythonanywhere.com/"
                   className="icon-container"
                   target="_blank"
