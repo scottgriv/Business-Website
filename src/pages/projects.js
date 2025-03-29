@@ -124,18 +124,6 @@ export default function Projects() {
                 </a>
                 <br />
                 <a
-                  href="https://darkcastle.netlify.app/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <img
-                    src="/images/projects/banners/dark-castle-banner_large.png"
-                    className="banner-image"
-                    alt="Dark Castle"
-                  />
-                </a>
-                <br />
-                <a
                   href="https://post-e.netlify.app/"
                   target="_blank"
                   rel="noreferrer"
@@ -144,6 +132,18 @@ export default function Projects() {
                     src="/images/projects/banners/post-e-banner_large.png"
                     className="banner-image"
                     alt="Post.e"
+                  />
+                </a>
+                <br />
+                <a
+                  href="https://darkcastle.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src="/images/projects/banners/dark-castle-banner_large.png"
+                    className="banner-image"
+                    alt="Dark Castle"
                   />
                 </a>
                 <br />
@@ -284,18 +284,6 @@ export default function Projects() {
                   />
                 </a>
                 <a
-                  href="https://darkcastle.netlify.app/"
-                  className="icon-container"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <img
-                    src="/images/projects/icons/dark-castle-icon-rounded.png"
-                    className="app-image"
-                    alt="Dark Castle"
-                  />
-                </a>
-                <a
                   href="https://post-e.netlify.app/"
                   className="icon-container"
                   target="_blank"
@@ -317,6 +305,18 @@ export default function Projects() {
                     src="/images/projects/icons/post-e-website-icon-rounded.png"
                     className="app-image"
                     alt="Post.e Website"
+                  />
+                </a>
+                <a
+                  href="https://darkcastle.netlify.app/"
+                  className="icon-container"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src="/images/projects/icons/dark-castle-icon-rounded.png"
+                    className="app-image"
+                    alt="Dark Castle"
                   />
                 </a>
                 <a
