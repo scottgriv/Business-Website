@@ -162,7 +162,7 @@ export default function About() {
             <img
               className="about-image"
               src="/images/about/anya_grivner.jpg"
-              alt="Anya Druzhenko"
+              alt="Anya Grivner"
             />
           </a>
         </div>
@@ -174,7 +174,7 @@ export default function About() {
             target="_blank"
             rel="noreferrer"
           >
-            <h2>Anya Druzhenko</h2>
+            <h2>Anya Grivner</h2>
           </a>
           <h3>Software Design, Consulting</h3>
           <p>
