@@ -9,7 +9,6 @@ import * as React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import favicon16 from "../images/favicon-16x16.png"
 import favicon32 from "../images/favicon-32x32.png"
-import favicon64 from "../images/favicon-64x64.png"
 import faviconIco from "../images/favicon.ico"
 import appleIcon from "../images/icon.png"
 import { Helmet } from "react-helmet"
@@ -51,15 +50,18 @@ function Seo({ description, title, children }) {
       <meta name="twitter:image" content="/images/company/nol-banner_social.png" />
       <meta name="msapplication-TileColor" content="#0E2F00" />
       <meta name="theme-color" content="#0E2F00" />
+      <meta name="mobile-web-app-capable" content="yes" />
       <link
         rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
       />
-      <meta name="mobile-web-app-capable" content="yes" />
+      
+      {/* Favicon icons */}
+      <link rel="icon" type="image/x-icon" href={faviconIco} />
       <link rel="icon" type="image/png" sizes="16x16" href={favicon16} />
       <link rel="icon" type="image/png" sizes="32x32" href={favicon32} />
-      <link rel="shortcut icon" type="image/png" href={favicon64} />
-      <link rel="icon" type="image/x-icon" href={faviconIco} />
+
+        {/* App install (not a favicon) */}
       <link rel="apple-touch-icon" href={appleIcon} />
 
       {children}
