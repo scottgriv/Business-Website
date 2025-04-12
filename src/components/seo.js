@@ -11,6 +11,7 @@ import favicon16 from "../images/favicon-16x16.png"
 import favicon32 from "../images/favicon-32x32.png"
 import favicon64 from "../images/favicon-64x64.png"
 import faviconIco from "../images/favicon.ico"
+import appleIcon from "../images/icon.png"
 import { Helmet } from "react-helmet"
 
 function Seo({ description, title, children }) {
@@ -59,6 +60,7 @@ function Seo({ description, title, children }) {
       <link rel="icon" type="image/png" sizes="32x32" href={favicon32} />
       <link rel="shortcut icon" type="image/png" href={favicon64} />
       <link rel="icon" type="image/x-icon" href={faviconIco} />
+      <link rel="apple-touch-icon" href={appleIcon} />
 
       {children}
     </Helmet>
