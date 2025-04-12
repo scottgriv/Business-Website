@@ -10,7 +10,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import favicon16 from "../images/favicon-16x16.png"
 import favicon32 from "../images/favicon-32x32.png"
 import faviconIco from "../images/favicon.ico"
-import appleIcon from "../images/icon.png"
+import appleIcon from "../images/home-icon.png"
 import { Helmet } from "react-helmet"
 
 function Seo({ description, title, children }) {
