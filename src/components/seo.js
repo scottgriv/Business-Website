@@ -71,7 +71,6 @@ function Seo({ description, title, children }) {
       <link rel="icon" type="image/png" sizes="192x192" href={favicon192} />
       <link rel="icon" type="image/png" sizes="512x512" href={favicon512} />
 
-
         {/* App install (not a favicon) */}
       <link rel="apple-touch-icon" href={appleIcon} />
 
