@@ -7,11 +7,16 @@
 
 import * as React from "react"
 import { useStaticQuery, graphql } from "gatsby"
-import favicon16 from "../images/favicon-16x16.png"
-import favicon32 from "../images/favicon-32x32.png"
+import { Helmet } from "react-helmet"
 import faviconIco from "../images/favicon.ico"
 import appleIcon from "../images/home-icon.png"
-import { Helmet } from "react-helmet"
+import favicon16 from "../images/favicon-16x16.png"
+import favicon32 from "../images/favicon-32x32.png"
+import favicon64 from "../images/favicon-64x64.png"
+import favicon128 from "../images/favicon-128x128.png"
+import favicon180 from "../images/favicon-180x180.png"
+import favicon192 from "../images/favicon-192x192.png"
+import favicon512 from "../images/favicon-512x512.png"
 
 function Seo({ description, title, children }) {
   const { site } = useStaticQuery(
@@ -60,6 +65,11 @@ function Seo({ description, title, children }) {
       <link rel="icon" type="image/x-icon" href={faviconIco} />
       <link rel="icon" type="image/png" sizes="16x16" href={favicon16} />
       <link rel="icon" type="image/png" sizes="32x32" href={favicon32} />
+      <link rel="icon" type="image/png" sizes="64x64" href={favicon64} />
+      <link rel="icon" type="image/png" sizes="128x128" href={favicon128} />
+      <link rel="icon" type="image/png" sizes="180x180" href={favicon180} />
+      <link rel="icon" type="image/png" sizes="192x192" href={favicon192} />
+      <link rel="icon" type="image/png" sizes="512x512" href={favicon512} />
 
         {/* App install (not a favicon) */}
       <link rel="apple-touch-icon" href={appleIcon} />
