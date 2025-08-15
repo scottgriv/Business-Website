@@ -25,7 +25,7 @@ const Footer = () => {
               <i className="fa-brands fa-x-twitter"></i>
             </a>
             <a
-              href="https://www.instagram.com/nightowllabsllc"
+              href="https://www.instagram.com/night.owl.labs"
               target="_blank"
               rel="noreferrer"
             >

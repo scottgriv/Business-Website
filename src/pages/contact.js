@@ -78,11 +78,11 @@ export default function Contact() {
       <i className="fa-brands fa-instagram"></i>&nbsp;
       <a
         className="regular-link"
-        href="https://www.instagram.com/nightowllabsllc"
+        href="https://www.instagram.com/night.owl.labs"
         target="_blank"
         rel="noreferrer"
       >
-        @NightOwlLabsLLC
+        @Night.Owl.Labs
       </a>
       <br />
       <h2>Share our website!</h2>
