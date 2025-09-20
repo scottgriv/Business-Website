@@ -205,7 +205,7 @@ export default function About() {
         </div>
       </div>
       <br />
-      <div className="about-container" id="devin-olshefski">
+      {/* <div className="about-container" id="devin-olshefski">
         <div className="photo-container">
           <a
             href="https://www.linkedin.com/in/devin-olshefski-71399657"
@@ -296,7 +296,7 @@ export default function About() {
             </a>
           </div>
         </div>
-      </div>
+      </div> */}
       <hr />
       <h2>Interested in joining our Parliament of Owls?</h2>
       <p>
